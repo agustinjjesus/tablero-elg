@@ -8,6 +8,8 @@ lectura.json tiene, por período, la lista de anuncios con gasto, y los totales 
    "diario": [["c1", "2026-11-05", 5, 144.44], ...]}
 Fila de anuncio: clave de cuenta, id, nombre, campaña, estado, gasto, compras, costo por compra (o null).
 Fila diaria: clave de cuenta, fecha, compras, gasto (de la cuenta entera, nivel cuenta con time_increment 1).
+Opcionales: "videos": {"nombres": {clave_video: nombre}, "anuncios": {id_anuncio: clave_video}},
+"rechazados" y "problemas": [[clave de cuenta, id, anuncio, campaña], ...].
 """
 
 import json
@@ -57,6 +59,11 @@ def main():
         "errores": lectura.get("errores", []),
         "periodos": periodos,
         "diario": diario,
+        # Qué video usa cada anuncio (sale del video de su creativo), para el ranking por video.
+        "videos": lectura.get("videos", {"nombres": {}, "anuncios": {}}),
+        # Anuncios rechazados por Meta y con problemas de entrega: [clave, id, anuncio, campaña].
+        "rechazados": [dict(zip(("clave", "id", "anuncio", "campana"), r)) for r in lectura.get("rechazados", [])],
+        "problemas": [dict(zip(("clave", "id", "anuncio", "campana"), r)) for r in lectura.get("problemas", [])],
     }
     SALIDA.write_text(json.dumps(datos, ensure_ascii=False, indent=1), encoding="utf-8")
     resumen = {p: (len(f), round(sum(r["gasto"] for r in f), 2)) for p, f in periodos.items()}

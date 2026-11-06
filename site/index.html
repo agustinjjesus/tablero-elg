@@ -144,6 +144,48 @@
   .k-cl-track { height: 10px; border-radius: 3px; background: var(--k-line); overflow: hidden; }
   .k-cl-fill { height: 100%; width: 0; border-radius: 3px; background: var(--k-blue); }
 
+  /* Rechazados */
+  .k-rej { border: 1px solid rgba(255, 97, 112, 0.35); border-radius: 6px; background: rgba(255, 97, 112, 0.06); padding: 14px 18px; display: grid; gap: 8px; }
+  .k-rej-top { display: flex; align-items: center; gap: 14px; min-width: 0; }
+  .k-rej-num { font: 700 44px/0.9 var(--k-num); color: var(--k-bad); font-variant-numeric: tabular-nums; }
+  .k-rej-txt { min-width: 0; }
+  .k-rej-t { margin: 0; font-weight: 600; }
+  .k-rej-s { margin: 2px 0 0; color: var(--k-muted); font-size: 13px; }
+  .k-rej-list summary { cursor: pointer; font: 600 11px/1.3 var(--k-mono); letter-spacing: 0.09em; text-transform: uppercase; color: var(--k-bad); }
+  .k-rej-list ul { margin: 10px 0 0; padding: 0; list-style: none; display: grid; gap: 6px; font-size: 13px; }
+  .k-rej-list li { display: flex; flex-wrap: wrap; gap: 4px 10px; }
+  .k-rej-list li span { color: var(--k-muted); }
+  .k-rej-list li em { font-style: normal; font-size: 11px; padding: 1px 6px; border-radius: 3px; background: rgba(255, 97, 112, 0.14); color: var(--k-bad); }
+  .k-rej-list li em.is-warn { background: rgba(255, 194, 75, 0.14); color: var(--k-warn); }
+
+  /* Qué hacer */
+  .k-act { display: inline-block; padding: 3px 8px; border-radius: 3px; font-size: 12px; font-weight: 600; white-space: nowrap; background: rgba(131, 145, 171, 0.12); color: var(--k-muted); }
+  .k-act.is-scale { background: rgba(59, 232, 176, 0.2); color: var(--k-ok); box-shadow: 0 0 14px rgba(59, 232, 176, 0.25); }
+  .k-act.is-good { background: transparent; color: var(--k-ok); box-shadow: inset 0 0 0 1px rgba(59, 232, 176, 0.5); }
+  .k-act.is-hold { background: rgba(255, 194, 75, 0.14); color: var(--k-warn); }
+  .k-act.is-change { background: rgba(255, 97, 112, 0.14); color: var(--k-bad); }
+  .k-act.is-stop { background: rgba(255, 97, 112, 0.26); color: #ffc2c8; }
+  .k-act.is-rej { background: transparent; color: var(--k-bad); box-shadow: inset 0 0 0 1px rgba(255, 97, 112, 0.45); }
+  .k-act.is-off { color: var(--k-dim); }
+  .k-th { display: block; padding: 12px; color: var(--k-muted); font: 600 11px/1 var(--k-mono); letter-spacing: 0.08em; text-transform: uppercase; white-space: nowrap; }
+  .k-table td.k-num { white-space: nowrap; }
+  .k-rank { min-width: 640px; }
+  .k-rank td:nth-child(2) { min-width: 11rem; }
+  .k-rank td:first-child { color: var(--k-dim); font: 600 16px/1 var(--k-num); width: 2.5rem; }
+  .k-rank tr:first-child td:first-child { color: var(--k-ice); }
+  .k-rank b { font-weight: 600; }
+  .k-rank small { display: block; color: var(--k-muted); font-size: 12px; }
+
+  /* CPA día a día */
+  .k-legend { display: flex; flex-wrap: wrap; gap: 8px 18px; margin-bottom: 10px; font-size: 13px; }
+  .k-leg { display: inline-flex; align-items: center; gap: 7px; color: var(--k-muted); }
+  .k-leg i { width: 14px; height: 3px; border-radius: 2px; }
+  .k-leg i.is-dash { background: repeating-linear-gradient(90deg, #e8eef8 0 4px, transparent 4px 7px) !important; }
+  .k-leg b { font: 600 15px/1 var(--k-num); font-variant-numeric: tabular-nums; }
+  .k-trend { position: relative; min-height: 240px; }
+  .k-trend svg { display: block; overflow: visible; }
+  .k-trend text { font-family: var(--k-mono); }
+
   /* Regla de CPA */
   .k-ruler { position: relative; min-height: 150px; }
   .k-ruler svg { display: block; overflow: visible; }
@@ -273,6 +315,20 @@
     </div>
   </section>
 
+  <section class="k-rej" id="rechazados" aria-label="Anuncios rechazados" hidden>
+    <div class="k-rej-top">
+      <b class="k-rej-num" id="rejNum">0</b>
+      <div class="k-rej-txt">
+        <p class="k-rej-t" id="rejTxt">anuncios rechazados por Meta</p>
+        <p class="k-rej-s" id="rejSub"></p>
+      </div>
+    </div>
+    <details class="k-rej-list">
+      <summary>Ver cuáles</summary>
+      <ul id="rejLista"></ul>
+    </details>
+  </section>
+
   <section class="k-card k-cl" id="clientes">
     <div class="k-cl-head">
       <div class="k-card-h">
@@ -296,6 +352,15 @@
     </div>
   </section>
 
+  <section class="k-card" id="cpa-diario">
+    <div class="k-card-h">
+      <h2>CPA día a día</h2>
+      <p>El costo por compra de cada cuenta en cada día. La franja azul es el objetivo y la línea punteada, el promedio de las cuatro. Los días sin compras quedan sin punto.</p>
+    </div>
+    <div class="k-legend" id="leyenda"></div>
+    <div class="k-trend" id="tendencia"></div>
+  </section>
+
   <section class="k-card">
     <div class="k-card-h">
       <h2>Dónde está cada cuenta</h2>
@@ -305,6 +370,29 @@
   </section>
 
   <section class="k-tiles" id="cuentas" aria-label="Cuentas"></section>
+
+  <section class="k-card" id="ranking-videos">
+    <div class="k-card-h">
+      <h2>Ranking por video</h2>
+      <p>Cada video sumado en todas las cuentas donde corre, del más barato por compra al más caro, en el período elegido arriba.</p>
+    </div>
+    <div class="k-tablebox">
+      <table class="k-table k-rank">
+        <thead>
+          <tr>
+            <th><span class="k-th">#</span></th>
+            <th><span class="k-th">Video</span></th>
+            <th class="k-col-camp"><span class="k-th">Dónde corre</span></th>
+            <th class="k-num"><span class="k-th">Gasto</span></th>
+            <th class="k-num"><span class="k-th">Clientes</span></th>
+            <th class="k-num"><span class="k-th">CPA</span></th>
+            <th><span class="k-th">Qué hacer</span></th>
+          </tr>
+        </thead>
+        <tbody id="videosFilas"></tbody>
+      </table>
+    </div>
+  </section>
 
   <section class="k-card">
     <div class="k-card-h">
@@ -329,6 +417,7 @@
             <th aria-sort="none"><button type="button" class="k-sort" data-col="estado">Estado</button></th>
             <th class="k-num" aria-sort="descending"><button type="button" class="k-sort" data-col="gasto">Gasto</button></th>
             <th class="k-num" aria-sort="none"><button type="button" class="k-sort" data-col="cpa">CPA</button></th>
+            <th aria-sort="none"><button type="button" class="k-sort" data-col="accion">Qué hacer</button></th>
           </tr>
         </thead>
         <tbody id="filas"></tbody>
@@ -343,6 +432,8 @@
       <div><dt>Gasto</dt><dd>Lo que Meta cobró en el período elegido, en dólares.</dd></div>
       <div><dt>CPA</dt><dd>Costo por compra: el gasto dividido por las compras que Meta le atribuye al anuncio. En cada cuenta y en el total es el gasto sumado dividido por las compras sumadas.</dd></div>
       <div><dt>Colores</dt><dd>Verde, dentro del objetivo. Amarillo, un poco arriba. Rojo, lejos del objetivo.</dd></div>
+      <div><dt>Qué hacer</dt><dd><b>Escalar</b>: CPA de 6 USD o menos con 10 compras o más; subir el presupuesto 20 a 30% y esperar 48 a 72 horas antes de volver a subir. <b>Viene bien</b>: CPA de 6 o menos con menos de 10 compras; mantener, todavía puede ser suerte. <b>Mantener</b>: CPA entre 6 y 8; no tocar y esperar más datos. <b>Cambiar</b>: CPA de más de 8 con más de 30 USD gastados; reemplazarlo por un video nuevo. <b>Pausar</b>: sin compras con 20 USD gastados. <b>Esperar datos</b>: todavía gastó poco para decidir.</dd></div>
+      <div><dt>Ranking por video</dt><dd>Junta todos los anuncios que usan el mismo video, en cualquier cuenta. Los videos viejos del anuncio 5 se llaman por la versión que usaban ("Anuncio 5 · versión 6").</dd></div>
       <div><dt>Cada cuánto se actualiza</dt><dd>Los números se traen de Meta cada vez que se pide una actualización. Arriba de todo dice cuándo fue la última. Si tenés la página abierta, se refresca sola cada 5 minutos.</dd></div>
       <div><dt>Períodos</dt><dd>"7 días" y "30 días" no incluyen el día de hoy, igual que en el Administrador de anuncios de Meta. "Todo" sí lo incluye.</dd></div>
       <div><dt>Qué queda afuera</dt><dd>Los totales, las cuentas y el contador incluyen todo lo que gastó cada cuenta, también los anuncios borrados. Las listas por anuncio muestran solo los anuncios que siguen existiendo, así que pueden sumar menos. Los que gastaron pero no tienen compras figuran sin CPA.</dd></div>
@@ -415,6 +506,7 @@
       cpa: r.cpa == null ? null : Number(r.cpa),
       estadoTxt: ESTADOS[r.estado] || r.estado || '—',
     }));
+    filas.forEach((r) => { r.accionOrden = accion(r.gasto, r.compras, r.cpa, r.estado).o; });
     const anuncios = filas.filter((r) => r.gasto > 0);
     // Los totales salen de los números diarios de cada cuenta completa, que incluyen anuncios borrados.
     // Si no hay números diarios, se suman los anuncios de la lista.
@@ -645,7 +737,7 @@
     tb.replaceChildren();
     const { col, dir } = orden;
     const s = dir === 'asc' ? 1 : -1;
-    const key = col === 'estado' ? 'estadoTxt' : col;
+    const key = col === 'estado' ? 'estadoTxt' : col === 'accion' ? 'accionOrden' : col;
     const rows = [...c.anuncios].sort((p, q) => {
       const a = p[key];
       const b = q[key];
@@ -657,7 +749,7 @@
     if (!rows.length) {
       const tr = el('tr');
       const td = el('td', 'k-muted', datos && datos.periodos ? 'Ningún anuncio gastó en este período.' : '');
-      td.colSpan = 6;
+      td.colSpan = 7;
       tr.append(td);
       tb.append(tr);
       return;
@@ -677,9 +769,196 @@
       const cpa = el('td', 'k-num');
       if (r.cpa == null) cpa.append(el('span', 'k-cpa-none', 'sin compras'));
       else { cpa.textContent = usd(r.cpa); cpa.classList.add(banda(r.cpa)); }
-      tr.append(est, g, cpa);
+      const acc = el('td');
+      acc.append(chipAccion(accion(r.gasto, r.compras, r.cpa, r.estado)));
+      tr.append(est, g, cpa, acc);
       tb.append(tr);
     });
+  }
+
+  // Qué hacer con cada anuncio o video, según las reglas de ADS - reglas.md.
+  const PAUSADOS = new Set(['PAUSED', 'AD_PAUSED', 'CAMPAIGN_PAUSED', 'ADSET_PAUSED', 'ARCHIVED', 'DELETED']);
+  const COMPRAS_ESCALAR = 10;
+  const GASTO_CAMBIAR = 30;
+  const GASTO_PAUSAR = 20;
+  function accion(gasto, compras, cpa, estado) {
+    if (estado === 'DISAPPROVED') return { t: 'Rechazado', c: 'is-rej', o: 8 };
+    if (estado && PAUSADOS.has(estado)) return { t: 'Pausado', c: 'is-off', o: 7 };
+    if (compras >= COMPRAS_ESCALAR && cpa <= OBJ_MAX) return { t: 'Escalar', c: 'is-scale', o: 1 };
+    if (compras > 0 && cpa <= OBJ_MAX) return { t: 'Viene bien', c: 'is-good', o: 2 };
+    if (compras > 0 && cpa <= LIMITE) return { t: 'Mantener', c: 'is-hold', o: 3 };
+    if (compras > 0 && gasto > GASTO_CAMBIAR) return { t: 'Cambiar', c: 'is-change', o: 5 };
+    if (compras === 0 && gasto >= GASTO_PAUSAR) return { t: 'Pausar', c: 'is-stop', o: 6 };
+    return { t: 'Esperar datos', c: 'is-wait', o: 4 };
+  }
+  const chipAccion = (a) => el('span', 'k-act ' + a.c, a.t);
+
+  function dibujarVideos(c) {
+    const tb = $('videosFilas');
+    tb.replaceChildren();
+    const V = (datos && datos.videos) || { nombres: {}, anuncios: {} };
+    const grupos = new Map();
+    c.anuncios.forEach((r) => {
+      const k = (V.anuncios && V.anuncios[r.id]) || 'a' + r.id;
+      if (!grupos.has(k)) grupos.set(k, { nombre: (V.nombres && V.nombres[k]) || r.anuncio, gasto: 0, compras: 0, cuentas: new Set(), anuncios: 0, vivos: 0 });
+      const g = grupos.get(k);
+      g.gasto += r.gasto;
+      g.compras += r.compras;
+      g.cuentas.add(r.cuenta);
+      g.anuncios += 1;
+      if (!PAUSADOS.has(r.estado) && r.estado !== 'DISAPPROVED') g.vivos += 1;
+    });
+    const lista = [...grupos.values()]
+      .map((g) => ({ ...g, gasto: Math.round(g.gasto * 100) / 100, cpa: g.compras ? Math.round((g.gasto / g.compras) * 100) / 100 : null }))
+      .sort((a, b) => (a.cpa == null) - (b.cpa == null) || (a.cpa || 0) - (b.cpa || 0) || b.gasto - a.gasto);
+    if (!lista.length) {
+      const tr = el('tr');
+      const td = el('td', 'k-muted', datos && datos.periodos ? 'Ningún video gastó en este período.' : '');
+      td.colSpan = 7;
+      tr.append(td);
+      tb.append(tr);
+      return;
+    }
+    lista.forEach((g, i) => {
+      const tr = el('tr');
+      const nom = el('td');
+      nom.append(el('b', null, g.nombre));
+      const donde = [...g.cuentas].join(' · ');
+      nom.append(el('small', null, `${g.anuncios} ${g.anuncios === 1 ? 'anuncio' : 'anuncios'}${g.vivos ? '' : ' · todos frenados'}`));
+      const cpa = el('td', 'k-num');
+      if (g.cpa == null) cpa.append(el('span', 'k-cpa-none', 'sin compras'));
+      else { cpa.textContent = usd(g.cpa); cpa.classList.add(banda(g.cpa)); }
+      const acc = el('td');
+      acc.append(chipAccion(accion(g.gasto, g.compras, g.cpa, g.vivos ? null : 'PAUSED')));
+      tr.append(el('td', null, String(i + 1)), nom, el('td', 'k-col-camp k-muted', donde), el('td', 'k-num', usd(g.gasto)), el('td', 'k-num', String(g.compras)), cpa, acc);
+      tb.append(tr);
+    });
+  }
+
+  const COLORES = { c1: '#2f7bff', c2: '#22d3ee', c3: '#a78bfa', cb: '#5eead4' };
+  function dibujarTendencia() {
+    const box = $('tendencia');
+    const ley = $('leyenda');
+    box.replaceChildren();
+    ley.replaceChildren();
+    const cb = cubetas();
+    if (!cb) {
+      box.append(el('p', 'k-empty', datos && datos.periodos ? 'Todavía no hay números por día.' : ''));
+      return;
+    }
+    const dias = cb.dias.slice(-14);
+    const punto = (filas) => {
+      const k = sumar(filas, 'compras');
+      const g = sumar(filas, 'gasto');
+      return k ? { cpa: Math.round((g / k) * 100) / 100, k, g: Math.round(g * 100) / 100 } : null;
+    };
+    const cuentas = (datos.cuentas && datos.cuentas.length ? datos.cuentas : CUENTAS_BASE);
+    const series = cuentas.map((c) => ({
+      nombre: c.nombre,
+      color: COLORES[c.clave] || '#8391ab',
+      pts: dias.map((d) => punto(datos.diario.filter((r) => r.clave === c.clave && r.fecha === d.clave))),
+    }));
+    series.push({ nombre: 'Promedio', color: '#e8eef8', dash: true, pts: dias.map((d) => (d.compras ? { cpa: Math.round((d.gasto / d.compras) * 100) / 100, k: d.compras, g: d.gasto } : null)) });
+    const valores = series.flatMap((s) => s.pts.filter(Boolean).map((p) => p.cpa));
+    if (!valores.length) {
+      box.append(el('p', 'k-empty', 'Todavía no hay compras para calcular el CPA por día.'));
+      return;
+    }
+    series.forEach((s) => {
+      const ult = [...s.pts].reverse().find(Boolean);
+      const chip = el('span', 'k-leg');
+      const sw = el('i', s.dash ? 'is-dash' : null);
+      sw.style.background = s.color;
+      chip.append(sw, el('span', null, s.nombre), el('b', ult ? banda(ult.cpa) : 'k-muted', ult ? usd(ult.cpa) : '—'));
+      ley.append(chip);
+    });
+
+    const NS = 'http://www.w3.org/2000/svg';
+    const W = Math.max(280, box.clientWidth || 600);
+    const H = 240;
+    const mt = 12;
+    const mb = 30;
+    const ml = 58;
+    const mr = 14;
+    const raw = Math.max(OBJ_MAX * 2, ...valores) * 1.08;
+    const step = niceStep(raw / 5);
+    const top = Math.ceil(raw / step) * step;
+    const x = (i) => ml + (dias.length === 1 ? (W - ml - mr) / 2 : (i * (W - ml - mr)) / (dias.length - 1));
+    const y = (v) => mt + (1 - v / top) * (H - mt - mb);
+    const svg = document.createElementNS(NS, 'svg');
+    svg.setAttribute('width', '100%');
+    svg.setAttribute('height', H);
+    svg.setAttribute('viewBox', `0 0 ${W} ${H}`);
+    box.append(svg);
+    const add = (tag, attrs) => {
+      const n = document.createElementNS(NS, tag);
+      Object.entries(attrs).forEach(([k, v]) => n.setAttribute(k, v));
+      svg.append(n);
+      return n;
+    };
+    add('rect', { x: ml, y: y(OBJ_MAX), width: W - ml - mr, height: Math.max(2, y(OBJ_MIN) - y(OBJ_MAX)), fill: 'rgba(47,123,255,0.2)' });
+    for (let v = 0; v <= top + 1e-9; v += step) {
+      add('line', { x1: ml, x2: W - mr, y1: y(v), y2: y(v), stroke: v === 0 ? '#2a3a58' : 'rgba(42,58,88,0.5)' });
+      const t = add('text', { x: ml - 8, y: y(v) + 4, fill: '#8391ab', 'font-size': 11, 'text-anchor': 'end' });
+      t.textContent = 'US$ ' + Math.round(v * 100) / 100;
+    }
+    const cada = Math.max(1, Math.ceil(dias.length / Math.max(1, Math.floor((W - ml - mr) / 52))));
+    dias.forEach((d, i) => {
+      if ((dias.length - 1 - i) % cada) return;
+      const t = add('text', { x: x(i), y: H - 8, fill: '#8391ab', 'font-size': 11, 'text-anchor': 'middle' });
+      t.textContent = d.x;
+    });
+    const tip = el('div', 'k-tip');
+    tip.hidden = true;
+    series.forEach((s) => {
+      let d = '';
+      s.pts.forEach((p, i) => {
+        if (!p) return;
+        const prev = i > 0 && s.pts[i - 1];
+        d += `${prev ? 'L' : 'M'}${x(i).toFixed(1)},${y(p.cpa).toFixed(1)}`;
+      });
+      if (d) add('path', { d, fill: 'none', stroke: s.color, 'stroke-width': s.dash ? 2.5 : 2, 'stroke-linecap': 'round', 'stroke-linejoin': 'round', 'stroke-dasharray': s.dash ? '5 5' : 'none', opacity: s.dash ? 0.9 : 1 });
+    });
+    series.forEach((s) => {
+      s.pts.forEach((p, i) => {
+        if (!p) return;
+        const c = add('circle', { cx: x(i), cy: y(p.cpa), r: s.dash ? 3.5 : 4.5, fill: s.color, stroke: '#0a0f19', 'stroke-width': 2 });
+        c.style.cursor = 'default';
+        c.addEventListener('mouseenter', () => {
+          tip.replaceChildren(el('b', null, `${s.nombre} · ${dias[i].titulo}`), el('span', null, `CPA ${usd(p.cpa)} · ${p.k} ${p.k === 1 ? 'cliente' : 'clientes'} · ${usd(p.g)}`));
+          tip.style.left = Math.min(W - 120, Math.max(120, x(i))) + 'px';
+          tip.style.top = y(p.cpa) + 'px';
+          tip.hidden = false;
+        });
+        c.addEventListener('mouseleave', () => { tip.hidden = true; });
+      });
+    });
+    box.append(tip);
+  }
+
+  function dibujarRechazados() {
+    const sec = $('rechazados');
+    const rej = (datos && datos.rechazados) || [];
+    const prob = (datos && datos.problemas) || [];
+    if (!rej.length && !prob.length) { sec.hidden = true; return; }
+    sec.hidden = false;
+    const nombre = (k) => ((datos.cuentas || CUENTAS_BASE).find((c) => c.clave === k) || { nombre: k }).nombre;
+    $('rejNum').textContent = String(rej.length);
+    $('rejTxt').textContent = rej.length === 1 ? 'anuncio rechazado por Meta' : 'anuncios rechazados por Meta';
+    const por = {};
+    rej.forEach((r) => { por[nombre(r.clave)] = (por[nombre(r.clave)] || 0) + 1; });
+    const partes = Object.entries(por).map(([n, k]) => `${n}: ${k}`);
+    if (prob.length) partes.push(`además, ${prob.length} con problemas de entrega`);
+    $('rejSub').textContent = partes.join(' · ');
+    const ul = $('rejLista');
+    ul.replaceChildren();
+    const item = (r, etiqueta, cls) => {
+      const li = el('li');
+      li.append(el('em', cls, etiqueta), el('b', null, r.anuncio), el('span', null, `${nombre(r.clave)} · ${r.campana}`));
+      ul.append(li);
+    };
+    rej.forEach((r) => item(r, 'Rechazado', null));
+    prob.forEach((r) => item(r, 'Con problemas', 'is-warn'));
   }
 
   // Contador de clientes: por día, por semana o total, con los números diarios de cada cuenta.
@@ -832,6 +1111,7 @@
     dibujarCuentas(c);
     dibujarRegla(c);
     dibujarBarras(c);
+    dibujarVideos(c);
     dibujarTabla(c);
   }
 
@@ -849,6 +1129,8 @@
     }
     dibujar();
     dibujarClientes();
+    dibujarTendencia();
+    dibujarRechazados();
   }
 
   document.querySelectorAll('.k-seg-b[data-periodo]').forEach((b) => b.addEventListener('click', () => {
@@ -866,7 +1148,7 @@
     dibujarTabla(calcular());
   }));
   let rt;
-  window.addEventListener('resize', () => { clearTimeout(rt); rt = setTimeout(() => dibujarRegla(calcular()), 150); });
+  window.addEventListener('resize', () => { clearTimeout(rt); rt = setTimeout(() => { dibujarRegla(calcular()); dibujarTendencia(); }, 150); });
 
   dibujar();
   cargar();
