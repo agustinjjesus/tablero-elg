@@ -435,7 +435,7 @@
       <div><dt>Qué hacer</dt><dd><b>Escalar</b>: CPA de 6 USD o menos con 10 compras o más; subir el presupuesto 20 a 30% y esperar 48 a 72 horas antes de volver a subir. <b>Viene bien</b>: CPA de 6 o menos con menos de 10 compras; mantener, todavía puede ser suerte. <b>Mantener</b>: CPA entre 6 y 8; no tocar y esperar más datos. <b>Cambiar</b>: CPA de más de 8 con más de 30 USD gastados; reemplazarlo por un video nuevo. <b>Pausar</b>: sin compras con 20 USD gastados. <b>Esperar datos</b>: todavía gastó poco para decidir.</dd></div>
       <div><dt>Ranking por video</dt><dd>Junta todos los anuncios que usan el mismo video, en cualquier cuenta. Los videos viejos del anuncio 5 se llaman por la versión que usaban ("Anuncio 5 · versión 6").</dd></div>
       <div><dt>Cada cuánto se actualiza</dt><dd>Los números se traen de Meta cada vez que se pide una actualización. Arriba de todo dice cuándo fue la última. Si tenés la página abierta, se refresca sola cada 5 minutos.</dd></div>
-      <div><dt>Períodos</dt><dd>"7 días" y "30 días" no incluyen el día de hoy, igual que en el Administrador de anuncios de Meta. "Todo" sí lo incluye.</dd></div>
+      <div><dt>Períodos</dt><dd>Todo se cuenta desde el <span id="inicioTxt">5/11</span> a las 00:00; lo anterior fueron días de prueba y no se suma. "Todo" incluye hoy. "7 días" y "30 días" no incluyen el día de hoy, igual que en el Administrador de anuncios de Meta.</dd></div>
       <div><dt>Qué queda afuera</dt><dd>Los totales, las cuentas y el contador incluyen todo lo que gastó cada cuenta, también los anuncios borrados. Las listas por anuncio muestran solo los anuncios que siguen existiendo, así que pueden sumar menos. Los que gastaron pero no tienen compras figuran sin CPA.</dd></div>
     </dl>
   </details>
@@ -447,6 +447,12 @@
   const OBJ_MAX = 6;
   const LIMITE = 8;
   const PERIODOS = { today: 'hoy', yesterday: 'ayer', last_7d: 'últimos 7 días', last_30d: 'últimos 30 días', maximum: 'desde el inicio' };
+  // Desde cuándo se cuenta todo (lo fija scripts/config.json): "desde el 5/11".
+  const desdeInicio = (mayus) => {
+    const i = datos && datos.inicio;
+    const txt = i ? `desde el ${Number(i.slice(8, 10))}/${Number(i.slice(5, 7))}` : 'desde el inicio';
+    return mayus ? txt.charAt(0).toUpperCase() + txt.slice(1) : txt;
+  };
   const ESTADOS = {
     ACTIVE: 'Activo', PAUSED: 'Pausado', AD_PAUSED: 'Pausado', CAMPAIGN_PAUSED: 'Campaña pausada', ADSET_PAUSED: 'Conjunto pausado',
     WITH_ISSUES: 'Con problemas', DISAPPROVED: 'Rechazado', PENDING_REVIEW: 'En revisión', IN_PROCESS: 'En proceso',
@@ -529,7 +535,8 @@
 
   function dibujarCabecera() {
     document.querySelectorAll('.k-seg-b[data-periodo]').forEach((b) => b.setAttribute('aria-pressed', String(b.dataset.periodo === periodo)));
-    $('periodoTxt').textContent = PERIODOS[periodo];
+    $('periodoTxt').textContent = periodo === 'maximum' ? desdeInicio() : PERIODOS[periodo];
+    $('inicioTxt').textContent = desdeInicio().replace('desde el ', '');
     const upd = $('upd');
     upd.classList.remove('is-old', 'is-none');
     if (!datos || !datos.actualizado) {
@@ -1056,7 +1063,7 @@
       return;
     }
     if (vista === 'total') {
-      ponerFigura(`Desde el inicio · ${cb.total.dias} ${cb.total.dias === 1 ? 'día' : 'días'}`, cb.total.compras, cb.total.gasto);
+      ponerFigura(`${desdeInicio(true)} · ${cb.total.dias} ${cb.total.dias === 1 ? 'día' : 'días'}`, cb.total.compras, cb.total.gasto);
       const max = Math.max(1, ...cb.cuentas.map((c) => c.compras));
       const rows = el('div', 'k-cl-rows');
       cb.cuentas.forEach((c) => {

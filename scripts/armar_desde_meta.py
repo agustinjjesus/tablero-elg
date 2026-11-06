@@ -1,6 +1,11 @@
 """Arma site/datos.json a partir de las respuestas de Meta tal como vienen del conector "ads".
 
-Uso: py scripts/armar_desde_meta.py meta.json
+Uso:
+  py scripts/armar_desde_meta.py --rangos 2026-11-06   imprime qué pedirle a Meta para cada período
+  py scripts/armar_desde_meta.py meta.json             arma la página
+
+Todo se cuenta desde la fecha "inicio" de scripts/config.json (a las 00:00). "Todo", "7 días" y
+"30 días" se piden con time_range recortado a esa fecha; "hoy" y "ayer" con date_preset.
 
 meta.json (las listas son las de "ad_entities" o "ad_creatives", copiadas tal cual):
 {
@@ -16,12 +21,26 @@ Las claves de cuenta son c1, c2, c3 y cb (ComboBiotina).
 import json
 import re
 import sys
-from datetime import datetime, timezone
+from datetime import date, datetime, timedelta, timezone
 from pathlib import Path
 
 RAIZ = Path(__file__).resolve().parent.parent
 SALIDA = RAIZ / "site" / "datos.json"
 VIDEOS = RAIZ / "scripts" / "videos.json"
+INICIO = json.loads((RAIZ / "scripts" / "config.json").read_text(encoding="utf-8"))["inicio"]
+
+
+def rangos(hoy):
+    """Qué pedirle a Meta en cada período, recortado al inicio del conteo."""
+    h = date.fromisoformat(hoy)
+    ini = date.fromisoformat(INICIO)
+    out = {"today": {"date_preset": "today"}, "yesterday": {"date_preset": "yesterday"} if h - timedelta(days=1) >= ini else None}
+    for p, dias in (("last_7d", 7), ("last_30d", 30)):
+        desde, hasta = max(ini, h - timedelta(days=dias)), h - timedelta(days=1)
+        out[p] = {"time_range": {"since": desde.isoformat(), "until": hasta.isoformat()}} if desde <= hasta else None
+    out["maximum"] = {"time_range": {"since": INICIO, "until": hoy}}
+    out["diario"] = {"time_range": {"since": INICIO, "until": hoy}, "time_increment": "1"}
+    return out
 PERIODOS = ["today", "yesterday", "last_7d", "last_30d", "maximum"]
 NOMBRES = {"c1": "Cuenta 1", "c2": "Cuenta 2", "c3": "Cuenta 3", "cb": "ComboBiotina"}
 
@@ -57,6 +76,11 @@ def entero(v):
 
 
 def main():
+    if sys.argv[1] == "--rangos":
+        r = rangos(sys.argv[2])
+        print(json.dumps(r, ensure_ascii=False, indent=1))
+        print("Los períodos en null no se piden (todavía no hay días desde el inicio): dejalos como lista vacía.")
+        return
     meta = json.loads(Path(sys.argv[1]).read_text(encoding="utf-8"))
     videos = json.loads(VIDEOS.read_text(encoding="utf-8"))
     videos.setdefault("porAnuncio", {})
@@ -141,7 +165,7 @@ def main():
         for d in lista(filas):
             compras = entero(d.get("omni_purchase"))
             gasto = monto(d.get("amount_spent"))
-            if compras or gasto:
+            if (compras or gasto) and (d.get("date_start") or "") >= INICIO:
                 diario.append({"clave": clave, "fecha": d.get("date_start"), "compras": compras, "gasto": gasto})
     diario.sort(key=lambda r: (r["fecha"], r["clave"]))
 
@@ -154,6 +178,7 @@ def main():
         "estado": "ok",
         "actualizado": datetime.now(timezone.utc).replace(microsecond=0).isoformat(),
         "hoy": meta.get("hoy") or (diario[-1]["fecha"] if diario else None),
+        "inicio": INICIO,
         "cuentas": [{"clave": c, "nombre": n} for c, n in NOMBRES.items()],
         "errores": meta.get("errores", []),
         "periodos": periodos,
