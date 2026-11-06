@@ -1,0 +1,56 @@
+name: Actualizar tablero
+
+on:
+  schedule:
+    - cron: "*/30 * * * *"
+  workflow_dispatch:
+  push:
+    branches: [main]
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: tablero
+  cancel-in-progress: false
+
+jobs:
+  publicar:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deploy.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Traer los números de Meta
+        env:
+          META_TOKEN: ${{ secrets.META_TOKEN }}
+          META_CUENTAS: ${{ secrets.META_CUENTAS }}
+        run: python3 scripts/traer_datos.py
+
+      - uses: actions/configure-pages@v5
+
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: site
+
+      - id: deploy
+        uses: actions/deploy-pages@v4
+
+      # GitHub apaga los horarios de un repositorio público sin cambios en 60 días.
+      # Este paso deja un cambio mínimo cada 40 días para que siga andando.
+      - name: Mantener activa la actualización automática
+        run: |
+          ultimo=$(git log -1 --format=%ct)
+          ahora=$(date +%s)
+          if [ $((ahora - ultimo)) -gt $((40*24*3600)) ]; then
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            date -u > .keepalive
+            git add .keepalive
+            git commit -m "Mantener activa la actualización automática"
+            git push
+          fi

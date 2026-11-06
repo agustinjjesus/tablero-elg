@@ -1,0 +1,646 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="robots" content="noindex, nofollow">
+<title>Tablero ELG</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700&family=Barlow:wght@400;500;600&family=JetBrains+Mono:wght@500;600&display=swap">
+<style>
+  /* Tablero negro de marcador: números condensados grandes y una sola regla azul que marca el objetivo de CPA. */
+  :root {
+    --k-bg: #04060b;
+    --k-panel: rgba(10, 15, 25, 0.92);
+    --k-line: #172236;
+    --k-fg: #e8eef8;
+    --k-muted: #8391ab;
+    --k-dim: #4d5b75;
+    --k-blue: #2f7bff;
+    --k-ice: #a9c8ff;
+    --k-zone: rgba(47, 123, 255, 0.2);
+    --k-ok: #3be8b0;
+    --k-warn: #ffc24b;
+    --k-bad: #ff6170;
+    --k-num: "Barlow Condensed", Bahnschrift, "DIN Alternate", "Arial Narrow", sans-serif;
+    --k-text: Barlow, "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+    --k-mono: "JetBrains Mono", "Cascadia Mono", "SF Mono", Menlo, Consolas, monospace;
+    color-scheme: dark;
+  }
+  * , *::before, *::after { box-sizing: border-box; }
+  [hidden] { display: none !important; }
+  html { background: var(--k-bg); }
+  body {
+    margin: 0;
+    min-height: 100vh;
+    background-color: var(--k-bg);
+    background-image:
+      radial-gradient(900px 380px at 88% -8%, rgba(47, 123, 255, 0.24), transparent 62%),
+      linear-gradient(rgba(47, 123, 255, 0.045) 1px, transparent 1px),
+      linear-gradient(90deg, rgba(47, 123, 255, 0.045) 1px, transparent 1px);
+    background-size: auto, 28px 28px, 28px 28px;
+    background-attachment: fixed;
+    color: var(--k-fg);
+    font-family: var(--k-text);
+    font-size: 15px;
+    line-height: 1.45;
+    -webkit-font-smoothing: antialiased;
+  }
+  .k-wrap {
+    max-width: 1180px;
+    margin-inline: auto;
+    padding-block: clamp(22px, 4vw, 44px) 56px;
+    padding-left: max(16px, env(safe-area-inset-left, 0px), 4vw);
+    padding-right: max(16px, env(safe-area-inset-right, 0px), 4vw);
+    display: grid;
+    gap: 28px;
+  }
+
+  /* Cabecera */
+  .k-head { display: flex; flex-wrap: wrap; align-items: flex-end; justify-content: space-between; gap: 18px 28px; }
+  .k-brand { display: flex; align-items: flex-start; gap: 14px; min-width: 0; }
+  .k-mark {
+    flex: none; display: grid; place-items: center; width: 48px; height: 48px; border-radius: 4px;
+    background: var(--k-blue); color: #fff; font-family: var(--k-num); font-weight: 700; font-size: 19px; letter-spacing: 0.05em;
+    box-shadow: 0 0 0 1px rgba(169, 200, 255, 0.35), 0 8px 28px rgba(47, 123, 255, 0.45);
+  }
+  .k-title { margin: 0; font-family: var(--k-num); font-weight: 600; font-size: clamp(26px, 3.6vw, 34px); letter-spacing: 0.01em; line-height: 1.05; text-wrap: balance; }
+  .k-sub { margin: 6px 0 0; color: var(--k-muted); max-width: 62ch; }
+  .k-sub b { color: var(--k-ice); font-weight: 600; font-variant-numeric: tabular-nums; }
+  .k-upd { margin: 8px 0 0; color: var(--k-muted); font: 500 12px/1.4 var(--k-mono); }
+  .k-upd::before { content: ""; display: inline-block; width: 7px; height: 7px; margin-right: 8px; vertical-align: 1px; border-radius: 50%; background: var(--k-ok); box-shadow: 0 0 10px var(--k-ok); }
+  .k-upd.is-old::before { background: var(--k-warn); box-shadow: 0 0 10px var(--k-warn); }
+  .k-upd.is-none::before { background: var(--k-dim); box-shadow: none; }
+
+  .k-seg { display: inline-flex; flex-wrap: wrap; padding: 3px; gap: 2px; border: 1px solid var(--k-line); border-radius: 6px; background: rgba(10, 15, 25, 0.85); }
+  .k-seg-b {
+    appearance: none; border: 0; border-radius: 4px; padding: 8px 14px; background: transparent; color: var(--k-muted);
+    font: 600 12px/1 var(--k-mono); letter-spacing: 0.06em; text-transform: uppercase; cursor: pointer; white-space: nowrap;
+  }
+  .k-seg-b:hover { color: var(--k-fg); }
+  .k-seg-b[aria-pressed="true"] { background: var(--k-blue); color: #fff; }
+  :focus-visible { outline: 2px solid var(--k-ice); outline-offset: 2px; }
+
+  /* Avisos */
+  .k-alert { display: flex; gap: 12px; align-items: flex-start; padding: 14px 16px; border: 1px solid rgba(255, 194, 75, 0.35); border-radius: 6px; background: rgba(255, 194, 75, 0.07); color: var(--k-fg); }
+  .k-alert::before { content: ""; flex: none; width: 8px; height: 8px; margin-top: 7px; border-radius: 50%; background: var(--k-warn); }
+  .k-alert p { margin: 0; }
+  .k-alert small { color: var(--k-muted); }
+
+  /* Cifras principales */
+  .k-hero { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 15rem), 1fr)); border-top: 1px solid var(--k-blue); border-bottom: 1px solid var(--k-line); }
+  .k-fig { display: grid; align-content: start; gap: 6px; padding: 20px 22px 22px 0; min-width: 0; }
+  .k-fig + .k-fig { padding-left: 22px; border-left: 1px solid var(--k-line); }
+  .k-label { color: var(--k-muted); font: 600 11px/1.3 var(--k-mono); letter-spacing: 0.09em; text-transform: uppercase; }
+  .k-big { font-family: var(--k-num); font-weight: 600; font-size: clamp(48px, 7vw, 76px); line-height: 0.95; font-variant-numeric: tabular-nums; min-height: 0.95em; }
+  .k-mid { font-family: var(--k-num); font-weight: 600; font-size: clamp(34px, 4.4vw, 46px); line-height: 1; font-variant-numeric: tabular-nums; min-height: 1em; }
+  .k-cur { font-size: 0.4em; color: var(--k-muted); margin-right: 0.18em; letter-spacing: 0.04em; vertical-align: 0.6em; }
+  .k-verdict, .k-best-name { margin: 4px 0 0; font-size: 14px; color: var(--k-muted); overflow-wrap: anywhere; }
+  .is-ok { color: var(--k-ok); }
+  .is-warn { color: var(--k-warn); }
+  .is-bad { color: var(--k-bad); }
+
+  /* Tarjetas */
+  .k-card { background: var(--k-panel); border: 1px solid var(--k-line); border-radius: 6px; padding: 20px 22px; min-width: 0; }
+  .k-card-h { display: grid; gap: 3px; margin-bottom: 16px; }
+  .k-card-h h2 { margin: 0; font-family: var(--k-num); font-weight: 600; font-size: 22px; letter-spacing: 0.01em; }
+  .k-card-h p { margin: 0; color: var(--k-muted); font-size: 14px; }
+
+  /* Regla de CPA */
+  .k-ruler { position: relative; min-height: 150px; }
+  .k-ruler svg { display: block; overflow: visible; }
+  .k-ruler text { font-family: var(--k-mono); }
+  .k-tip {
+    position: absolute; pointer-events: none; padding: 7px 10px; border: 1px solid var(--k-line); border-radius: 4px; background: #0d1524;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.55); font-size: 12px; line-height: 1.4; white-space: nowrap; transform: translate(-50%, calc(-100% - 10px));
+  }
+  .k-tip b { display: block; font-family: var(--k-num); font-size: 15px; }
+  .k-tip span { color: var(--k-muted); font-variant-numeric: tabular-nums; }
+
+  /* Cuentas */
+  .k-tiles { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 13rem), 1fr)); gap: 12px; }
+  .k-tile { background: var(--k-panel); border: 1px solid var(--k-line); border-radius: 6px; padding: 16px 18px 18px; display: grid; gap: 12px; min-width: 0; }
+  .k-tile h3 { margin: 0; font: 600 11px/1.3 var(--k-mono); letter-spacing: 0.09em; text-transform: uppercase; color: var(--k-ice); }
+  .k-tile dl { margin: 0; display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
+  .k-tile dl div { display: grid; gap: 2px; min-width: 0; }
+  .k-tile dt { color: var(--k-muted); font-size: 13px; }
+  .k-tile dd { margin: 0; font-family: var(--k-num); font-weight: 600; font-size: 27px; line-height: 1.1; font-variant-numeric: tabular-nums; white-space: nowrap; }
+  .k-tile dd .k-cur { font-size: 0.5em; vertical-align: 0.45em; }
+  .k-share { display: grid; gap: 6px; }
+  .k-share-track { height: 4px; border-radius: 2px; background: var(--k-line); overflow: hidden; }
+  .k-share-fill { height: 100%; width: 0; background: var(--k-blue); border-radius: 2px; }
+  .k-share-txt { color: var(--k-muted); font-size: 13px; font-variant-numeric: tabular-nums; }
+
+  /* Barras por anuncio */
+  .k-bars { position: relative; display: grid; gap: 12px; padding-top: 22px; }
+  .k-zone { position: absolute; top: 22px; bottom: 0; background: var(--k-zone); border-inline: 1px solid rgba(47, 123, 255, 0.55); pointer-events: none; }
+  .k-zone-tag { position: absolute; top: -18px; left: 50%; transform: translateX(-50%); font: 600 10px/1 var(--k-mono); letter-spacing: 0.08em; text-transform: uppercase; color: var(--k-ice); white-space: nowrap; }
+  .k-row { position: relative; display: grid; gap: 4px; min-width: 0; }
+  .k-row-l { display: flex; gap: 8px; min-width: 0; font-size: 13px; color: var(--k-muted); }
+  .k-row-l b { color: var(--k-fg); font-weight: 600; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; min-width: 0; }
+  .k-row-l span { white-space: nowrap; }
+  .k-row-t { position: relative; height: 14px; }
+  .k-row-f { position: absolute; left: 0; top: 0; bottom: 0; border-radius: 3px; }
+  .k-row-f.is-ok { background: var(--k-ok); }
+  .k-row-f.is-warn { background: var(--k-warn); }
+  .k-row-f.is-bad { background: var(--k-bad); }
+  .k-row-v { position: absolute; top: 50%; transform: translateY(-50%); font: 600 14px/1 var(--k-num); font-variant-numeric: tabular-nums; white-space: nowrap; }
+
+  /* Tabla */
+  .k-tablebox { overflow: auto; max-height: 560px; border: 1px solid var(--k-line); border-radius: 4px; }
+  .k-table { width: 100%; border-collapse: collapse; font-size: 14px; font-variant-numeric: tabular-nums; }
+  .k-table th { position: sticky; top: 0; background: #0b1220; text-align: left; padding: 0; border-bottom: 1px solid var(--k-line); z-index: 1; }
+  .k-sort {
+    appearance: none; border: 0; background: transparent; color: var(--k-muted); font: 600 11px/1 var(--k-mono); letter-spacing: 0.08em;
+    text-transform: uppercase; padding: 12px; width: 100%; text-align: inherit; cursor: pointer; white-space: nowrap;
+  }
+  .k-sort:hover { color: var(--k-fg); }
+  .k-table th[aria-sort="ascending"] .k-sort, .k-table th[aria-sort="descending"] .k-sort { color: var(--k-ice); }
+  .k-table th[aria-sort="ascending"] .k-sort::after { content: " ↑"; }
+  .k-table th[aria-sort="descending"] .k-sort::after { content: " ↓"; }
+  .k-table td { padding: 10px 12px; border-bottom: 1px solid rgba(23, 34, 54, 0.7); vertical-align: middle; }
+  .k-table tbody tr:hover td { background: rgba(47, 123, 255, 0.07); }
+  .k-table .k-num, .k-table th.k-num { text-align: right; }
+  .k-gasto { display: grid; gap: 4px; justify-items: end; min-width: 92px; }
+  .k-gasto i { display: block; height: 3px; border-radius: 2px; background: var(--k-blue); }
+  .k-chip { display: inline-block; padding: 3px 8px; border-radius: 3px; font-size: 12px; font-weight: 600; white-space: nowrap; background: rgba(131, 145, 171, 0.14); color: var(--k-muted); }
+  .k-chip.is-on { background: rgba(47, 123, 255, 0.16); color: var(--k-ice); }
+  .k-chip.is-off { background: rgba(255, 97, 112, 0.13); color: var(--k-bad); }
+  .k-cpa-none { color: var(--k-dim); font-size: 13px; }
+  .k-muted { color: var(--k-muted); }
+  .k-empty { margin: 0; color: var(--k-muted); font-size: 14px; }
+
+  /* Notas */
+  .k-notes { border-top: 1px solid var(--k-line); padding-top: 14px; color: var(--k-muted); font-size: 14px; }
+  .k-notes summary { cursor: pointer; font: 600 11px/1.3 var(--k-mono); letter-spacing: 0.09em; text-transform: uppercase; color: var(--k-ice); }
+  .k-notes dl { margin: 12px 0 0; display: grid; gap: 10px; max-width: 70ch; }
+  .k-notes dt { color: var(--k-fg); font-weight: 600; }
+  .k-notes dd { margin: 2px 0 0; }
+
+  .k-loading { opacity: 0.35; }
+
+  @media (max-width: 640px) {
+    .k-fig + .k-fig { padding-left: 0; border-left: 0; border-top: 1px solid var(--k-line); }
+    .k-fig { padding-right: 0; }
+    .k-col-camp { display: none; }
+    .k-seg { width: 100%; justify-content: space-between; }
+    .k-seg-b { flex: 1; padding-inline: 4px; font-size: 11px; letter-spacing: 0.02em; }
+  }
+  @media (prefers-reduced-motion: no-preference) {
+    .k-row-f, .k-share-fill { transition: width 0.5s cubic-bezier(0.2, 0.7, 0.2, 1); }
+  }
+</style>
+</head>
+<body>
+<main class="k-wrap" id="app">
+  <header class="k-head">
+    <div class="k-brand">
+      <span class="k-mark" aria-hidden="true">ELG</span>
+      <div>
+        <h1 class="k-title">Rendimiento de anuncios</h1>
+        <p class="k-sub">Gasto y costo por compra de las cuatro cuentas de Meta. Objetivo: entre <b id="objMin">5</b> y <b id="objMax">6</b> USD por compra.</p>
+        <p class="k-upd is-none" id="upd">Cargando…</p>
+      </div>
+    </div>
+    <div class="k-seg" role="group" aria-label="Período">
+      <button type="button" class="k-seg-b" data-periodo="today" aria-pressed="false">Hoy</button>
+      <button type="button" class="k-seg-b" data-periodo="yesterday" aria-pressed="false">Ayer</button>
+      <button type="button" class="k-seg-b" data-periodo="last_7d" aria-pressed="false">7 días</button>
+      <button type="button" class="k-seg-b" data-periodo="last_30d" aria-pressed="false">30 días</button>
+      <button type="button" class="k-seg-b" data-periodo="maximum" aria-pressed="true">Todo</button>
+    </div>
+  </header>
+
+  <div class="k-alert" id="aviso" hidden><p><span id="avisoTxt"></span><br><small id="avisoSub"></small></p></div>
+
+  <section class="k-hero" aria-label="Resumen">
+    <div class="k-fig">
+      <span class="k-label">Gasto total · <span id="periodoTxt">desde el inicio</span></span>
+      <b class="k-big" id="gastoTotal">—</b>
+    </div>
+    <div class="k-fig">
+      <span class="k-label">Costo por compra general</span>
+      <b class="k-big" id="cpaTotal">—</b>
+      <p class="k-verdict" id="veredicto">&nbsp;</p>
+    </div>
+    <div class="k-fig">
+      <span class="k-label">Anuncio más barato por compra</span>
+      <b class="k-mid" id="mejorCpa">—</b>
+      <span class="k-best-name" id="mejorTxt">&nbsp;</span>
+    </div>
+  </section>
+
+  <section class="k-card">
+    <div class="k-card-h">
+      <h2>Dónde está cada cuenta</h2>
+      <p>El costo por compra de cada cuenta sobre una regla en dólares. La franja azul es el objetivo y la línea blanca, el promedio general.</p>
+    </div>
+    <div class="k-ruler" id="regla"></div>
+  </section>
+
+  <section class="k-tiles" id="cuentas" aria-label="Cuentas"></section>
+
+  <section class="k-card">
+    <div class="k-card-h">
+      <h2>Costo por compra, anuncio por anuncio</h2>
+      <p>Solo los anuncios que ya tienen compras, del más barato al más caro.</p>
+    </div>
+    <div class="k-bars" id="barras"></div>
+  </section>
+
+  <section class="k-card">
+    <div class="k-card-h">
+      <h2>Todos los anuncios con gasto</h2>
+      <p>Tocá una columna para ordenar.</p>
+    </div>
+    <div class="k-tablebox">
+      <table class="k-table">
+        <thead>
+          <tr>
+            <th aria-sort="none"><button type="button" class="k-sort" data-col="cuenta">Cuenta</button></th>
+            <th class="k-col-camp" aria-sort="none"><button type="button" class="k-sort" data-col="campana">Campaña</button></th>
+            <th aria-sort="none"><button type="button" class="k-sort" data-col="anuncio">Anuncio</button></th>
+            <th aria-sort="none"><button type="button" class="k-sort" data-col="estado">Estado</button></th>
+            <th class="k-num" aria-sort="descending"><button type="button" class="k-sort" data-col="gasto">Gasto</button></th>
+            <th class="k-num" aria-sort="none"><button type="button" class="k-sort" data-col="cpa">CPA</button></th>
+          </tr>
+        </thead>
+        <tbody id="filas"></tbody>
+      </table>
+    </div>
+  </section>
+
+  <details class="k-notes">
+    <summary>Cómo se calcula</summary>
+    <dl>
+      <div><dt>Gasto</dt><dd>Lo que Meta cobró en el período elegido, en dólares.</dd></div>
+      <div><dt>CPA</dt><dd>Costo por compra: el gasto dividido por las compras que Meta le atribuye al anuncio. En cada cuenta y en el total es el gasto sumado dividido por las compras sumadas.</dd></div>
+      <div><dt>Colores</dt><dd>Verde, dentro del objetivo. Amarillo, un poco arriba. Rojo, lejos del objetivo.</dd></div>
+      <div><dt>Cada cuánto se actualiza</dt><dd>Los números se traen de Meta solos cada 30 minutos, más o menos. La página se refresca sola cada 5 minutos.</dd></div>
+      <div><dt>Qué queda afuera</dt><dd>Los anuncios que no gastaron nada en el período no aparecen. Los que gastaron pero no tienen compras figuran sin CPA.</dd></div>
+    </dl>
+  </details>
+</main>
+
+<script>
+(() => {
+  const OBJ_MIN = 5;
+  const OBJ_MAX = 6;
+  const LIMITE = 8;
+  const PERIODOS = { today: 'hoy', yesterday: 'ayer', last_7d: 'últimos 7 días', last_30d: 'últimos 30 días', maximum: 'desde el inicio' };
+  const ESTADOS = {
+    ACTIVE: 'Activo', PAUSED: 'Pausado', AD_PAUSED: 'Pausado', CAMPAIGN_PAUSED: 'Campaña pausada', ADSET_PAUSED: 'Conjunto pausado',
+    WITH_ISSUES: 'Con problemas', DISAPPROVED: 'Rechazado', PENDING_REVIEW: 'En revisión', IN_PROCESS: 'En proceso',
+    PREAPPROVED: 'Preaprobado', PENDING_BILLING_INFO: 'Falta el pago', ARCHIVED: 'Archivado', DELETED: 'Borrado',
+  };
+  const CUENTAS_BASE = [
+    { clave: 'c1', nombre: 'Cuenta 1' }, { clave: 'c2', nombre: 'Cuenta 2' },
+    { clave: 'c3', nombre: 'Cuenta 3' }, { clave: 'cb', nombre: 'ComboBiotina' },
+  ];
+  const $ = (id) => document.getElementById(id);
+  const nf = new Intl.NumberFormat('es-AR', { minimumFractionDigits: 2, maximumFractionDigits: 2 });
+  const usd = (v) => 'US$ ' + nf.format(v);
+  const banda = (v) => (v <= OBJ_MAX ? 'is-ok' : v <= LIMITE ? 'is-warn' : 'is-bad');
+  const COLOR = { 'is-ok': '#3be8b0', 'is-warn': '#ffc24b', 'is-bad': '#ff6170' };
+  const el = (tag, cls, text) => {
+    const e = document.createElement(tag);
+    if (cls) e.className = cls;
+    if (text != null) e.textContent = text;
+    return e;
+  };
+  const conMoneda = (node, v) => node.replaceChildren(el('span', 'k-cur', 'US$'), document.createTextNode(nf.format(v)));
+  const setBanda = (node, v) => {
+    node.classList.remove('is-ok', 'is-warn', 'is-bad');
+    if (v != null) node.classList.add(banda(v));
+  };
+
+  let datos = null;
+  let periodo = 'maximum';
+  try { periodo = localStorage.getItem('elg-periodo') || 'maximum'; } catch (e) { /* sin almacenamiento */ }
+  if (!PERIODOS[periodo]) periodo = 'maximum';
+  let orden = { col: 'gasto', dir: 'desc' };
+
+  $('objMin').textContent = String(OBJ_MIN);
+  $('objMax').textContent = String(OBJ_MAX);
+
+  function calcular() {
+    const cuentas = (datos && datos.cuentas && datos.cuentas.length ? datos.cuentas : CUENTAS_BASE);
+    const filas = ((datos && datos.periodos && datos.periodos[periodo]) || []).map((r) => ({
+      ...r,
+      gasto: Number(r.gasto) || 0,
+      compras: Number(r.compras) || 0,
+      cpa: r.cpa == null ? null : Number(r.cpa),
+      estadoTxt: ESTADOS[r.estado] || r.estado || '—',
+    }));
+    const anuncios = filas.filter((r) => r.gasto > 0);
+    const totalGasto = anuncios.reduce((s, r) => s + r.gasto, 0);
+    const porCuenta = cuentas.map((c) => {
+      const f = anuncios.filter((r) => r.clave === c.clave);
+      const gasto = Math.round(f.reduce((s, r) => s + r.gasto, 0) * 100) / 100;
+      const compras = f.reduce((s, r) => s + r.compras, 0);
+      return { ...c, gasto, compras, cpa: compras ? Math.round((gasto / compras) * 100) / 100 : null, parte: totalGasto ? gasto / totalGasto : 0 };
+    });
+    const gasto = Math.round(totalGasto * 100) / 100;
+    const compras = anuncios.reduce((s, r) => s + r.compras, 0);
+    const total = { gasto, compras, cpa: compras ? Math.round((gasto / compras) * 100) / 100 : null };
+    const conCompras = anuncios.filter((r) => r.compras > 0 && r.cpa != null).sort((a, b) => a.cpa - b.cpa);
+    return { anuncios, porCuenta, total, mejor: conCompras[0] || null, conCompras };
+  }
+
+  function dibujarCabecera() {
+    document.querySelectorAll('.k-seg-b').forEach((b) => b.setAttribute('aria-pressed', String(b.dataset.periodo === periodo)));
+    $('periodoTxt').textContent = PERIODOS[periodo];
+    const upd = $('upd');
+    upd.classList.remove('is-old', 'is-none');
+    if (!datos || !datos.actualizado) {
+      upd.classList.add('is-none');
+      upd.textContent = datos ? 'Esperando la primera actualización' : 'Cargando…';
+    } else {
+      const t = new Date(datos.actualizado);
+      const min = Math.max(0, Math.round((Date.now() - t.getTime()) / 60000));
+      const hace = min < 1 ? 'recién' : min < 60 ? `hace ${min} min` : min < 1440 ? `hace ${Math.round(min / 60)} h` : `hace ${Math.round(min / 1440)} días`;
+      const hora = t.toLocaleString('es-AR', { timeZone: 'America/Argentina/Buenos_Aires', day: '2-digit', month: '2-digit', hour: '2-digit', minute: '2-digit' });
+      upd.textContent = `Actualizado ${hace} · ${hora}`;
+      if (min > 90) upd.classList.add('is-old');
+    }
+    const aviso = $('aviso');
+    aviso.hidden = true;
+    if (datos && datos.estado === 'sin_clave') {
+      $('avisoTxt').textContent = 'Todavía no está conectada la cuenta de Meta.';
+      $('avisoSub').textContent = 'Los números aparecen solos en cuanto se cargue la clave de Meta en GitHub.';
+      aviso.hidden = false;
+    } else if (datos && datos.errores && datos.errores.length) {
+      $('avisoTxt').textContent = 'No se pudieron leer algunas cuentas en la última actualización: ' + datos.errores.map((e) => e.cuenta || e.clave).join(', ') + '.';
+      $('avisoSub').textContent = 'Sus números no están sumados en el total. Se vuelve a intentar sola en unos minutos.';
+      aviso.hidden = false;
+    }
+  }
+
+  function dibujarResumen(c) {
+    const hay = c.anuncios.length > 0;
+    if (hay) conMoneda($('gastoTotal'), c.total.gasto); else $('gastoTotal').textContent = '—';
+    const cpaT = $('cpaTotal');
+    setBanda(cpaT, c.total.cpa);
+    if (c.total.cpa != null) conMoneda(cpaT, c.total.cpa); else cpaT.textContent = '—';
+    const v = $('veredicto');
+    v.className = 'k-verdict';
+    if (!datos || !datos.periodos) v.textContent = ' ';
+    else if (c.total.cpa == null) v.textContent = 'Todavía no hay compras en este período.';
+    else {
+      const b = banda(c.total.cpa);
+      v.classList.add(b);
+      v.textContent = { 'is-ok': 'Dentro del objetivo.', 'is-warn': 'Cerca del objetivo, todavía un poco arriba.', 'is-bad': 'Por encima del objetivo.' }[b];
+    }
+    const m = $('mejorCpa');
+    setBanda(m, c.mejor && c.mejor.cpa);
+    if (c.mejor) {
+      conMoneda(m, c.mejor.cpa);
+      $('mejorTxt').textContent = `${c.mejor.anuncio} · ${c.mejor.cuenta}`;
+    } else {
+      m.textContent = '—';
+      $('mejorTxt').textContent = ' ';
+    }
+  }
+
+  function dibujarCuentas(c) {
+    const box = $('cuentas');
+    box.replaceChildren();
+    c.porCuenta.forEach((r) => {
+      const t = el('article', 'k-tile');
+      t.append(el('h3', null, r.nombre));
+      const dl = el('dl');
+      const g = el('div');
+      const ddG = el('dd', null, '—');
+      if (r.gasto > 0) conMoneda(ddG, r.gasto);
+      g.append(el('dt', null, 'Gasto'), ddG);
+      const k = el('div');
+      const dd = el('dd', null, '—');
+      if (r.cpa != null) conMoneda(dd, r.cpa);
+      setBanda(dd, r.cpa);
+      k.append(el('dt', null, 'CPA'), dd);
+      dl.append(g, k);
+      const sh = el('div', 'k-share');
+      const tr = el('div', 'k-share-track');
+      const fill = el('div', 'k-share-fill');
+      tr.append(fill);
+      sh.append(tr, el('span', 'k-share-txt', `${Math.round(r.parte * 100)}% del gasto total`));
+      t.append(dl, sh);
+      box.append(t);
+      requestAnimationFrame(() => { fill.style.width = (r.parte * 100).toFixed(1) + '%'; });
+    });
+  }
+
+  function niceStep(raw) {
+    const p = Math.pow(10, Math.floor(Math.log10(raw)));
+    const n = raw / p;
+    return (n <= 1 ? 1 : n <= 2 ? 2 : n <= 5 ? 5 : 10) * p;
+  }
+
+  function dibujarRegla(c) {
+    const box = $('regla');
+    box.replaceChildren();
+    const pts = c.porCuenta.filter((d) => d.cpa != null);
+    const general = c.total.cpa;
+    if (!pts.length) {
+      box.append(el('p', 'k-empty', datos && datos.periodos ? 'Ninguna cuenta tiene compras en este período.' : ''));
+      return;
+    }
+    const NS = 'http://www.w3.org/2000/svg';
+    const W = Math.max(280, box.clientWidth || 600);
+    const H = 150;
+    const AXIS = 98;
+    const ml = 12;
+    const mr = 12;
+    const raw = Math.max(OBJ_MAX * 2, general || 0, ...pts.map((d) => d.cpa)) * 1.06;
+    const step = niceStep(raw / (W < 420 ? 4 : 7));
+    const top = Math.ceil(raw / step) * step;
+    const x = (v) => ml + (v / top) * (W - ml - mr);
+    const svg = document.createElementNS(NS, 'svg');
+    svg.setAttribute('width', '100%');
+    svg.setAttribute('height', H);
+    svg.setAttribute('viewBox', `0 0 ${W} ${H}`);
+    box.append(svg);
+    const add = (tag, attrs, parent = svg) => {
+      const n = document.createElementNS(NS, tag);
+      Object.entries(attrs).forEach(([k, v]) => n.setAttribute(k, v));
+      parent.append(n);
+      return n;
+    };
+    const texto = (str, attrs, parent = svg) => {
+      const n = add('text', attrs, parent);
+      n.textContent = str;
+      return n;
+    };
+    const clampX = (n, cx) => {
+      const w = n.getComputedTextLength();
+      n.setAttribute('x', Math.min(W - mr - w, Math.max(ml, cx - w / 2)));
+      return w;
+    };
+
+    add('rect', { x: x(OBJ_MIN), y: 22, width: Math.max(3, x(OBJ_MAX) - x(OBJ_MIN)), height: AXIS - 22, fill: 'rgba(47,123,255,0.22)', stroke: 'rgba(47,123,255,0.7)' });
+    clampX(texto(`OBJETIVO ${OBJ_MIN}–${OBJ_MAX}`, { y: 14, fill: '#a9c8ff', 'font-size': 10, 'font-weight': 600, 'letter-spacing': '0.08em' }), (x(OBJ_MIN) + x(OBJ_MAX)) / 2);
+    add('line', { x1: ml, x2: W - mr, y1: AXIS, y2: AXIS, stroke: '#2a3a58' });
+    for (let v = 0; v <= top + 1e-9; v += step) {
+      add('line', { x1: x(v), x2: x(v), y1: AXIS, y2: AXIS + 5, stroke: '#2a3a58' });
+      clampX(texto(v === 0 ? 'US$ 0' : String(Math.round(v * 100) / 100), { y: AXIS + 18, fill: '#8391ab', 'font-size': 11 }), x(v));
+    }
+    if (general != null) {
+      add('line', { x1: x(general), x2: x(general), y1: 26, y2: AXIS + 26, stroke: '#e8eef8', 'stroke-width': 2, 'stroke-linecap': 'round' });
+      clampX(texto(`GENERAL ${nf.format(general)}`, { y: AXIS + 42, fill: '#e8eef8', 'font-size': 11, 'font-weight': 600 }), x(general));
+    }
+
+    const lanes = [40, 58, 76];
+    const ends = lanes.map(() => -Infinity);
+    const tip = el('div', 'k-tip');
+    tip.hidden = true;
+    [...pts].sort((a, b) => a.cpa - b.cpa).forEach((d) => {
+      const cx = x(d.cpa);
+      const color = COLOR[banda(d.cpa)];
+      const g = add('g', {});
+      const stem = add('line', { x1: cx, x2: cx, y2: AXIS - 6, stroke: color, 'stroke-opacity': 0.55 }, g);
+      const lbl = texto(`${d.nombre.toUpperCase()} ${nf.format(d.cpa)}`, { fill: '#e8eef8', 'font-size': 11, 'font-weight': 600 }, g);
+      const w = lbl.getComputedTextLength();
+      const lx = Math.min(W - mr - w, Math.max(ml, cx - w / 2));
+      let lane = ends.findIndex((e) => lx > e + 8);
+      if (lane < 0) lane = ends.indexOf(Math.min(...ends));
+      ends[lane] = lx + w;
+      lbl.setAttribute('x', lx);
+      lbl.setAttribute('y', lanes[lane]);
+      stem.setAttribute('y1', lanes[lane] + 5);
+      add('circle', { cx, cy: AXIS, r: 6, fill: color, stroke: '#04060b', 'stroke-width': 2 }, g);
+      g.addEventListener('mouseenter', () => {
+        tip.replaceChildren(el('b', null, d.nombre), el('span', null, 'CPA ' + usd(d.cpa)), el('span', null, ' · gasto ' + usd(d.gasto)));
+        tip.style.left = Math.min(W - 90, Math.max(90, cx)) + 'px';
+        tip.style.top = lanes[lane] - 10 + 'px';
+        tip.hidden = false;
+      });
+      g.addEventListener('mouseleave', () => { tip.hidden = true; });
+    });
+    box.append(tip);
+  }
+
+  function dibujarBarras(c) {
+    const box = $('barras');
+    box.replaceChildren();
+    const rows = c.conCompras;
+    if (!rows.length) {
+      box.style.paddingTop = '0';
+      box.append(el('p', 'k-empty', datos && datos.periodos ? 'Ningún anuncio tiene compras en este período.' : ''));
+      return;
+    }
+    box.style.paddingTop = '';
+    const top = Math.max(OBJ_MAX * 2, ...rows.map((r) => r.cpa)) * 1.12;
+    const pct = (v) => (v / top) * 100;
+    const zone = el('div', 'k-zone');
+    zone.style.left = pct(OBJ_MIN) + '%';
+    zone.style.width = pct(OBJ_MAX - OBJ_MIN) + '%';
+    zone.append(el('span', 'k-zone-tag', 'objetivo'));
+    box.append(zone);
+    rows.forEach((r) => {
+      const row = el('div', 'k-row');
+      const l = el('div', 'k-row-l');
+      l.append(el('b', null, r.anuncio), el('span', null, r.cuenta));
+      const t = el('div', 'k-row-t');
+      const f = el('div', 'k-row-f ' + banda(r.cpa));
+      f.style.width = '0';
+      const v = el('span', 'k-row-v ' + banda(r.cpa), usd(r.cpa));
+      v.style.left = `calc(${pct(r.cpa)}% + 8px)`;
+      t.append(f, v);
+      row.append(l, t);
+      box.append(row);
+      requestAnimationFrame(() => { f.style.width = pct(r.cpa) + '%'; });
+    });
+  }
+
+  function dibujarTabla(c) {
+    const tb = $('filas');
+    tb.replaceChildren();
+    const { col, dir } = orden;
+    const s = dir === 'asc' ? 1 : -1;
+    const key = col === 'estado' ? 'estadoTxt' : col;
+    const rows = [...c.anuncios].sort((p, q) => {
+      const a = p[key];
+      const b = q[key];
+      if (a == null && b == null) return 0;
+      if (a == null) return 1;
+      if (b == null) return -1;
+      return typeof a === 'number' ? (a - b) * s : String(a).localeCompare(String(b), 'es') * s;
+    });
+    if (!rows.length) {
+      const tr = el('tr');
+      const td = el('td', 'k-muted', datos && datos.periodos ? 'Ningún anuncio gastó en este período.' : '');
+      td.colSpan = 6;
+      tr.append(td);
+      tb.append(tr);
+      return;
+    }
+    const maxG = Math.max(1, ...rows.map((r) => r.gasto));
+    rows.forEach((r) => {
+      const tr = el('tr');
+      tr.append(el('td', null, r.cuenta), el('td', 'k-col-camp k-muted', r.campana), el('td', null, r.anuncio));
+      const est = el('td');
+      est.append(el('span', 'k-chip' + (r.estado === 'ACTIVE' ? ' is-on' : r.estado === 'DISAPPROVED' ? ' is-off' : ''), r.estadoTxt));
+      const g = el('td', 'k-num');
+      const gw = el('div', 'k-gasto');
+      const bar = el('i');
+      bar.style.width = Math.max(4, (r.gasto / maxG) * 88) + 'px';
+      gw.append(el('span', null, usd(r.gasto)), bar);
+      g.append(gw);
+      const cpa = el('td', 'k-num');
+      if (r.cpa == null) cpa.append(el('span', 'k-cpa-none', 'sin compras'));
+      else { cpa.textContent = usd(r.cpa); cpa.classList.add(banda(r.cpa)); }
+      tr.append(est, g, cpa);
+      tb.append(tr);
+    });
+  }
+
+  function dibujar() {
+    const c = calcular();
+    dibujarCabecera();
+    dibujarResumen(c);
+    dibujarCuentas(c);
+    dibujarRegla(c);
+    dibujarBarras(c);
+    dibujarTabla(c);
+  }
+
+  async function cargar() {
+    try {
+      const r = await fetch('datos.json?t=' + Date.now(), { cache: 'no-store' });
+      if (!r.ok) throw new Error('HTTP ' + r.status);
+      datos = await r.json();
+    } catch (e) {
+      if (!datos) {
+        $('avisoTxt').textContent = 'No se pudieron cargar los números.';
+        $('avisoSub').textContent = 'Probá recargar la página en un rato.';
+        $('aviso').hidden = false;
+      }
+    }
+    dibujar();
+  }
+
+  document.querySelectorAll('.k-seg-b').forEach((b) => b.addEventListener('click', () => {
+    periodo = b.dataset.periodo;
+    try { localStorage.setItem('elg-periodo', periodo); } catch (e) { /* sin almacenamiento */ }
+    dibujar();
+  }));
+  document.querySelectorAll('.k-sort').forEach((btn) => btn.addEventListener('click', () => {
+    const col = btn.dataset.col;
+    orden = orden.col === col ? { col, dir: orden.dir === 'asc' ? 'desc' : 'asc' } : { col, dir: col === 'gasto' || col === 'cpa' ? (col === 'gasto' ? 'desc' : 'asc') : 'asc' };
+    document.querySelectorAll('.k-table th').forEach((th) => {
+      const b = th.querySelector('.k-sort');
+      th.setAttribute('aria-sort', b && b.dataset.col === orden.col ? (orden.dir === 'asc' ? 'ascending' : 'descending') : 'none');
+    });
+    dibujarTabla(calcular());
+  }));
+  let rt;
+  window.addEventListener('resize', () => { clearTimeout(rt); rt = setTimeout(() => dibujarRegla(calcular()), 150); });
+
+  dibujar();
+  cargar();
+  setInterval(cargar, 5 * 60 * 1000);
+})();
+</script>
+</body>
+</html>
