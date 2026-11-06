@@ -1,6 +1,6 @@
 {
  "estado": "ok",
- "actualizado": "2026-11-06T20:50:29+00:00",
+ "actualizado": "2026-11-06T21:02:50+00:00",
  "hoy": "2026-11-06",
  "inicio": "2026-11-05",
  "cuentas": [
@@ -31,31 +31,9 @@
     "campana": "26 - 27 - 33",
     "anuncio": "26",
     "estado": "ACTIVE",
-    "gasto": 27.2,
+    "gasto": 27.71,
     "compras": 3,
-    "cpa": 9.07
-   },
-   {
-    "id": "120248072530150009",
-    "clave": "c2",
-    "cuenta": "Cuenta 2",
-    "campana": "28 - 32 - 37",
-    "anuncio": "37",
-    "estado": "ACTIVE",
-    "gasto": 13.51,
-    "compras": 0,
-    "cpa": null
-   },
-   {
-    "id": "120248072360020009",
-    "clave": "c2",
-    "cuenta": "Cuenta 2",
-    "campana": "28 - 32 - 37",
-    "anuncio": "28",
-    "estado": "ACTIVE",
-    "gasto": 7.95,
-    "compras": 0,
-    "cpa": null
+    "cpa": 9.24
    },
    {
     "id": "120248037488070009",
@@ -64,9 +42,9 @@
     "campana": "ESCALA 1",
     "anuncio": "5 -  Copia - Copia 6",
     "estado": "ACTIVE",
-    "gasto": 38.26,
+    "gasto": 39.07,
     "compras": 4,
-    "cpa": 9.57
+    "cpa": 9.77
    },
    {
     "id": "120248076126440009",
@@ -80,15 +58,37 @@
     "cpa": null
    },
    {
+    "id": "120248072360020009",
+    "clave": "c2",
+    "cuenta": "Cuenta 2",
+    "campana": "28 - 32 - 37",
+    "anuncio": "28",
+    "estado": "PAUSED",
+    "gasto": 7.96,
+    "compras": 0,
+    "cpa": null
+   },
+   {
+    "id": "120248072530150009",
+    "clave": "c2",
+    "cuenta": "Cuenta 2",
+    "campana": "28 - 32 - 37",
+    "anuncio": "37",
+    "estado": "PAUSED",
+    "gasto": 13.62,
+    "compras": 0,
+    "cpa": null
+   },
+   {
     "id": "120250431945190149",
     "clave": "c3",
     "cuenta": "Cuenta 3",
     "campana": "dupli 1",
     "anuncio": "5 -  Copia - Copia 2",
     "estado": "ACTIVE",
-    "gasto": 3.94,
+    "gasto": 5.24,
     "compras": 1,
-    "cpa": 3.94
+    "cpa": 5.24
    },
    {
     "id": "120250431945200149",
@@ -124,35 +124,13 @@
     "cpa": 41.0
    },
    {
-    "id": "120254711903400204",
-    "clave": "cb",
-    "cuenta": "ComboBiotina",
-    "campana": "dupli 1",
-    "anuncio": "5 -  Copia - Copia 3",
-    "estado": "ACTIVE",
-    "gasto": 1.99,
-    "compras": 0,
-    "cpa": null
-   },
-   {
     "id": "120254711902310204",
     "clave": "cb",
     "cuenta": "ComboBiotina",
     "campana": "dupli 1",
     "anuncio": "5 -  Copia - Copia 6",
     "estado": "ACTIVE",
-    "gasto": 15.61,
-    "compras": 0,
-    "cpa": null
-   },
-   {
-    "id": "120254711900590204",
-    "clave": "cb",
-    "cuenta": "ComboBiotina",
-    "campana": "dupli 1",
-    "anuncio": "5 -  Copia - Copia 4",
-    "estado": "ACTIVE",
-    "gasto": 0.1,
+    "gasto": 16.64,
     "compras": 0,
     "cpa": null
    },
@@ -162,8 +140,30 @@
     "cuenta": "ComboBiotina",
     "campana": "dupli 1",
     "anuncio": "5 -  Copia - Copia 2",
-    "estado": "ACTIVE",
+    "estado": "PAUSED",
     "gasto": 0.09,
+    "compras": 0,
+    "cpa": null
+   },
+   {
+    "id": "120254711900590204",
+    "clave": "cb",
+    "cuenta": "ComboBiotina",
+    "campana": "dupli 1",
+    "anuncio": "5 -  Copia - Copia 4",
+    "estado": "PAUSED",
+    "gasto": 0.1,
+    "compras": 0,
+    "cpa": null
+   },
+   {
+    "id": "120254711903400204",
+    "clave": "cb",
+    "cuenta": "ComboBiotina",
+    "campana": "dupli 1",
+    "anuncio": "5 -  Copia - Copia 3",
+    "estado": "PAUSED",
+    "gasto": 2.11,
     "compras": 0,
     "cpa": null
    }
@@ -291,17 +291,6 @@
     "cpa": 28.91
    },
    {
-    "id": "120254711903400204",
-    "clave": "cb",
-    "cuenta": "ComboBiotina",
-    "campana": "dupli 1",
-    "anuncio": "5 -  Copia - Copia 3",
-    "estado": "ACTIVE",
-    "gasto": 1.91,
-    "compras": 0,
-    "cpa": null
-   },
-   {
     "id": "120254711902310204",
     "clave": "cb",
     "cuenta": "ComboBiotina",
@@ -313,24 +302,35 @@
     "cpa": 24.54
    },
    {
-    "id": "120254711900590204",
-    "clave": "cb",
-    "cuenta": "ComboBiotina",
-    "campana": "dupli 1",
-    "anuncio": "5 -  Copia - Copia 4",
-    "estado": "ACTIVE",
-    "gasto": 1.14,
-    "compras": 0,
-    "cpa": null
-   },
-   {
     "id": "120254711902040204",
     "clave": "cb",
     "cuenta": "ComboBiotina",
     "campana": "dupli 1",
     "anuncio": "5 -  Copia - Copia 2",
-    "estado": "ACTIVE",
+    "estado": "PAUSED",
     "gasto": 4.52,
+    "compras": 0,
+    "cpa": null
+   },
+   {
+    "id": "120254711900590204",
+    "clave": "cb",
+    "cuenta": "ComboBiotina",
+    "campana": "dupli 1",
+    "anuncio": "5 -  Copia - Copia 4",
+    "estado": "PAUSED",
+    "gasto": 1.14,
+    "compras": 0,
+    "cpa": null
+   },
+   {
+    "id": "120254711903400204",
+    "clave": "cb",
+    "cuenta": "ComboBiotina",
+    "campana": "dupli 1",
+    "anuncio": "5 -  Copia - Copia 3",
+    "estado": "PAUSED",
+    "gasto": 1.91,
     "compras": 0,
     "cpa": null
    }
@@ -458,17 +458,6 @@
     "cpa": 28.91
    },
    {
-    "id": "120254711903400204",
-    "clave": "cb",
-    "cuenta": "ComboBiotina",
-    "campana": "dupli 1",
-    "anuncio": "5 -  Copia - Copia 3",
-    "estado": "ACTIVE",
-    "gasto": 1.91,
-    "compras": 0,
-    "cpa": null
-   },
-   {
     "id": "120254711902310204",
     "clave": "cb",
     "cuenta": "ComboBiotina",
@@ -480,24 +469,35 @@
     "cpa": 24.54
    },
    {
-    "id": "120254711900590204",
-    "clave": "cb",
-    "cuenta": "ComboBiotina",
-    "campana": "dupli 1",
-    "anuncio": "5 -  Copia - Copia 4",
-    "estado": "ACTIVE",
-    "gasto": 1.14,
-    "compras": 0,
-    "cpa": null
-   },
-   {
     "id": "120254711902040204",
     "clave": "cb",
     "cuenta": "ComboBiotina",
     "campana": "dupli 1",
     "anuncio": "5 -  Copia - Copia 2",
-    "estado": "ACTIVE",
+    "estado": "PAUSED",
     "gasto": 4.52,
+    "compras": 0,
+    "cpa": null
+   },
+   {
+    "id": "120254711900590204",
+    "clave": "cb",
+    "cuenta": "ComboBiotina",
+    "campana": "dupli 1",
+    "anuncio": "5 -  Copia - Copia 4",
+    "estado": "PAUSED",
+    "gasto": 1.14,
+    "compras": 0,
+    "cpa": null
+   },
+   {
+    "id": "120254711903400204",
+    "clave": "cb",
+    "cuenta": "ComboBiotina",
+    "campana": "dupli 1",
+    "anuncio": "5 -  Copia - Copia 3",
+    "estado": "PAUSED",
+    "gasto": 1.91,
     "compras": 0,
     "cpa": null
    }
@@ -625,17 +625,6 @@
     "cpa": 28.91
    },
    {
-    "id": "120254711903400204",
-    "clave": "cb",
-    "cuenta": "ComboBiotina",
-    "campana": "dupli 1",
-    "anuncio": "5 -  Copia - Copia 3",
-    "estado": "ACTIVE",
-    "gasto": 1.91,
-    "compras": 0,
-    "cpa": null
-   },
-   {
     "id": "120254711902310204",
     "clave": "cb",
     "cuenta": "ComboBiotina",
@@ -647,24 +636,35 @@
     "cpa": 24.54
    },
    {
-    "id": "120254711900590204",
-    "clave": "cb",
-    "cuenta": "ComboBiotina",
-    "campana": "dupli 1",
-    "anuncio": "5 -  Copia - Copia 4",
-    "estado": "ACTIVE",
-    "gasto": 1.14,
-    "compras": 0,
-    "cpa": null
-   },
-   {
     "id": "120254711902040204",
     "clave": "cb",
     "cuenta": "ComboBiotina",
     "campana": "dupli 1",
     "anuncio": "5 -  Copia - Copia 2",
-    "estado": "ACTIVE",
+    "estado": "PAUSED",
     "gasto": 4.52,
+    "compras": 0,
+    "cpa": null
+   },
+   {
+    "id": "120254711900590204",
+    "clave": "cb",
+    "cuenta": "ComboBiotina",
+    "campana": "dupli 1",
+    "anuncio": "5 -  Copia - Copia 4",
+    "estado": "PAUSED",
+    "gasto": 1.14,
+    "compras": 0,
+    "cpa": null
+   },
+   {
+    "id": "120254711903400204",
+    "clave": "cb",
+    "cuenta": "ComboBiotina",
+    "campana": "dupli 1",
+    "anuncio": "5 -  Copia - Copia 3",
+    "estado": "PAUSED",
+    "gasto": 1.91,
     "compras": 0,
     "cpa": null
    }
@@ -743,31 +743,9 @@
     "campana": "26 - 27 - 33",
     "anuncio": "26",
     "estado": "ACTIVE",
-    "gasto": 27.2,
+    "gasto": 27.71,
     "compras": 3,
-    "cpa": 9.07
-   },
-   {
-    "id": "120248072530150009",
-    "clave": "c2",
-    "cuenta": "Cuenta 2",
-    "campana": "28 - 32 - 37",
-    "anuncio": "37",
-    "estado": "ACTIVE",
-    "gasto": 13.51,
-    "compras": 0,
-    "cpa": null
-   },
-   {
-    "id": "120248072360020009",
-    "clave": "c2",
-    "cuenta": "Cuenta 2",
-    "campana": "28 - 32 - 37",
-    "anuncio": "28",
-    "estado": "ACTIVE",
-    "gasto": 7.95,
-    "compras": 0,
-    "cpa": null
+    "cpa": 9.24
    },
    {
     "id": "120248037488070009",
@@ -776,9 +754,9 @@
     "campana": "ESCALA 1",
     "anuncio": "5 -  Copia - Copia 6",
     "estado": "ACTIVE",
-    "gasto": 71.24,
+    "gasto": 72.05,
     "compras": 9,
-    "cpa": 7.92
+    "cpa": 8.01
    },
    {
     "id": "120248076126440009",
@@ -792,15 +770,37 @@
     "cpa": null
    },
    {
+    "id": "120248072360020009",
+    "clave": "c2",
+    "cuenta": "Cuenta 2",
+    "campana": "28 - 32 - 37",
+    "anuncio": "28",
+    "estado": "PAUSED",
+    "gasto": 7.96,
+    "compras": 0,
+    "cpa": null
+   },
+   {
+    "id": "120248072530150009",
+    "clave": "c2",
+    "cuenta": "Cuenta 2",
+    "campana": "28 - 32 - 37",
+    "anuncio": "37",
+    "estado": "PAUSED",
+    "gasto": 13.62,
+    "compras": 0,
+    "cpa": null
+   },
+   {
     "id": "120250431945190149",
     "clave": "c3",
     "cuenta": "Cuenta 3",
     "campana": "dupli 1",
     "anuncio": "5 -  Copia - Copia 2",
     "estado": "ACTIVE",
-    "gasto": 8.74,
+    "gasto": 10.04,
     "compras": 2,
-    "cpa": 4.37
+    "cpa": 5.02
    },
    {
     "id": "120250431945200149",
@@ -836,37 +836,15 @@
     "cpa": 34.96
    },
    {
-    "id": "120254711903400204",
-    "clave": "cb",
-    "cuenta": "ComboBiotina",
-    "campana": "dupli 1",
-    "anuncio": "5 -  Copia - Copia 3",
-    "estado": "ACTIVE",
-    "gasto": 3.9,
-    "compras": 0,
-    "cpa": null
-   },
-   {
     "id": "120254711902310204",
     "clave": "cb",
     "cuenta": "ComboBiotina",
     "campana": "dupli 1",
     "anuncio": "5 -  Copia - Copia 6",
     "estado": "ACTIVE",
-    "gasto": 64.68,
+    "gasto": 65.71,
     "compras": 2,
-    "cpa": 32.34
-   },
-   {
-    "id": "120254711900590204",
-    "clave": "cb",
-    "cuenta": "ComboBiotina",
-    "campana": "dupli 1",
-    "anuncio": "5 -  Copia - Copia 4",
-    "estado": "ACTIVE",
-    "gasto": 1.24,
-    "compras": 0,
-    "cpa": null
+    "cpa": 32.86
    },
    {
     "id": "120254711902040204",
@@ -874,8 +852,30 @@
     "cuenta": "ComboBiotina",
     "campana": "dupli 1",
     "anuncio": "5 -  Copia - Copia 2",
-    "estado": "ACTIVE",
+    "estado": "PAUSED",
     "gasto": 4.61,
+    "compras": 0,
+    "cpa": null
+   },
+   {
+    "id": "120254711900590204",
+    "clave": "cb",
+    "cuenta": "ComboBiotina",
+    "campana": "dupli 1",
+    "anuncio": "5 -  Copia - Copia 4",
+    "estado": "PAUSED",
+    "gasto": 1.24,
+    "compras": 0,
+    "cpa": null
+   },
+   {
+    "id": "120254711903400204",
+    "clave": "cb",
+    "cuenta": "ComboBiotina",
+    "campana": "dupli 1",
+    "anuncio": "5 -  Copia - Copia 3",
+    "estado": "PAUSED",
+    "gasto": 4.02,
     "compras": 0,
     "cpa": null
    }
@@ -910,25 +910,25 @@
    "clave": "c1",
    "fecha": "2026-11-06",
    "compras": 3,
-   "gasto": 27.28
+   "gasto": 27.71
   },
   {
    "clave": "c2",
    "fecha": "2026-11-06",
    "compras": 4,
-   "gasto": 67.65
+   "gasto": 68.41
   },
   {
    "clave": "c3",
    "fecha": "2026-11-06",
    "compras": 3,
-   "gasto": 77.83
+   "gasto": 79.13
   },
   {
    "clave": "cb",
    "fecha": "2026-11-06",
    "compras": 0,
-   "gasto": 17.79
+   "gasto": 18.94
   }
  ],
  "videos": {
@@ -954,18 +954,18 @@
    "120250618383700753": "v5-6",
    "120250618383420753": "v5-4",
    "120250618383880753": "v5-3",
-   "120248072530150009": "v37",
-   "120248072360020009": "v28",
    "120248037488070009": "v5-6",
    "120248076126440009": "v5-6",
+   "120248072360020009": "v28",
+   "120248072530150009": "v37",
    "120250431945190149": "v5-2",
    "120250431945200149": "v5-4",
    "120250431945210149": "v5-6",
    "120250431945220149": "v5-3",
-   "120254711903400204": "v5-3",
    "120254711902310204": "v5-6",
+   "120254711902040204": "v5-2",
    "120254711900590204": "v5-4",
-   "120254711902040204": "v5-2"
+   "120254711903400204": "v5-3"
   }
  },
  "rechazados": [
