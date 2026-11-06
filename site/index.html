@@ -277,7 +277,8 @@
       <div><dt>Gasto</dt><dd>Lo que Meta cobró en el período elegido, en dólares.</dd></div>
       <div><dt>CPA</dt><dd>Costo por compra: el gasto dividido por las compras que Meta le atribuye al anuncio. En cada cuenta y en el total es el gasto sumado dividido por las compras sumadas.</dd></div>
       <div><dt>Colores</dt><dd>Verde, dentro del objetivo. Amarillo, un poco arriba. Rojo, lejos del objetivo.</dd></div>
-      <div><dt>Cada cuánto se actualiza</dt><dd>Los números se traen de Meta solos cada 30 minutos, más o menos. La página se refresca sola cada 5 minutos.</dd></div>
+      <div><dt>Cada cuánto se actualiza</dt><dd>Los números se traen de Meta cada vez que se pide una actualización. Arriba de todo dice cuándo fue la última. Si tenés la página abierta, se refresca sola cada 5 minutos.</dd></div>
+      <div><dt>Períodos</dt><dd>"7 días" y "30 días" no incluyen el día de hoy, igual que en el Administrador de anuncios de Meta. "Todo" sí lo incluye.</dd></div>
       <div><dt>Qué queda afuera</dt><dd>Los anuncios que no gastaron nada en el período no aparecen. Los que gastaron pero no tienen compras figuran sin CPA.</dd></div>
     </dl>
   </details>
@@ -362,17 +363,17 @@
       const hace = min < 1 ? 'recién' : min < 60 ? `hace ${min} min` : min < 1440 ? `hace ${Math.round(min / 60)} h` : `hace ${Math.round(min / 1440)} días`;
       const hora = t.toLocaleString('es-AR', { timeZone: 'America/Argentina/Buenos_Aires', day: '2-digit', month: '2-digit', hour: '2-digit', minute: '2-digit' });
       upd.textContent = `Actualizado ${hace} · ${hora}`;
-      if (min > 90) upd.classList.add('is-old');
+      if (min > 24 * 60) upd.classList.add('is-old');
     }
     const aviso = $('aviso');
     aviso.hidden = true;
     if (datos && datos.estado === 'sin_clave') {
-      $('avisoTxt').textContent = 'Todavía no está conectada la cuenta de Meta.';
-      $('avisoSub').textContent = 'Los números aparecen solos en cuanto se cargue la clave de Meta en GitHub.';
+      $('avisoTxt').textContent = 'Todavía no hay números cargados.';
+      $('avisoSub').textContent = 'Aparecen acá en cuanto se haga la primera actualización.';
       aviso.hidden = false;
     } else if (datos && datos.errores && datos.errores.length) {
       $('avisoTxt').textContent = 'No se pudieron leer algunas cuentas en la última actualización: ' + datos.errores.map((e) => e.cuenta || e.clave).join(', ') + '.';
-      $('avisoSub').textContent = 'Sus números no están sumados en el total. Se vuelve a intentar sola en unos minutos.';
+      $('avisoSub').textContent = 'Sus números no están sumados en el total.';
       aviso.hidden = false;
     }
   }
