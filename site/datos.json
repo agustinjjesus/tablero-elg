@@ -1,6 +1,7 @@
 {
  "estado": "ok",
- "actualizado": "2026-11-06T18:38:01+00:00",
+ "actualizado": "2026-11-06T18:41:07+00:00",
+ "hoy": "2026-11-06",
  "cuentas": [
   {
    "clave": "c1",
@@ -966,5 +967,79 @@
     "cpa": 5.12
    }
   ]
- }
+ },
+ "diario": [
+  {
+   "clave": "c3",
+   "fecha": "2026-11-03",
+   "compras": 0,
+   "gasto": 6.04
+  },
+  {
+   "clave": "c1",
+   "fecha": "2026-11-04",
+   "compras": 0,
+   "gasto": 21.34
+  },
+  {
+   "clave": "c2",
+   "fecha": "2026-11-04",
+   "compras": 3,
+   "gasto": 30.55
+  },
+  {
+   "clave": "c3",
+   "fecha": "2026-11-04",
+   "compras": 3,
+   "gasto": 54.33
+  },
+  {
+   "clave": "cb",
+   "fecha": "2026-11-04",
+   "compras": 5,
+   "gasto": 31.39
+  },
+  {
+   "clave": "c1",
+   "fecha": "2026-11-05",
+   "compras": 5,
+   "gasto": 144.44
+  },
+  {
+   "clave": "c2",
+   "fecha": "2026-11-05",
+   "compras": 10,
+   "gasto": 121.08
+  },
+  {
+   "clave": "c3",
+   "fecha": "2026-11-05",
+   "compras": 4,
+   "gasto": 123.44
+  },
+  {
+   "clave": "cb",
+   "fecha": "2026-11-05",
+   "compras": 2,
+   "gasto": 56.57
+  },
+  {
+   "clave": "c1",
+   "fecha": "2026-11-06",
+   "compras": 2,
+   "gasto": 21.46
+  },
+  {
+   "clave": "c2",
+   "fecha": "2026-11-06",
+   "compras": 2,
+   "gasto": 55.25
+  },
+  {
+   "clave": "c3",
+   "fecha": "2026-11-06",
+   "compras": 3,
+   "gasto": 76.09
+  }
+ ]
 }

@@ -2,10 +2,12 @@
 
 Uso: py scripts/armar_datos.py lectura.json
 
-lectura.json tiene, por período, la lista de anuncios con gasto:
-  {"actualizado": "2026-11-06T18:40:00Z",
-   "periodos": {"maximum": [["c1", "id", "anuncio", "campaña", "ACTIVE", 17.85, 1, 17.85], ...], ...}}
-Cada fila: clave de cuenta, id del anuncio, nombre, campaña, estado, gasto, compras, costo por compra (o null).
+lectura.json tiene, por período, la lista de anuncios con gasto, y los totales por día de cada cuenta:
+  {"actualizado": "2026-11-06T18:40:00Z", "hoy": "2026-11-06",
+   "periodos": {"maximum": [["c1", "id", "anuncio", "campaña", "ACTIVE", 17.85, 1, 17.85], ...], ...},
+   "diario": [["c1", "2026-11-05", 5, 144.44], ...]}
+Fila de anuncio: clave de cuenta, id, nombre, campaña, estado, gasto, compras, costo por compra (o null).
+Fila diaria: clave de cuenta, fecha, compras, gasto (de la cuenta entera, nivel cuenta con time_increment 1).
 """
 
 import json
@@ -39,16 +41,27 @@ def main():
                 "cpa": round(float(cpa), 2) if (cpa is not None and compras) else None,
             })
         periodos[p] = filas
+    # Totales por día de cada cuenta completa (incluyen anuncios borrados, que no salen en la lista por anuncio).
+    diario = []
+    for clave, fecha, compras, gasto in lectura.get("diario", []):
+        compras = int(compras or 0)
+        gasto = round(float(gasto or 0), 2)
+        if compras or gasto:
+            diario.append({"clave": clave, "fecha": fecha, "compras": compras, "gasto": gasto})
+    diario.sort(key=lambda r: (r["fecha"], r["clave"]))
     datos = {
         "estado": "ok",
         "actualizado": lectura["actualizado"],
+        "hoy": lectura.get("hoy"),
         "cuentas": [{"clave": c, "nombre": n} for c, n in NOMBRES.items()],
         "errores": lectura.get("errores", []),
         "periodos": periodos,
+        "diario": diario,
     }
     SALIDA.write_text(json.dumps(datos, ensure_ascii=False, indent=1), encoding="utf-8")
     resumen = {p: (len(f), round(sum(r["gasto"] for r in f), 2)) for p, f in periodos.items()}
     print("anuncios y gasto por período:", resumen)
+    print("días:", len(diario), "| compras:", sum(r["compras"] for r in diario), "| gasto:", round(sum(r["gasto"] for r in diario), 2))
 
 
 if __name__ == "__main__":

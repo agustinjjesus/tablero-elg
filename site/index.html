@@ -107,6 +107,43 @@
   .k-card-h h2 { margin: 0; font-family: var(--k-num); font-weight: 600; font-size: 22px; letter-spacing: 0.01em; }
   .k-card-h p { margin: 0; color: var(--k-muted); font-size: 14px; }
 
+  /* Contador de clientes */
+  .k-cl { position: relative; overflow: hidden; }
+  .k-cl::after { content: ""; position: absolute; inset: auto -20% -60% auto; width: 60%; height: 120%; background: radial-gradient(closest-side, rgba(47, 123, 255, 0.16), transparent); pointer-events: none; }
+  .k-cl-head { display: flex; flex-wrap: wrap; align-items: flex-start; justify-content: space-between; gap: 12px 20px; margin-bottom: 18px; }
+  .k-cl-head .k-card-h { margin-bottom: 0; }
+  .k-cl-body { position: relative; z-index: 1; display: grid; grid-template-columns: minmax(0, 15rem) minmax(0, 1fr); gap: 20px 32px; align-items: end; }
+  .k-cl-fig { display: grid; gap: 4px; align-content: end; min-width: 0; }
+  .k-counter {
+    font-family: var(--k-num); font-weight: 700; font-size: clamp(72px, 11vw, 120px); line-height: 0.88; color: var(--k-ice);
+    font-variant-numeric: tabular-nums; text-shadow: 0 0 34px rgba(47, 123, 255, 0.6);
+  }
+  .k-cl-unit { font: 600 12px/1.3 var(--k-mono); letter-spacing: 0.12em; text-transform: uppercase; color: var(--k-blue); }
+  .k-cl-sub { margin-top: 8px; color: var(--k-muted); font-size: 14px; font-variant-numeric: tabular-nums; }
+  .k-cl-sub b { color: var(--k-fg); font-weight: 600; }
+  .k-cl-sub .is-ok { color: var(--k-ok); }
+  .k-cl-sub .is-warn { color: var(--k-warn); }
+  .k-cl-sub .is-bad { color: var(--k-bad); }
+  .k-cl-chart { min-width: 0; min-height: 190px; }
+  .k-cols { display: flex; align-items: stretch; gap: 6px; height: 190px; }
+  .k-col {
+    appearance: none; border: 0; background: transparent; color: inherit; padding: 0; cursor: pointer;
+    flex: 1 1 0; min-width: 0; display: grid; grid-template-rows: 1fr auto; text-align: center; border-radius: 4px;
+  }
+  .k-col:hover .k-col-bar { background: rgba(47, 123, 255, 0.7); }
+  .k-col-v { font: 600 15px/18px var(--k-num); color: var(--k-muted); font-variant-numeric: tabular-nums; }
+  .k-col-w { display: flex; flex-direction: column; align-items: center; justify-content: flex-end; gap: 4px; min-height: 0; }
+  .k-col-bar { width: min(100%, 34px); min-height: 3px; height: 0; border-radius: 3px 3px 0 0; background: rgba(47, 123, 255, 0.4); }
+  .k-col-x { margin-top: 7px; font: 500 10px/1.2 var(--k-mono); color: var(--k-muted); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  .k-col[aria-pressed="true"] .k-col-bar { background: var(--k-blue); box-shadow: 0 0 18px rgba(47, 123, 255, 0.65); }
+  .k-col[aria-pressed="true"] .k-col-v, .k-col[aria-pressed="true"] .k-col-x { color: var(--k-fg); }
+  .k-cl-rows { display: grid; gap: 12px; }
+  .k-cl-row { display: grid; grid-template-columns: 7.5rem minmax(0, 1fr) 2.5rem; align-items: center; gap: 10px; font-size: 14px; }
+  .k-cl-row span:first-child { color: var(--k-muted); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  .k-cl-row b { font: 600 18px/1 var(--k-num); text-align: right; font-variant-numeric: tabular-nums; }
+  .k-cl-track { height: 10px; border-radius: 3px; background: var(--k-line); overflow: hidden; }
+  .k-cl-fill { height: 100%; width: 0; border-radius: 3px; background: var(--k-blue); }
+
   /* Regla de CPA */
   .k-ruler { position: relative; min-height: 150px; }
   .k-ruler svg { display: block; overflow: visible; }
@@ -184,11 +221,16 @@
     .k-fig + .k-fig { padding-left: 0; border-left: 0; border-top: 1px solid var(--k-line); }
     .k-fig { padding-right: 0; }
     .k-col-camp { display: none; }
+    .k-cl-body { grid-template-columns: minmax(0, 1fr); }
+    .k-cl-head .k-seg { width: 100%; }
+    .k-cols { gap: 3px; height: 160px; }
+    .k-col-x { font-size: 9px; }
     .k-seg { width: 100%; justify-content: space-between; }
     .k-seg-b { flex: 1; padding-inline: 4px; font-size: 11px; letter-spacing: 0.02em; }
   }
   @media (prefers-reduced-motion: no-preference) {
-    .k-row-f, .k-share-fill { transition: width 0.5s cubic-bezier(0.2, 0.7, 0.2, 1); }
+    .k-row-f, .k-share-fill, .k-cl-fill { transition: width 0.5s cubic-bezier(0.2, 0.7, 0.2, 1); }
+    .k-col-bar { transition: height 0.5s cubic-bezier(0.2, 0.7, 0.2, 1); }
   }
 </style>
 </head>
@@ -228,6 +270,29 @@
       <span class="k-label">Anuncio más barato por compra</span>
       <b class="k-mid" id="mejorCpa">—</b>
       <span class="k-best-name" id="mejorTxt">&nbsp;</span>
+    </div>
+  </section>
+
+  <section class="k-card k-cl" id="clientes">
+    <div class="k-cl-head">
+      <div class="k-card-h">
+        <h2>Clientes traídos por los anuncios</h2>
+        <p>Compras que Meta le atribuye a los anuncios de las cuatro cuentas. Tocá una barra para ver ese día o esa semana.</p>
+      </div>
+      <div class="k-seg" role="group" aria-label="Ver clientes">
+        <button type="button" class="k-seg-b k-vista" data-vista="dia" aria-pressed="true">Por día</button>
+        <button type="button" class="k-seg-b k-vista" data-vista="semana" aria-pressed="false">Por semana</button>
+        <button type="button" class="k-seg-b k-vista" data-vista="total" aria-pressed="false">Total</button>
+      </div>
+    </div>
+    <div class="k-cl-body">
+      <div class="k-cl-fig">
+        <span class="k-label" id="clLabel">&nbsp;</span>
+        <b class="k-counter" id="clNum">—</b>
+        <span class="k-cl-unit" id="clUnit">clientes</span>
+        <span class="k-cl-sub" id="clSub">&nbsp;</span>
+      </div>
+      <div class="k-cl-chart" id="clChart"></div>
     </div>
   </section>
 
@@ -274,12 +339,13 @@
   <details class="k-notes">
     <summary>Cómo se calcula</summary>
     <dl>
+      <div><dt>Clientes</dt><dd>Las compras que Meta le atribuye a los anuncios. Si una misma persona compra dos veces, cuenta dos.</dd></div>
       <div><dt>Gasto</dt><dd>Lo que Meta cobró en el período elegido, en dólares.</dd></div>
       <div><dt>CPA</dt><dd>Costo por compra: el gasto dividido por las compras que Meta le atribuye al anuncio. En cada cuenta y en el total es el gasto sumado dividido por las compras sumadas.</dd></div>
       <div><dt>Colores</dt><dd>Verde, dentro del objetivo. Amarillo, un poco arriba. Rojo, lejos del objetivo.</dd></div>
       <div><dt>Cada cuánto se actualiza</dt><dd>Los números se traen de Meta cada vez que se pide una actualización. Arriba de todo dice cuándo fue la última. Si tenés la página abierta, se refresca sola cada 5 minutos.</dd></div>
       <div><dt>Períodos</dt><dd>"7 días" y "30 días" no incluyen el día de hoy, igual que en el Administrador de anuncios de Meta. "Todo" sí lo incluye.</dd></div>
-      <div><dt>Qué queda afuera</dt><dd>Los anuncios que no gastaron nada en el período no aparecen. Los que gastaron pero no tienen compras figuran sin CPA.</dd></div>
+      <div><dt>Qué queda afuera</dt><dd>Los totales, las cuentas y el contador incluyen todo lo que gastó cada cuenta, también los anuncios borrados. Las listas por anuncio muestran solo los anuncios que siguen existiendo, así que pueden sumar menos. Los que gastaron pero no tienen compras figuran sin CPA.</dd></div>
     </dl>
   </details>
 </main>
@@ -325,6 +391,21 @@
   $('objMin').textContent = String(OBJ_MIN);
   $('objMax').textContent = String(OBJ_MAX);
 
+  const DIA = 864e5;
+  const aFecha = (s) => new Date(s + 'T00:00:00Z');
+  const aTexto = (d) => d.toISOString().slice(0, 10);
+  const diasEntre = (a, b) => Math.round((aFecha(b) - aFecha(a)) / DIA);
+  function enPeriodo(fecha, p, hoy) {
+    const d = diasEntre(fecha, hoy);
+    if (p === 'today') return d === 0;
+    if (p === 'yesterday') return d === 1;
+    if (p === 'last_7d') return d >= 1 && d <= 7;
+    if (p === 'last_30d') return d >= 1 && d <= 30;
+    return d >= 0;
+  }
+  const DIAS_SEM = ['dom', 'lun', 'mar', 'mié', 'jue', 'vie', 'sáb'];
+  const MESES = ['ene', 'feb', 'mar', 'abr', 'may', 'jun', 'jul', 'ago', 'sep', 'oct', 'nov', 'dic'];
+
   function calcular() {
     const cuentas = (datos && datos.cuentas && datos.cuentas.length ? datos.cuentas : CUENTAS_BASE);
     const filas = ((datos && datos.periodos && datos.periodos[periodo]) || []).map((r) => ({
@@ -335,22 +416,27 @@
       estadoTxt: ESTADOS[r.estado] || r.estado || '—',
     }));
     const anuncios = filas.filter((r) => r.gasto > 0);
-    const totalGasto = anuncios.reduce((s, r) => s + r.gasto, 0);
+    // Los totales salen de los números diarios de cada cuenta completa, que incluyen anuncios borrados.
+    // Si no hay números diarios, se suman los anuncios de la lista.
+    const base = datos && datos.diario && datos.hoy
+      ? datos.diario.filter((r) => enPeriodo(r.fecha, periodo, datos.hoy))
+      : anuncios;
+    const totalGasto = base.reduce((s, r) => s + (Number(r.gasto) || 0), 0);
     const porCuenta = cuentas.map((c) => {
-      const f = anuncios.filter((r) => r.clave === c.clave);
-      const gasto = Math.round(f.reduce((s, r) => s + r.gasto, 0) * 100) / 100;
-      const compras = f.reduce((s, r) => s + r.compras, 0);
+      const f = base.filter((r) => r.clave === c.clave);
+      const gasto = Math.round(f.reduce((s, r) => s + (Number(r.gasto) || 0), 0) * 100) / 100;
+      const compras = f.reduce((s, r) => s + (Number(r.compras) || 0), 0);
       return { ...c, gasto, compras, cpa: compras ? Math.round((gasto / compras) * 100) / 100 : null, parte: totalGasto ? gasto / totalGasto : 0 };
     });
     const gasto = Math.round(totalGasto * 100) / 100;
-    const compras = anuncios.reduce((s, r) => s + r.compras, 0);
+    const compras = base.reduce((s, r) => s + (Number(r.compras) || 0), 0);
     const total = { gasto, compras, cpa: compras ? Math.round((gasto / compras) * 100) / 100 : null };
     const conCompras = anuncios.filter((r) => r.compras > 0 && r.cpa != null).sort((a, b) => a.cpa - b.cpa);
     return { anuncios, porCuenta, total, mejor: conCompras[0] || null, conCompras };
   }
 
   function dibujarCabecera() {
-    document.querySelectorAll('.k-seg-b').forEach((b) => b.setAttribute('aria-pressed', String(b.dataset.periodo === periodo)));
+    document.querySelectorAll('.k-seg-b[data-periodo]').forEach((b) => b.setAttribute('aria-pressed', String(b.dataset.periodo === periodo)));
     $('periodoTxt').textContent = PERIODOS[periodo];
     const upd = $('upd');
     upd.classList.remove('is-old', 'is-none');
@@ -500,7 +586,7 @@
       const color = COLOR[banda(d.cpa)];
       const g = add('g', {});
       const stem = add('line', { x1: cx, x2: cx, y2: AXIS - 6, stroke: color, 'stroke-opacity': 0.55 }, g);
-      const lbl = texto(`${d.nombre.toUpperCase()} ${nf.format(d.cpa)}`, { fill: '#e8eef8', 'font-size': 11, 'font-weight': 600 }, g);
+      const lbl = texto(`${d.nombre.toUpperCase()} ${nf.format(d.cpa)}`, { fill: '#e8eef8', 'font-size': 11, 'font-weight': 600, stroke: '#0a0f19', 'stroke-width': 4, 'paint-order': 'stroke', 'stroke-linejoin': 'round' }, g);
       const w = lbl.getComputedTextLength();
       const lx = Math.min(W - mr - w, Math.max(ml, cx - w / 2));
       let lane = ends.findIndex((e) => lx > e + 8);
@@ -596,6 +682,149 @@
     });
   }
 
+  // Contador de clientes: por día, por semana o total, con los números diarios de cada cuenta.
+  let vista = 'dia';
+  let selCl = null;
+  let mostrado = 0;
+  const sinMovimiento = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  const DIAS_LARGO = ['domingo', 'lunes', 'martes', 'miércoles', 'jueves', 'viernes', 'sábado'];
+  const sumar = (filas, k) => filas.reduce((s, r) => s + (Number(r[k]) || 0), 0);
+
+  function contar(node, hasta) {
+    const desde = mostrado;
+    mostrado = hasta;
+    if (sinMovimiento || desde === hasta) { node.textContent = String(hasta); return; }
+    const t0 = performance.now();
+    const paso = (t) => {
+      const k = Math.min(1, (t - t0) / 650);
+      node.textContent = String(Math.round(desde + (hasta - desde) * (1 - Math.pow(1 - k, 3))));
+      if (k < 1 && mostrado === hasta) requestAnimationFrame(paso);
+    };
+    requestAnimationFrame(paso);
+  }
+
+  function cubetas() {
+    const diario = (datos && datos.diario) || [];
+    const hoy = datos && datos.hoy;
+    if (!hoy || !diario.length) return null;
+    const primera = diario.reduce((m, r) => (r.fecha < m ? r.fecha : m), hoy);
+    const dias = [];
+    for (let t = aFecha(primera).getTime(); t <= aFecha(hoy).getTime(); t += DIA) {
+      const d = new Date(t);
+      const f = aTexto(d);
+      const filas = diario.filter((r) => r.fecha === f);
+      const atras = diasEntre(f, hoy);
+      dias.push({
+        clave: f,
+        compras: sumar(filas, 'compras'),
+        gasto: Math.round(sumar(filas, 'gasto') * 100) / 100,
+        x: `${DIAS_SEM[d.getUTCDay()]} ${d.getUTCDate()}`,
+        titulo: atras === 0 ? 'Hoy' : atras === 1 ? 'Ayer' : `${DIAS_LARGO[d.getUTCDay()]} ${d.getUTCDate()}/${d.getUTCMonth() + 1}`,
+      });
+    }
+    const lunesDe = (f) => {
+      const d = aFecha(f);
+      return aTexto(new Date(d.getTime() - ((d.getUTCDay() + 6) % 7) * DIA));
+    };
+    const lunesHoy = lunesDe(hoy);
+    const semanas = [];
+    dias.forEach((d) => {
+      const k = lunesDe(d.clave);
+      let s = semanas.find((x) => x.clave === k);
+      if (!s) {
+        const lun = aFecha(k);
+        const dom = new Date(lun.getTime() + 6 * DIA);
+        const x = lun.getUTCMonth() === dom.getUTCMonth()
+          ? `${lun.getUTCDate()}–${dom.getUTCDate()} ${MESES[dom.getUTCMonth()]}`
+          : `${lun.getUTCDate()} ${MESES[lun.getUTCMonth()]}–${dom.getUTCDate()} ${MESES[dom.getUTCMonth()]}`;
+        const atras = Math.round(diasEntre(k, lunesHoy) / 7);
+        s = { clave: k, compras: 0, gasto: 0, x, titulo: atras === 0 ? 'Esta semana' : atras === 1 ? 'Semana pasada' : `Semana del ${x}` };
+        semanas.push(s);
+      }
+      s.compras += d.compras;
+      s.gasto = Math.round((s.gasto + d.gasto) * 100) / 100;
+    });
+    const cuentas = (datos.cuentas && datos.cuentas.length ? datos.cuentas : CUENTAS_BASE).map((c) => {
+      const f = diario.filter((r) => r.clave === c.clave);
+      return { ...c, compras: sumar(f, 'compras'), gasto: Math.round(sumar(f, 'gasto') * 100) / 100 };
+    });
+    const total = { compras: sumar(diario, 'compras'), gasto: Math.round(sumar(diario, 'gasto') * 100) / 100, dias: dias.length };
+    return { dias, semanas, cuentas, total };
+  }
+
+  function ponerFigura(titulo, compras, gasto) {
+    $('clLabel').textContent = titulo;
+    contar($('clNum'), compras);
+    $('clUnit').textContent = compras === 1 ? 'cliente' : 'clientes';
+    const sub = $('clSub');
+    sub.replaceChildren(el('b', null, usd(gasto)), document.createTextNode(' gastados'));
+    if (compras) {
+      const cpa = Math.round((gasto / compras) * 100) / 100;
+      sub.append(document.createTextNode(' · CPA '), el('b', banda(cpa), usd(cpa)));
+    }
+  }
+
+  function dibujarClientes() {
+    document.querySelectorAll('.k-vista').forEach((b) => b.setAttribute('aria-pressed', String(b.dataset.vista === vista)));
+    const box = $('clChart');
+    box.replaceChildren();
+    const cb = cubetas();
+    if (!cb) {
+      mostrado = 0;
+      $('clNum').textContent = '—';
+      $('clLabel').textContent = ' ';
+      $('clSub').textContent = datos && datos.periodos ? 'Todavía no hay números por día.' : ' ';
+      return;
+    }
+    if (vista === 'total') {
+      ponerFigura(`Desde el inicio · ${cb.total.dias} ${cb.total.dias === 1 ? 'día' : 'días'}`, cb.total.compras, cb.total.gasto);
+      const max = Math.max(1, ...cb.cuentas.map((c) => c.compras));
+      const rows = el('div', 'k-cl-rows');
+      cb.cuentas.forEach((c) => {
+        const r = el('div', 'k-cl-row');
+        const tr = el('div', 'k-cl-track');
+        const f = el('div', 'k-cl-fill');
+        tr.append(f);
+        r.append(el('span', null, c.nombre), tr, el('b', null, String(c.compras)));
+        rows.append(r);
+        requestAnimationFrame(() => { f.style.width = (c.compras / max) * 100 + '%'; });
+      });
+      box.append(rows);
+      return;
+    }
+    const lista = vista === 'dia' ? cb.dias.slice(-14) : cb.semanas.slice(-8);
+    const elegido = lista.find((x) => x.clave === selCl) || lista[lista.length - 1];
+    selCl = elegido.clave;
+    ponerFigura(elegido.titulo, elegido.compras, elegido.gasto);
+    const max = Math.max(1, ...lista.map((x) => x.compras));
+    const cols = el('div', 'k-cols');
+    lista.forEach((x) => {
+      const b = el('button', 'k-col');
+      b.type = 'button';
+      b.setAttribute('aria-pressed', String(x.clave === selCl));
+      b.setAttribute('aria-label', `${x.titulo}: ${x.compras} clientes`);
+      const w = el('div', 'k-col-w');
+      const bar = el('div', 'k-col-bar');
+      w.append(el('span', 'k-col-v', String(x.compras)), bar);
+      b.append(w, el('span', 'k-col-x', x.x));
+      b.addEventListener('click', () => {
+        selCl = x.clave;
+        cols.querySelectorAll('.k-col').forEach((n) => n.setAttribute('aria-pressed', String(n === b)));
+        ponerFigura(x.titulo, x.compras, x.gasto);
+      });
+      cols.append(b);
+      requestAnimationFrame(() => { bar.style.height = `calc((100% - 22px) * ${x.compras / max})`; });
+    });
+    box.append(cols);
+  }
+
+  document.querySelectorAll('.k-vista').forEach((b) => b.addEventListener('click', () => {
+    if (vista === b.dataset.vista) return;
+    vista = b.dataset.vista;
+    selCl = null;
+    dibujarClientes();
+  }));
+
   function dibujar() {
     const c = calcular();
     dibujarCabecera();
@@ -619,9 +848,10 @@
       }
     }
     dibujar();
+    dibujarClientes();
   }
 
-  document.querySelectorAll('.k-seg-b').forEach((b) => b.addEventListener('click', () => {
+  document.querySelectorAll('.k-seg-b[data-periodo]').forEach((b) => b.addEventListener('click', () => {
     periodo = b.dataset.periodo;
     try { localStorage.setItem('elg-periodo', periodo); } catch (e) { /* sin almacenamiento */ }
     dibujar();
