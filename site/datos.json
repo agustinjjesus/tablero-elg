@@ -1,6 +1,6 @@
 {
  "estado": "ok",
- "actualizado": "2026-11-07T16:45:00+00:00",
+ "actualizado": "2026-11-07T17:02:19+00:00",
  "hoy": "2026-11-07",
  "inicio": "2026-11-05",
  "cuentas": [
@@ -42,9 +42,9 @@
     "campana": "26 - 27 - 33",
     "anuncio": "26. Jubilada",
     "estado": "ACTIVE",
-    "gasto": 21.28,
+    "gasto": 21.87,
     "compras": 2,
-    "cpa": 10.64
+    "cpa": 10.94
    },
    {
     "id": "120250476582600149",
@@ -53,7 +53,7 @@
     "campana": "dupli 1",
     "anuncio": "42. Audio amiga",
     "estado": "ACTIVE",
-    "gasto": 0.03,
+    "gasto": 0.15,
     "compras": 0,
     "cpa": null
    },
@@ -64,9 +64,9 @@
     "campana": "dupli 1",
     "anuncio": "32. Balcón",
     "estado": "ACTIVE",
-    "gasto": 39.27,
+    "gasto": 41.14,
     "compras": 2,
-    "cpa": 19.64
+    "cpa": 20.57
    }
   ],
   "yesterday": [
@@ -380,9 +380,9 @@
     "campana": "26 - 27 - 33",
     "anuncio": "26. Jubilada",
     "estado": "ACTIVE",
-    "gasto": 60.97,
+    "gasto": 61.56,
     "compras": 7,
-    "cpa": 8.71
+    "cpa": 8.79
    },
    {
     "id": "120250618383700753",
@@ -446,7 +446,7 @@
     "campana": "dupli 1",
     "anuncio": "42. Audio amiga",
     "estado": "ACTIVE",
-    "gasto": 0.03,
+    "gasto": 0.15,
     "compras": 0,
     "cpa": null
    },
@@ -457,9 +457,9 @@
     "campana": "dupli 1",
     "anuncio": "32. Balcón",
     "estado": "ACTIVE",
-    "gasto": 74.32,
+    "gasto": 76.19,
     "compras": 5,
-    "cpa": 14.86
+    "cpa": 15.24
    },
    {
     "id": "120254711903400204",
@@ -549,7 +549,7 @@
    "clave": "c1",
    "fecha": "2026-11-07",
    "compras": 2,
-   "gasto": 21.3
+   "gasto": 22.1
   },
   {
    "clave": "c2",
@@ -561,7 +561,7 @@
    "clave": "c3",
    "fecha": "2026-11-07",
    "compras": 3,
-   "gasto": 39.3
+   "gasto": 41.29
   }
  ],
  "videos": {
