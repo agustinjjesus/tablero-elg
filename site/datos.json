@@ -1,6 +1,6 @@
 {
  "estado": "ok",
- "actualizado": "2026-11-07T18:04:58+00:00",
+ "actualizado": "2026-11-07T18:34:44+00:00",
  "hoy": "2026-11-07",
  "inicio": "2026-11-05",
  "cuentas": [
@@ -42,9 +42,20 @@
     "campana": "26 - 27 - 33",
     "anuncio": "26. Jubilada",
     "estado": "ACTIVE",
-    "gasto": 24.07,
+    "gasto": 25.38,
     "compras": 3,
-    "cpa": 8.02
+    "cpa": 8.46
+   },
+   {
+    "id": "120248088693620009",
+    "clave": "c2",
+    "cuenta": "Cuenta 2",
+    "campana": "28 - 32 - 37",
+    "anuncio": "45. Matrimonio living",
+    "estado": "ACTIVE",
+    "gasto": 0.01,
+    "compras": 0,
+    "cpa": null
    },
    {
     "id": "120250476582600149",
@@ -53,7 +64,7 @@
     "campana": "dupli 1",
     "anuncio": "42. Audio amiga",
     "estado": "ACTIVE",
-    "gasto": 0.55,
+    "gasto": 1.2,
     "compras": 0,
     "cpa": null
    },
@@ -64,7 +75,7 @@
     "campana": "dupli 1",
     "anuncio": "41. Perro plaza",
     "estado": "ACTIVE",
-    "gasto": 0.1,
+    "gasto": 0.29,
     "compras": 0,
     "cpa": null
    },
@@ -75,9 +86,9 @@
     "campana": "dupli 1",
     "anuncio": "32. Balcón",
     "estado": "PAUSED",
-    "gasto": 44.33,
+    "gasto": 44.97,
     "compras": 2,
-    "cpa": 22.17
+    "cpa": 22.49
    },
    {
     "id": "120254765847740204",
@@ -86,7 +97,7 @@
     "campana": "dupli 1",
     "anuncio": "37. Vecino",
     "estado": "ACTIVE",
-    "gasto": 0.2,
+    "gasto": 0.62,
     "compras": 0,
     "cpa": null
    },
@@ -97,7 +108,7 @@
     "campana": "dupli 1",
     "anuncio": "33. Cinco minutitos",
     "estado": "ACTIVE",
-    "gasto": 0.65,
+    "gasto": 1.88,
     "compras": 0,
     "cpa": null
    },
@@ -108,7 +119,7 @@
     "campana": "dupli 1",
     "anuncio": "38. Hermanas",
     "estado": "ACTIVE",
-    "gasto": 0.2,
+    "gasto": 0.8,
     "compras": 0,
     "cpa": null
    }
@@ -424,9 +435,9 @@
     "campana": "26 - 27 - 33",
     "anuncio": "26. Jubilada",
     "estado": "ACTIVE",
-    "gasto": 63.78,
+    "gasto": 65.09,
     "compras": 8,
-    "cpa": 7.97
+    "cpa": 8.14
    },
    {
     "id": "120250618383700753",
@@ -473,6 +484,17 @@
     "cpa": 20.72
    },
    {
+    "id": "120248088693620009",
+    "clave": "c2",
+    "cuenta": "Cuenta 2",
+    "campana": "28 - 32 - 37",
+    "anuncio": "45. Matrimonio living",
+    "estado": "ACTIVE",
+    "gasto": 0.01,
+    "compras": 0,
+    "cpa": null
+   },
+   {
     "id": "120248076126440009",
     "clave": "c2",
     "cuenta": "Cuenta 2",
@@ -490,7 +512,7 @@
     "campana": "dupli 1",
     "anuncio": "42. Audio amiga",
     "estado": "ACTIVE",
-    "gasto": 0.55,
+    "gasto": 1.2,
     "compras": 0,
     "cpa": null
    },
@@ -501,7 +523,7 @@
     "campana": "dupli 1",
     "anuncio": "41. Perro plaza",
     "estado": "ACTIVE",
-    "gasto": 0.1,
+    "gasto": 0.29,
     "compras": 0,
     "cpa": null
    },
@@ -512,9 +534,9 @@
     "campana": "dupli 1",
     "anuncio": "32. Balcón",
     "estado": "PAUSED",
-    "gasto": 79.38,
+    "gasto": 80.02,
     "compras": 5,
-    "cpa": 15.88
+    "cpa": 16.0
    },
    {
     "id": "120254765847740204",
@@ -523,7 +545,7 @@
     "campana": "dupli 1",
     "anuncio": "37. Vecino",
     "estado": "ACTIVE",
-    "gasto": 0.2,
+    "gasto": 0.62,
     "compras": 0,
     "cpa": null
    },
@@ -534,7 +556,7 @@
     "campana": "dupli 1",
     "anuncio": "33. Cinco minutitos",
     "estado": "ACTIVE",
-    "gasto": 0.65,
+    "gasto": 1.88,
     "compras": 0,
     "cpa": null
    },
@@ -545,7 +567,7 @@
     "campana": "dupli 1",
     "anuncio": "38. Hermanas",
     "estado": "ACTIVE",
-    "gasto": 0.2,
+    "gasto": 0.8,
     "compras": 0,
     "cpa": null
    },
@@ -637,25 +659,25 @@
    "clave": "c1",
    "fecha": "2026-11-07",
    "compras": 3,
-   "gasto": 24.09
+   "gasto": 25.4
   },
   {
    "clave": "c2",
    "fecha": "2026-11-07",
    "compras": 1,
-   "gasto": 0.0
+   "gasto": 0.01
   },
   {
    "clave": "c3",
    "fecha": "2026-11-07",
    "compras": 3,
-   "gasto": 44.98
+   "gasto": 46.46
   },
   {
    "clave": "cb",
    "fecha": "2026-11-07",
    "compras": 0,
-   "gasto": 1.05
+   "gasto": 3.3
   }
  ],
  "videos": {
@@ -684,7 +706,8 @@
    "vid-2585270115275432": "41. Perro plaza",
    "vid-1472479671464936": "37. Vecino",
    "vid-1751518162580766": "33. Cinco minutitos",
-   "vid-1161770703093203": "38. Hermanas"
+   "vid-1161770703093203": "38. Hermanas",
+   "vid-2311278362973029": "45. Matrimonio living"
   },
   "anuncios": {
    "120250652570230753": "vid-991127800704808",
@@ -693,6 +716,7 @@
    "120250622169660753": "v29",
    "120250618383420753": "v29",
    "120250622169680753": "v27",
+   "120248088693620009": "vid-2311278362973029",
    "120248076126440009": "v27",
    "120250476582600149": "vid-1644274337150468",
    "120250476577390149": "vid-2585270115275432",
