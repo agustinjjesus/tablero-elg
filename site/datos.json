@@ -1,6 +1,6 @@
 {
  "estado": "ok",
- "actualizado": "2026-11-07T19:04:25+00:00",
+ "actualizado": "2026-11-07T19:33:33+00:00",
  "hoy": "2026-11-07",
  "inicio": "2026-11-05",
  "cuentas": [
@@ -31,7 +31,7 @@
     "campana": "26 - 27 - 33",
     "anuncio": "44. Vecina",
     "estado": "ACTIVE",
-    "gasto": 0.02,
+    "gasto": 0.03,
     "compras": 0,
     "cpa": null
    },
@@ -42,9 +42,9 @@
     "campana": "26 - 27 - 33",
     "anuncio": "26. Jubilada",
     "estado": "ACTIVE",
-    "gasto": 26.33,
+    "gasto": 26.99,
     "compras": 3,
-    "cpa": 8.78
+    "cpa": 9.0
    },
    {
     "id": "120248088693620009",
@@ -53,7 +53,7 @@
     "campana": "28 - 32 - 37",
     "anuncio": "45. Matrimonio living",
     "estado": "ACTIVE",
-    "gasto": 0.02,
+    "gasto": 0.1,
     "compras": 0,
     "cpa": null
    },
@@ -64,7 +64,7 @@
     "campana": "dupli 1",
     "anuncio": "42. Audio amiga",
     "estado": "ACTIVE",
-    "gasto": 2.34,
+    "gasto": 2.55,
     "compras": 0,
     "cpa": null
    },
@@ -75,7 +75,7 @@
     "campana": "dupli 1",
     "anuncio": "41. Perro plaza",
     "estado": "ACTIVE",
-    "gasto": 0.51,
+    "gasto": 0.65,
     "compras": 0,
     "cpa": null
    },
@@ -86,9 +86,9 @@
     "campana": "dupli 1",
     "anuncio": "32. Balcón",
     "estado": "PAUSED",
-    "gasto": 45.21,
+    "gasto": 45.34,
     "compras": 2,
-    "cpa": 22.61
+    "cpa": 22.67
    },
    {
     "id": "120254765847740204",
@@ -97,7 +97,7 @@
     "campana": "dupli 1",
     "anuncio": "37. Vecino",
     "estado": "ACTIVE",
-    "gasto": 1.34,
+    "gasto": 1.81,
     "compras": 0,
     "cpa": null
    },
@@ -108,7 +108,7 @@
     "campana": "dupli 1",
     "anuncio": "33. Cinco minutitos",
     "estado": "ACTIVE",
-    "gasto": 3.59,
+    "gasto": 5.13,
     "compras": 0,
     "cpa": null
    },
@@ -119,7 +119,7 @@
     "campana": "dupli 1",
     "anuncio": "38. Hermanas",
     "estado": "ACTIVE",
-    "gasto": 1.52,
+    "gasto": 2.55,
     "compras": 0,
     "cpa": null
    }
@@ -132,9 +132,9 @@
     "campana": "26 - 27 - 33",
     "anuncio": "26. Jubilada",
     "estado": "ACTIVE",
-    "gasto": 39.72,
+    "gasto": 39.76,
     "compras": 5,
-    "cpa": 7.94
+    "cpa": 7.95
    },
    {
     "id": "120248076126440009",
@@ -200,9 +200,9 @@
     "campana": "26 - 27 - 33",
     "anuncio": "26. Jubilada",
     "estado": "ACTIVE",
-    "gasto": 39.72,
+    "gasto": 39.76,
     "compras": 5,
-    "cpa": 7.94
+    "cpa": 7.95
    },
    {
     "id": "120250618383700753",
@@ -306,125 +306,13 @@
   ],
   "last_30d": [
    {
-    "id": "120250643506460753",
-    "clave": "c1",
-    "cuenta": "Cuenta 1",
-    "campana": "26 - 27 - 33",
-    "anuncio": "26. Jubilada",
-    "estado": "ACTIVE",
-    "gasto": 39.72,
-    "compras": 5,
-    "cpa": 7.94
-   },
-   {
-    "id": "120250618383700753",
-    "clave": "c1",
-    "cuenta": "Cuenta 1",
-    "campana": "dupli 1",
-    "anuncio": "27. Balcón",
-    "estado": "CAMPAIGN_PAUSED",
-    "gasto": 34.81,
-    "compras": 3,
-    "cpa": 11.6
-   },
-   {
-    "id": "120250622169660753",
-    "clave": "c1",
-    "cuenta": "Cuenta 1",
-    "campana": "dupli 1 - Copia",
-    "anuncio": "29. Tren Tigre",
-    "estado": "CAMPAIGN_PAUSED",
-    "gasto": 5.86,
-    "compras": 0,
-    "cpa": null
-   },
-   {
-    "id": "120250618383420753",
-    "clave": "c1",
-    "cuenta": "Cuenta 1",
-    "campana": "dupli 1",
-    "anuncio": "29. Tren Tigre",
-    "estado": "CAMPAIGN_PAUSED",
-    "gasto": 2.37,
-    "compras": 0,
-    "cpa": null
-   },
-   {
-    "id": "120250622169680753",
-    "clave": "c1",
-    "cuenta": "Cuenta 1",
-    "campana": "dupli 1 - Copia",
-    "anuncio": "27. Balcón",
-    "estado": "CAMPAIGN_PAUSED",
-    "gasto": 41.44,
-    "compras": 2,
-    "cpa": 20.72
-   },
-   {
-    "id": "120248076126440009",
-    "clave": "c2",
-    "cuenta": "Cuenta 2",
-    "campana": "ESCALA 1",
-    "anuncio": "27. Balcón",
-    "estado": "ADSET_PAUSED",
-    "gasto": 1.8,
-    "compras": 0,
-    "cpa": null
-   },
-   {
-    "id": "120250431945190149",
-    "clave": "c3",
-    "cuenta": "Cuenta 3",
-    "campana": "dupli 1",
-    "anuncio": "32. Balcón",
-    "estado": "PAUSED",
-    "gasto": 35.05,
-    "compras": 3,
-    "cpa": 11.68
-   },
-   {
-    "id": "120254711903400204",
-    "clave": "cb",
-    "cuenta": "ComboBiotina",
-    "campana": "dupli 1",
-    "anuncio": "30. Enfermera",
-    "estado": "PAUSED",
-    "gasto": 4.23,
-    "compras": 0,
-    "cpa": null
-   },
-   {
-    "id": "120254711900590204",
-    "clave": "cb",
-    "cuenta": "ComboBiotina",
-    "campana": "dupli 1",
-    "anuncio": "29. Tren Tigre",
-    "estado": "PAUSED",
-    "gasto": 1.26,
-    "compras": 0,
-    "cpa": null
-   },
-   {
-    "id": "120254711902040204",
-    "clave": "cb",
-    "cuenta": "ComboBiotina",
-    "campana": "dupli 1",
-    "anuncio": "32. Balcón",
-    "estado": "PAUSED",
-    "gasto": 4.62,
-    "compras": 0,
-    "cpa": null
-   }
-  ],
-  "maximum": [
-   {
     "id": "120250652570230753",
     "clave": "c1",
     "cuenta": "Cuenta 1",
     "campana": "26 - 27 - 33",
     "anuncio": "44. Vecina",
     "estado": "ACTIVE",
-    "gasto": 0.02,
+    "gasto": 0.03,
     "compras": 0,
     "cpa": null
    },
@@ -435,9 +323,9 @@
     "campana": "26 - 27 - 33",
     "anuncio": "26. Jubilada",
     "estado": "ACTIVE",
-    "gasto": 66.05,
+    "gasto": 66.75,
     "compras": 8,
-    "cpa": 8.26
+    "cpa": 8.34
    },
    {
     "id": "120250618383700753",
@@ -490,7 +378,7 @@
     "campana": "28 - 32 - 37",
     "anuncio": "45. Matrimonio living",
     "estado": "ACTIVE",
-    "gasto": 0.02,
+    "gasto": 0.1,
     "compras": 0,
     "cpa": null
    },
@@ -512,7 +400,7 @@
     "campana": "dupli 1",
     "anuncio": "42. Audio amiga",
     "estado": "ACTIVE",
-    "gasto": 2.34,
+    "gasto": 2.55,
     "compras": 0,
     "cpa": null
    },
@@ -523,7 +411,7 @@
     "campana": "dupli 1",
     "anuncio": "41. Perro plaza",
     "estado": "ACTIVE",
-    "gasto": 0.51,
+    "gasto": 0.65,
     "compras": 0,
     "cpa": null
    },
@@ -534,9 +422,9 @@
     "campana": "dupli 1",
     "anuncio": "32. Balcón",
     "estado": "PAUSED",
-    "gasto": 80.26,
+    "gasto": 80.39,
     "compras": 5,
-    "cpa": 16.05
+    "cpa": 16.08
    },
    {
     "id": "120254765847740204",
@@ -545,7 +433,7 @@
     "campana": "dupli 1",
     "anuncio": "37. Vecino",
     "estado": "ACTIVE",
-    "gasto": 1.34,
+    "gasto": 1.81,
     "compras": 0,
     "cpa": null
    },
@@ -556,7 +444,7 @@
     "campana": "dupli 1",
     "anuncio": "33. Cinco minutitos",
     "estado": "ACTIVE",
-    "gasto": 3.59,
+    "gasto": 5.13,
     "compras": 0,
     "cpa": null
    },
@@ -567,7 +455,7 @@
     "campana": "dupli 1",
     "anuncio": "38. Hermanas",
     "estado": "ACTIVE",
-    "gasto": 1.52,
+    "gasto": 2.55,
     "compras": 0,
     "cpa": null
    },
@@ -604,7 +492,8 @@
     "compras": 0,
     "cpa": null
    }
-  ]
+  ],
+  "maximum": []
  },
  "diario": [
   {
@@ -659,25 +548,25 @@
    "clave": "c1",
    "fecha": "2026-11-07",
    "compras": 3,
-   "gasto": 26.43
+   "gasto": 27.02
   },
   {
    "clave": "c2",
    "fecha": "2026-11-07",
    "compras": 1,
-   "gasto": 0.02
+   "gasto": 0.1
   },
   {
    "clave": "c3",
    "fecha": "2026-11-07",
    "compras": 3,
-   "gasto": 48.06
+   "gasto": 48.54
   },
   {
    "clave": "cb",
    "fecha": "2026-11-07",
-   "compras": 0,
-   "gasto": 6.45
+   "compras": 1,
+   "gasto": 9.49
   }
  ],
  "videos": {
