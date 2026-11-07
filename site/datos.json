@@ -1,6 +1,6 @@
 {
  "estado": "ok",
- "actualizado": "2026-11-07T04:32:29+00:00",
+ "actualizado": "2026-11-07T14:07:41+00:00",
  "hoy": "2026-11-07",
  "inicio": "2026-11-05",
  "cuentas": [
@@ -31,9 +31,9 @@
     "campana": "26 - 27 - 33",
     "anuncio": "26. Jubilada",
     "estado": "ACTIVE",
-    "gasto": 3.53,
-    "compras": 0,
-    "cpa": null
+    "gasto": 15.49,
+    "compras": 2,
+    "cpa": 7.75
    },
    {
     "id": "120250431945190149",
@@ -42,9 +42,9 @@
     "campana": "dupli 1",
     "anuncio": "32. Balcón",
     "estado": "ACTIVE",
-    "gasto": 4.92,
-    "compras": 0,
-    "cpa": null
+    "gasto": 26.75,
+    "compras": 2,
+    "cpa": 13.38
    }
   ],
   "yesterday": [
@@ -55,9 +55,9 @@
     "campana": "26 - 27 - 33",
     "anuncio": "26. Jubilada",
     "estado": "ACTIVE",
-    "gasto": 38.9,
+    "gasto": 39.6,
     "compras": 5,
-    "cpa": 7.78
+    "cpa": 7.92
    },
    {
     "id": "120248076126440009",
@@ -77,9 +77,9 @@
     "campana": "dupli 1",
     "anuncio": "32. Balcón",
     "estado": "ACTIVE",
-    "gasto": 27.95,
+    "gasto": 30.17,
     "compras": 2,
-    "cpa": 13.98
+    "cpa": 15.09
    },
    {
     "id": "120254711903400204",
@@ -88,7 +88,7 @@
     "campana": "dupli 1",
     "anuncio": "30. Enfermera",
     "estado": "PAUSED",
-    "gasto": 2.29,
+    "gasto": 2.32,
     "compras": 0,
     "cpa": null
    },
@@ -123,9 +123,9 @@
     "campana": "26 - 27 - 33",
     "anuncio": "26. Jubilada",
     "estado": "ACTIVE",
-    "gasto": 38.9,
+    "gasto": 39.6,
     "compras": 5,
-    "cpa": 7.78
+    "cpa": 7.92
    },
    {
     "id": "120250618383700753",
@@ -189,9 +189,9 @@
     "campana": "dupli 1",
     "anuncio": "32. Balcón",
     "estado": "ACTIVE",
-    "gasto": 32.75,
+    "gasto": 34.97,
     "compras": 3,
-    "cpa": 10.92
+    "cpa": 11.66
    },
    {
     "id": "120254711903400204",
@@ -200,7 +200,7 @@
     "campana": "dupli 1",
     "anuncio": "30. Enfermera",
     "estado": "PAUSED",
-    "gasto": 4.2,
+    "gasto": 4.23,
     "compras": 0,
     "cpa": null
    },
@@ -235,9 +235,9 @@
     "campana": "26 - 27 - 33",
     "anuncio": "26. Jubilada",
     "estado": "ACTIVE",
-    "gasto": 38.9,
+    "gasto": 39.6,
     "compras": 5,
-    "cpa": 7.78
+    "cpa": 7.92
    },
    {
     "id": "120250618383700753",
@@ -301,9 +301,9 @@
     "campana": "dupli 1",
     "anuncio": "32. Balcón",
     "estado": "ACTIVE",
-    "gasto": 32.75,
+    "gasto": 34.97,
     "compras": 3,
-    "cpa": 10.92
+    "cpa": 11.66
    },
    {
     "id": "120254711903400204",
@@ -312,7 +312,7 @@
     "campana": "dupli 1",
     "anuncio": "30. Enfermera",
     "estado": "PAUSED",
-    "gasto": 4.2,
+    "gasto": 4.23,
     "compras": 0,
     "cpa": null
    },
@@ -347,9 +347,9 @@
     "campana": "26 - 27 - 33",
     "anuncio": "26. Jubilada",
     "estado": "ACTIVE",
-    "gasto": 42.43,
-    "compras": 5,
-    "cpa": 8.49
+    "gasto": 55.13,
+    "compras": 7,
+    "cpa": 7.88
    },
    {
     "id": "120250618383700753",
@@ -413,9 +413,9 @@
     "campana": "dupli 1",
     "anuncio": "32. Balcón",
     "estado": "ACTIVE",
-    "gasto": 37.67,
-    "compras": 3,
-    "cpa": 12.56
+    "gasto": 61.72,
+    "compras": 5,
+    "cpa": 12.34
    },
    {
     "id": "120254711903400204",
@@ -424,7 +424,7 @@
     "campana": "dupli 1",
     "anuncio": "30. Enfermera",
     "estado": "PAUSED",
-    "gasto": 4.2,
+    "gasto": 4.23,
     "compras": 0,
     "cpa": null
    },
@@ -481,31 +481,31 @@
    "clave": "c1",
    "fecha": "2026-11-06",
    "compras": 5,
-   "gasto": 38.9
+   "gasto": 39.6
   },
   {
    "clave": "c2",
    "fecha": "2026-11-06",
    "compras": 5,
-   "gasto": 73.54
+   "gasto": 74.36
   },
   {
    "clave": "c3",
    "fecha": "2026-11-06",
    "compras": 4,
-   "gasto": 103.38
+   "gasto": 106.03
   },
   {
    "clave": "cb",
    "fecha": "2026-11-06",
    "compras": 1,
-   "gasto": 37.75
+   "gasto": 38.2
   },
   {
    "clave": "c1",
    "fecha": "2026-11-07",
-   "compras": 0,
-   "gasto": 3.53
+   "compras": 2,
+   "gasto": 15.53
   },
   {
    "clave": "c2",
@@ -516,8 +516,8 @@
   {
    "clave": "c3",
    "fecha": "2026-11-07",
-   "compras": 1,
-   "gasto": 4.92
+   "compras": 3,
+   "gasto": 26.75
   }
  ],
  "videos": {
