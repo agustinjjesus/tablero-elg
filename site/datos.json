@@ -1,6 +1,6 @@
 {
  "estado": "ok",
- "actualizado": "2026-11-07T14:35:33+00:00",
+ "actualizado": "2026-11-07T15:02:44+00:00",
  "hoy": "2026-11-07",
  "inicio": "2026-11-05",
  "cuentas": [
@@ -31,9 +31,9 @@
     "campana": "26 - 27 - 33",
     "anuncio": "26. Jubilada",
     "estado": "ACTIVE",
-    "gasto": 16.3,
+    "gasto": 17.16,
     "compras": 2,
-    "cpa": 8.15
+    "cpa": 8.58
    },
    {
     "id": "120250431945190149",
@@ -42,9 +42,9 @@
     "campana": "dupli 1",
     "anuncio": "32. Balcón",
     "estado": "ACTIVE",
-    "gasto": 29.33,
+    "gasto": 31.5,
     "compras": 2,
-    "cpa": 14.67
+    "cpa": 15.75
    }
   ],
   "yesterday": [
@@ -77,9 +77,9 @@
     "campana": "dupli 1",
     "anuncio": "32. Balcón",
     "estado": "ACTIVE",
-    "gasto": 30.17,
+    "gasto": 30.25,
     "compras": 2,
-    "cpa": 15.09
+    "cpa": 15.13
    },
    {
     "id": "120254711903400204",
@@ -189,9 +189,9 @@
     "campana": "dupli 1",
     "anuncio": "32. Balcón",
     "estado": "ACTIVE",
-    "gasto": 34.97,
+    "gasto": 35.05,
     "compras": 3,
-    "cpa": 11.66
+    "cpa": 11.68
    },
    {
     "id": "120254711903400204",
@@ -301,9 +301,9 @@
     "campana": "dupli 1",
     "anuncio": "32. Balcón",
     "estado": "ACTIVE",
-    "gasto": 34.97,
+    "gasto": 35.05,
     "compras": 3,
-    "cpa": 11.66
+    "cpa": 11.68
    },
    {
     "id": "120254711903400204",
@@ -347,9 +347,9 @@
     "campana": "26 - 27 - 33",
     "anuncio": "26. Jubilada",
     "estado": "ACTIVE",
-    "gasto": 55.9,
+    "gasto": 56.76,
     "compras": 7,
-    "cpa": 7.99
+    "cpa": 8.11
    },
    {
     "id": "120250618383700753",
@@ -413,9 +413,9 @@
     "campana": "dupli 1",
     "anuncio": "32. Balcón",
     "estado": "ACTIVE",
-    "gasto": 64.3,
+    "gasto": 66.55,
     "compras": 5,
-    "cpa": 12.86
+    "cpa": 13.31
    },
    {
     "id": "120254711903400204",
@@ -487,25 +487,25 @@
    "clave": "c2",
    "fecha": "2026-11-06",
    "compras": 5,
-   "gasto": 74.38
+   "gasto": 74.4
   },
   {
    "clave": "c3",
    "fecha": "2026-11-06",
    "compras": 4,
-   "gasto": 106.03
+   "gasto": 106.12
   },
   {
    "clave": "cb",
    "fecha": "2026-11-06",
    "compras": 1,
-   "gasto": 38.2
+   "gasto": 38.22
   },
   {
    "clave": "c1",
    "fecha": "2026-11-07",
    "compras": 2,
-   "gasto": 16.3
+   "gasto": 17.16
   },
   {
    "clave": "c2",
@@ -517,7 +517,7 @@
    "clave": "c3",
    "fecha": "2026-11-07",
    "compras": 3,
-   "gasto": 29.33
+   "gasto": 31.5
   }
  ],
  "videos": {
