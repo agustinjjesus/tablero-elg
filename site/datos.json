@@ -1,7 +1,7 @@
 {
  "estado": "ok",
- "actualizado": "2026-11-07T02:02:24+00:00",
- "hoy": "2026-11-07",
+ "actualizado": "2026-11-07T02:31:50+00:00",
+ "hoy": "2026-11-06",
  "inicio": "2026-11-05",
  "cuentas": [
   {
@@ -31,9 +31,9 @@
     "campana": "26 - 27 - 33",
     "anuncio": "26. Jubilada",
     "estado": "ACTIVE",
-    "gasto": 36.98,
+    "gasto": 37.83,
     "compras": 5,
-    "cpa": 7.4
+    "cpa": 7.57
    },
    {
     "id": "120248076126440009",
@@ -53,20 +53,9 @@
     "campana": "dupli 1",
     "anuncio": "32. Balcón",
     "estado": "ACTIVE",
-    "gasto": 22.19,
+    "gasto": 24.42,
     "compras": 2,
-    "cpa": 11.1
-   },
-   {
-    "id": "120254711902310204",
-    "clave": "cb",
-    "cuenta": "ComboBiotina",
-    "campana": "dupli 1",
-    "anuncio": "27. Balcón",
-    "estado": "ACTIVE",
-    "gasto": 33.46,
-    "compras": 1,
-    "cpa": 33.46
+    "cpa": 12.21
    },
    {
     "id": "120254711903400204",
@@ -159,17 +148,6 @@
     "cpa": 4.8
    },
    {
-    "id": "120254711902310204",
-    "clave": "cb",
-    "cuenta": "ComboBiotina",
-    "campana": "dupli 1",
-    "anuncio": "27. Balcón",
-    "estado": "ACTIVE",
-    "gasto": 49.07,
-    "compras": 2,
-    "cpa": 24.54
-   },
-   {
     "id": "120254711903400204",
     "clave": "cb",
     "cuenta": "ComboBiotina",
@@ -205,17 +183,6 @@
   ],
   "last_7d": [
    {
-    "id": "120250643506460753",
-    "clave": "c1",
-    "cuenta": "Cuenta 1",
-    "campana": "26 - 27 - 33",
-    "anuncio": "26. Jubilada",
-    "estado": "ACTIVE",
-    "gasto": 36.98,
-    "compras": 5,
-    "cpa": 7.4
-   },
-   {
     "id": "120250618383700753",
     "clave": "c1",
     "cuenta": "Cuenta 1",
@@ -260,37 +227,15 @@
     "cpa": 20.72
    },
    {
-    "id": "120248076126440009",
-    "clave": "c2",
-    "cuenta": "Cuenta 2",
-    "campana": "ESCALA 1",
-    "anuncio": "27. Balcón",
-    "estado": "ADSET_PAUSED",
-    "gasto": 1.8,
-    "compras": 0,
-    "cpa": null
-   },
-   {
     "id": "120250431945190149",
     "clave": "c3",
     "cuenta": "Cuenta 3",
     "campana": "dupli 1",
     "anuncio": "32. Balcón",
     "estado": "ACTIVE",
-    "gasto": 26.99,
-    "compras": 3,
-    "cpa": 9.0
-   },
-   {
-    "id": "120254711902310204",
-    "clave": "cb",
-    "cuenta": "ComboBiotina",
-    "campana": "dupli 1",
-    "anuncio": "27. Balcón",
-    "estado": "ACTIVE",
-    "gasto": 82.53,
-    "compras": 3,
-    "cpa": 27.51
+    "gasto": 4.8,
+    "compras": 1,
+    "cpa": 4.8
    },
    {
     "id": "120254711903400204",
@@ -299,7 +244,7 @@
     "campana": "dupli 1",
     "anuncio": "30. Enfermera",
     "estado": "PAUSED",
-    "gasto": 4.19,
+    "gasto": 1.91,
     "compras": 0,
     "cpa": null
    },
@@ -310,7 +255,7 @@
     "campana": "dupli 1",
     "anuncio": "29. Tren Tigre",
     "estado": "PAUSED",
-    "gasto": 1.26,
+    "gasto": 1.14,
     "compras": 0,
     "cpa": null
    },
@@ -321,24 +266,13 @@
     "campana": "dupli 1",
     "anuncio": "32. Balcón",
     "estado": "PAUSED",
-    "gasto": 4.61,
+    "gasto": 4.52,
     "compras": 0,
     "cpa": null
    }
   ],
   "last_30d": [
    {
-    "id": "120250643506460753",
-    "clave": "c1",
-    "cuenta": "Cuenta 1",
-    "campana": "26 - 27 - 33",
-    "anuncio": "26. Jubilada",
-    "estado": "ACTIVE",
-    "gasto": 36.98,
-    "compras": 5,
-    "cpa": 7.4
-   },
-   {
     "id": "120250618383700753",
     "clave": "c1",
     "cuenta": "Cuenta 1",
@@ -383,37 +317,15 @@
     "cpa": 20.72
    },
    {
-    "id": "120248076126440009",
-    "clave": "c2",
-    "cuenta": "Cuenta 2",
-    "campana": "ESCALA 1",
-    "anuncio": "27. Balcón",
-    "estado": "ADSET_PAUSED",
-    "gasto": 1.8,
-    "compras": 0,
-    "cpa": null
-   },
-   {
     "id": "120250431945190149",
     "clave": "c3",
     "cuenta": "Cuenta 3",
     "campana": "dupli 1",
     "anuncio": "32. Balcón",
     "estado": "ACTIVE",
-    "gasto": 26.99,
-    "compras": 3,
-    "cpa": 9.0
-   },
-   {
-    "id": "120254711902310204",
-    "clave": "cb",
-    "cuenta": "ComboBiotina",
-    "campana": "dupli 1",
-    "anuncio": "27. Balcón",
-    "estado": "ACTIVE",
-    "gasto": 82.53,
-    "compras": 3,
-    "cpa": 27.51
+    "gasto": 4.8,
+    "compras": 1,
+    "cpa": 4.8
    },
    {
     "id": "120254711903400204",
@@ -422,7 +334,7 @@
     "campana": "dupli 1",
     "anuncio": "30. Enfermera",
     "estado": "PAUSED",
-    "gasto": 4.19,
+    "gasto": 1.91,
     "compras": 0,
     "cpa": null
    },
@@ -433,7 +345,7 @@
     "campana": "dupli 1",
     "anuncio": "29. Tren Tigre",
     "estado": "PAUSED",
-    "gasto": 1.26,
+    "gasto": 1.14,
     "compras": 0,
     "cpa": null
    },
@@ -444,7 +356,7 @@
     "campana": "dupli 1",
     "anuncio": "32. Balcón",
     "estado": "PAUSED",
-    "gasto": 4.61,
+    "gasto": 4.52,
     "compras": 0,
     "cpa": null
    }
@@ -457,9 +369,9 @@
     "campana": "26 - 27 - 33",
     "anuncio": "26. Jubilada",
     "estado": "ACTIVE",
-    "gasto": 36.98,
+    "gasto": 37.83,
     "compras": 5,
-    "cpa": 7.4
+    "cpa": 7.57
    },
    {
     "id": "120250618383700753",
@@ -523,20 +435,9 @@
     "campana": "dupli 1",
     "anuncio": "32. Balcón",
     "estado": "ACTIVE",
-    "gasto": 26.99,
+    "gasto": 29.22,
     "compras": 3,
-    "cpa": 9.0
-   },
-   {
-    "id": "120254711902310204",
-    "clave": "cb",
-    "cuenta": "ComboBiotina",
-    "campana": "dupli 1",
-    "anuncio": "27. Balcón",
-    "estado": "ACTIVE",
-    "gasto": 82.53,
-    "compras": 3,
-    "cpa": 27.51
+    "cpa": 9.74
    },
    {
     "id": "120254711903400204",
@@ -602,25 +503,25 @@
    "clave": "c1",
    "fecha": "2026-11-06",
    "compras": 5,
-   "gasto": 36.98
+   "gasto": 37.83
   },
   {
    "clave": "c2",
    "fecha": "2026-11-06",
    "compras": 5,
-   "gasto": 72.97
+   "gasto": 73.02
   },
   {
    "clave": "c3",
    "fecha": "2026-11-06",
    "compras": 4,
-   "gasto": 97.18
+   "gasto": 99.6
   },
   {
    "clave": "cb",
    "fecha": "2026-11-06",
    "compras": 1,
-   "gasto": 35.95
+   "gasto": 37.05
   }
  ],
  "videos": {
@@ -633,7 +534,14 @@
    "borrado-2159796197965030": "Video con publicación borrada",
    "v29": "29 · Tren Tigre",
    "v30": "30 · Enfermera",
-   "v31": "31 · Señoras"
+   "v31": "31 · Señoras",
+   "v33": "33 · Cinco minutitos",
+   "v37": "37 · Vecino",
+   "v38": "38 · Hermanas",
+   "v41": "41 · Perro plaza",
+   "v42": "42 · Audio amiga",
+   "v43": "43 · Ruleros",
+   "v44": "44 · Vecina"
   },
   "anuncios": {
    "120250643506460753": "v26",
@@ -643,7 +551,6 @@
    "120250622169680753": "v27",
    "120248076126440009": "v27",
    "120250431945190149": "v32",
-   "120254711902310204": "v27",
    "120254711903400204": "v30",
    "120254711900590204": "v29",
    "120254711902040204": "v32"
