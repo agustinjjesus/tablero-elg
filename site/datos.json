@@ -1,7 +1,7 @@
 {
  "estado": "ok",
- "actualizado": "2026-11-07T01:31:56+00:00",
- "hoy": "2026-11-06",
+ "actualizado": "2026-11-07T02:02:24+00:00",
+ "hoy": "2026-11-07",
  "inicio": "2026-11-05",
  "cuentas": [
   {
@@ -31,9 +31,9 @@
     "campana": "26 - 27 - 33",
     "anuncio": "26. Jubilada",
     "estado": "ACTIVE",
-    "gasto": 35.42,
+    "gasto": 36.98,
     "compras": 5,
-    "cpa": 7.08
+    "cpa": 7.4
    },
    {
     "id": "120248076126440009",
@@ -47,59 +47,15 @@
     "cpa": null
    },
    {
-    "id": "120248072360020009",
-    "clave": "c2",
-    "cuenta": "Cuenta 2",
-    "campana": "28 - 32 - 37",
-    "anuncio": "28. Amigas",
-    "estado": "PAUSED",
-    "gasto": 8.24,
-    "compras": 0,
-    "cpa": null
-   },
-   {
-    "id": "120248072530150009",
-    "clave": "c2",
-    "cuenta": "Cuenta 2",
-    "campana": "28 - 32 - 37",
-    "anuncio": "28. Amigas",
-    "estado": "PAUSED",
-    "gasto": 14.25,
-    "compras": 0,
-    "cpa": null
-   },
-   {
     "id": "120250431945190149",
     "clave": "c3",
     "cuenta": "Cuenta 3",
     "campana": "dupli 1",
     "anuncio": "32. Balcón",
     "estado": "ACTIVE",
-    "gasto": 19.57,
+    "gasto": 22.19,
     "compras": 2,
-    "cpa": 9.79
-   },
-   {
-    "id": "120250431945220149",
-    "clave": "c3",
-    "cuenta": "Cuenta 3",
-    "campana": "dupli 1",
-    "anuncio": "30. Enfermera",
-    "estado": "PAUSED",
-    "gasto": 41.57,
-    "compras": 1,
-    "cpa": 41.57
-   },
-   {
-    "id": "120250431945200149",
-    "clave": "c3",
-    "cuenta": "Cuenta 3",
-    "campana": "dupli 1",
-    "anuncio": "29. Tren Tigre",
-    "estado": "PAUSED",
-    "gasto": 4.54,
-    "compras": 0,
-    "cpa": null
+    "cpa": 11.1
    },
    {
     "id": "120254711902310204",
@@ -108,9 +64,9 @@
     "campana": "dupli 1",
     "anuncio": "27. Balcón",
     "estado": "ACTIVE",
-    "gasto": 32.31,
+    "gasto": 33.46,
     "compras": 1,
-    "cpa": 32.31
+    "cpa": 33.46
    },
    {
     "id": "120254711903400204",
@@ -203,28 +159,6 @@
     "cpa": 4.8
    },
    {
-    "id": "120250431945220149",
-    "clave": "c3",
-    "cuenta": "Cuenta 3",
-    "campana": "dupli 1",
-    "anuncio": "30. Enfermera",
-    "estado": "PAUSED",
-    "gasto": 28.91,
-    "compras": 1,
-    "cpa": 28.91
-   },
-   {
-    "id": "120250431945200149",
-    "clave": "c3",
-    "cuenta": "Cuenta 3",
-    "campana": "dupli 1",
-    "anuncio": "29. Tren Tigre",
-    "estado": "PAUSED",
-    "gasto": 1.57,
-    "compras": 0,
-    "cpa": null
-   },
-   {
     "id": "120254711902310204",
     "clave": "cb",
     "cuenta": "ComboBiotina",
@@ -271,261 +205,15 @@
   ],
   "last_7d": [
    {
-    "id": "120250618383700753",
-    "clave": "c1",
-    "cuenta": "Cuenta 1",
-    "campana": "dupli 1",
-    "anuncio": "27. Balcón",
-    "estado": "CAMPAIGN_PAUSED",
-    "gasto": 34.81,
-    "compras": 3,
-    "cpa": 11.6
-   },
-   {
-    "id": "120250622169660753",
-    "clave": "c1",
-    "cuenta": "Cuenta 1",
-    "campana": "dupli 1 - Copia",
-    "anuncio": "29. Tren Tigre",
-    "estado": "CAMPAIGN_PAUSED",
-    "gasto": 5.86,
-    "compras": 0,
-    "cpa": null
-   },
-   {
-    "id": "120250618383420753",
-    "clave": "c1",
-    "cuenta": "Cuenta 1",
-    "campana": "dupli 1",
-    "anuncio": "29. Tren Tigre",
-    "estado": "CAMPAIGN_PAUSED",
-    "gasto": 2.37,
-    "compras": 0,
-    "cpa": null
-   },
-   {
-    "id": "120250622169680753",
-    "clave": "c1",
-    "cuenta": "Cuenta 1",
-    "campana": "dupli 1 - Copia",
-    "anuncio": "27. Balcón",
-    "estado": "CAMPAIGN_PAUSED",
-    "gasto": 41.44,
-    "compras": 2,
-    "cpa": 20.72
-   },
-   {
-    "id": "120250431945190149",
-    "clave": "c3",
-    "cuenta": "Cuenta 3",
-    "campana": "dupli 1",
-    "anuncio": "32. Balcón",
-    "estado": "ACTIVE",
-    "gasto": 4.8,
-    "compras": 1,
-    "cpa": 4.8
-   },
-   {
-    "id": "120250431945220149",
-    "clave": "c3",
-    "cuenta": "Cuenta 3",
-    "campana": "dupli 1",
-    "anuncio": "30. Enfermera",
-    "estado": "PAUSED",
-    "gasto": 28.91,
-    "compras": 1,
-    "cpa": 28.91
-   },
-   {
-    "id": "120250431945200149",
-    "clave": "c3",
-    "cuenta": "Cuenta 3",
-    "campana": "dupli 1",
-    "anuncio": "29. Tren Tigre",
-    "estado": "PAUSED",
-    "gasto": 1.57,
-    "compras": 0,
-    "cpa": null
-   },
-   {
-    "id": "120254711902310204",
-    "clave": "cb",
-    "cuenta": "ComboBiotina",
-    "campana": "dupli 1",
-    "anuncio": "27. Balcón",
-    "estado": "ACTIVE",
-    "gasto": 49.07,
-    "compras": 2,
-    "cpa": 24.54
-   },
-   {
-    "id": "120254711903400204",
-    "clave": "cb",
-    "cuenta": "ComboBiotina",
-    "campana": "dupli 1",
-    "anuncio": "30. Enfermera",
-    "estado": "PAUSED",
-    "gasto": 1.91,
-    "compras": 0,
-    "cpa": null
-   },
-   {
-    "id": "120254711900590204",
-    "clave": "cb",
-    "cuenta": "ComboBiotina",
-    "campana": "dupli 1",
-    "anuncio": "29. Tren Tigre",
-    "estado": "PAUSED",
-    "gasto": 1.14,
-    "compras": 0,
-    "cpa": null
-   },
-   {
-    "id": "120254711902040204",
-    "clave": "cb",
-    "cuenta": "ComboBiotina",
-    "campana": "dupli 1",
-    "anuncio": "32. Balcón",
-    "estado": "PAUSED",
-    "gasto": 4.52,
-    "compras": 0,
-    "cpa": null
-   }
-  ],
-  "last_30d": [
-   {
-    "id": "120250618383700753",
-    "clave": "c1",
-    "cuenta": "Cuenta 1",
-    "campana": "dupli 1",
-    "anuncio": "27. Balcón",
-    "estado": "CAMPAIGN_PAUSED",
-    "gasto": 34.81,
-    "compras": 3,
-    "cpa": 11.6
-   },
-   {
-    "id": "120250622169660753",
-    "clave": "c1",
-    "cuenta": "Cuenta 1",
-    "campana": "dupli 1 - Copia",
-    "anuncio": "29. Tren Tigre",
-    "estado": "CAMPAIGN_PAUSED",
-    "gasto": 5.86,
-    "compras": 0,
-    "cpa": null
-   },
-   {
-    "id": "120250618383420753",
-    "clave": "c1",
-    "cuenta": "Cuenta 1",
-    "campana": "dupli 1",
-    "anuncio": "29. Tren Tigre",
-    "estado": "CAMPAIGN_PAUSED",
-    "gasto": 2.37,
-    "compras": 0,
-    "cpa": null
-   },
-   {
-    "id": "120250622169680753",
-    "clave": "c1",
-    "cuenta": "Cuenta 1",
-    "campana": "dupli 1 - Copia",
-    "anuncio": "27. Balcón",
-    "estado": "CAMPAIGN_PAUSED",
-    "gasto": 41.44,
-    "compras": 2,
-    "cpa": 20.72
-   },
-   {
-    "id": "120250431945190149",
-    "clave": "c3",
-    "cuenta": "Cuenta 3",
-    "campana": "dupli 1",
-    "anuncio": "32. Balcón",
-    "estado": "ACTIVE",
-    "gasto": 4.8,
-    "compras": 1,
-    "cpa": 4.8
-   },
-   {
-    "id": "120250431945220149",
-    "clave": "c3",
-    "cuenta": "Cuenta 3",
-    "campana": "dupli 1",
-    "anuncio": "30. Enfermera",
-    "estado": "PAUSED",
-    "gasto": 28.91,
-    "compras": 1,
-    "cpa": 28.91
-   },
-   {
-    "id": "120250431945200149",
-    "clave": "c3",
-    "cuenta": "Cuenta 3",
-    "campana": "dupli 1",
-    "anuncio": "29. Tren Tigre",
-    "estado": "PAUSED",
-    "gasto": 1.57,
-    "compras": 0,
-    "cpa": null
-   },
-   {
-    "id": "120254711902310204",
-    "clave": "cb",
-    "cuenta": "ComboBiotina",
-    "campana": "dupli 1",
-    "anuncio": "27. Balcón",
-    "estado": "ACTIVE",
-    "gasto": 49.07,
-    "compras": 2,
-    "cpa": 24.54
-   },
-   {
-    "id": "120254711903400204",
-    "clave": "cb",
-    "cuenta": "ComboBiotina",
-    "campana": "dupli 1",
-    "anuncio": "30. Enfermera",
-    "estado": "PAUSED",
-    "gasto": 1.91,
-    "compras": 0,
-    "cpa": null
-   },
-   {
-    "id": "120254711900590204",
-    "clave": "cb",
-    "cuenta": "ComboBiotina",
-    "campana": "dupli 1",
-    "anuncio": "29. Tren Tigre",
-    "estado": "PAUSED",
-    "gasto": 1.14,
-    "compras": 0,
-    "cpa": null
-   },
-   {
-    "id": "120254711902040204",
-    "clave": "cb",
-    "cuenta": "ComboBiotina",
-    "campana": "dupli 1",
-    "anuncio": "32. Balcón",
-    "estado": "PAUSED",
-    "gasto": 4.52,
-    "compras": 0,
-    "cpa": null
-   }
-  ],
-  "maximum": [
-   {
     "id": "120250643506460753",
     "clave": "c1",
     "cuenta": "Cuenta 1",
     "campana": "26 - 27 - 33",
     "anuncio": "26. Jubilada",
     "estado": "ACTIVE",
-    "gasto": 35.42,
+    "gasto": 36.98,
     "compras": 5,
-    "cpa": 7.08
+    "cpa": 7.4
    },
    {
     "id": "120250618383700753",
@@ -583,24 +271,125 @@
     "cpa": null
    },
    {
-    "id": "120248072360020009",
-    "clave": "c2",
-    "cuenta": "Cuenta 2",
-    "campana": "28 - 32 - 37",
-    "anuncio": "28. Amigas",
+    "id": "120250431945190149",
+    "clave": "c3",
+    "cuenta": "Cuenta 3",
+    "campana": "dupli 1",
+    "anuncio": "32. Balcón",
+    "estado": "ACTIVE",
+    "gasto": 26.99,
+    "compras": 3,
+    "cpa": 9.0
+   },
+   {
+    "id": "120254711902310204",
+    "clave": "cb",
+    "cuenta": "ComboBiotina",
+    "campana": "dupli 1",
+    "anuncio": "27. Balcón",
+    "estado": "ACTIVE",
+    "gasto": 82.53,
+    "compras": 3,
+    "cpa": 27.51
+   },
+   {
+    "id": "120254711903400204",
+    "clave": "cb",
+    "cuenta": "ComboBiotina",
+    "campana": "dupli 1",
+    "anuncio": "30. Enfermera",
     "estado": "PAUSED",
-    "gasto": 8.24,
+    "gasto": 4.19,
     "compras": 0,
     "cpa": null
    },
    {
-    "id": "120248072530150009",
+    "id": "120254711900590204",
+    "clave": "cb",
+    "cuenta": "ComboBiotina",
+    "campana": "dupli 1",
+    "anuncio": "29. Tren Tigre",
+    "estado": "PAUSED",
+    "gasto": 1.26,
+    "compras": 0,
+    "cpa": null
+   },
+   {
+    "id": "120254711902040204",
+    "clave": "cb",
+    "cuenta": "ComboBiotina",
+    "campana": "dupli 1",
+    "anuncio": "32. Balcón",
+    "estado": "PAUSED",
+    "gasto": 4.61,
+    "compras": 0,
+    "cpa": null
+   }
+  ],
+  "last_30d": [
+   {
+    "id": "120250643506460753",
+    "clave": "c1",
+    "cuenta": "Cuenta 1",
+    "campana": "26 - 27 - 33",
+    "anuncio": "26. Jubilada",
+    "estado": "ACTIVE",
+    "gasto": 36.98,
+    "compras": 5,
+    "cpa": 7.4
+   },
+   {
+    "id": "120250618383700753",
+    "clave": "c1",
+    "cuenta": "Cuenta 1",
+    "campana": "dupli 1",
+    "anuncio": "27. Balcón",
+    "estado": "CAMPAIGN_PAUSED",
+    "gasto": 34.81,
+    "compras": 3,
+    "cpa": 11.6
+   },
+   {
+    "id": "120250622169660753",
+    "clave": "c1",
+    "cuenta": "Cuenta 1",
+    "campana": "dupli 1 - Copia",
+    "anuncio": "29. Tren Tigre",
+    "estado": "CAMPAIGN_PAUSED",
+    "gasto": 5.86,
+    "compras": 0,
+    "cpa": null
+   },
+   {
+    "id": "120250618383420753",
+    "clave": "c1",
+    "cuenta": "Cuenta 1",
+    "campana": "dupli 1",
+    "anuncio": "29. Tren Tigre",
+    "estado": "CAMPAIGN_PAUSED",
+    "gasto": 2.37,
+    "compras": 0,
+    "cpa": null
+   },
+   {
+    "id": "120250622169680753",
+    "clave": "c1",
+    "cuenta": "Cuenta 1",
+    "campana": "dupli 1 - Copia",
+    "anuncio": "27. Balcón",
+    "estado": "CAMPAIGN_PAUSED",
+    "gasto": 41.44,
+    "compras": 2,
+    "cpa": 20.72
+   },
+   {
+    "id": "120248076126440009",
     "clave": "c2",
     "cuenta": "Cuenta 2",
-    "campana": "28 - 32 - 37",
-    "anuncio": "28. Amigas",
-    "estado": "PAUSED",
-    "gasto": 14.25,
+    "campana": "ESCALA 1",
+    "anuncio": "27. Balcón",
+    "estado": "ADSET_PAUSED",
+    "gasto": 1.8,
     "compras": 0,
     "cpa": null
    },
@@ -611,31 +400,9 @@
     "campana": "dupli 1",
     "anuncio": "32. Balcón",
     "estado": "ACTIVE",
-    "gasto": 24.37,
+    "gasto": 26.99,
     "compras": 3,
-    "cpa": 8.12
-   },
-   {
-    "id": "120250431945220149",
-    "clave": "c3",
-    "cuenta": "Cuenta 3",
-    "campana": "dupli 1",
-    "anuncio": "30. Enfermera",
-    "estado": "PAUSED",
-    "gasto": 70.48,
-    "compras": 2,
-    "cpa": 35.24
-   },
-   {
-    "id": "120250431945200149",
-    "clave": "c3",
-    "cuenta": "Cuenta 3",
-    "campana": "dupli 1",
-    "anuncio": "29. Tren Tigre",
-    "estado": "PAUSED",
-    "gasto": 6.11,
-    "compras": 0,
-    "cpa": null
+    "cpa": 9.0
    },
    {
     "id": "120254711902310204",
@@ -644,9 +411,132 @@
     "campana": "dupli 1",
     "anuncio": "27. Balcón",
     "estado": "ACTIVE",
-    "gasto": 81.38,
+    "gasto": 82.53,
     "compras": 3,
-    "cpa": 27.13
+    "cpa": 27.51
+   },
+   {
+    "id": "120254711903400204",
+    "clave": "cb",
+    "cuenta": "ComboBiotina",
+    "campana": "dupli 1",
+    "anuncio": "30. Enfermera",
+    "estado": "PAUSED",
+    "gasto": 4.19,
+    "compras": 0,
+    "cpa": null
+   },
+   {
+    "id": "120254711900590204",
+    "clave": "cb",
+    "cuenta": "ComboBiotina",
+    "campana": "dupli 1",
+    "anuncio": "29. Tren Tigre",
+    "estado": "PAUSED",
+    "gasto": 1.26,
+    "compras": 0,
+    "cpa": null
+   },
+   {
+    "id": "120254711902040204",
+    "clave": "cb",
+    "cuenta": "ComboBiotina",
+    "campana": "dupli 1",
+    "anuncio": "32. Balcón",
+    "estado": "PAUSED",
+    "gasto": 4.61,
+    "compras": 0,
+    "cpa": null
+   }
+  ],
+  "maximum": [
+   {
+    "id": "120250643506460753",
+    "clave": "c1",
+    "cuenta": "Cuenta 1",
+    "campana": "26 - 27 - 33",
+    "anuncio": "26. Jubilada",
+    "estado": "ACTIVE",
+    "gasto": 36.98,
+    "compras": 5,
+    "cpa": 7.4
+   },
+   {
+    "id": "120250618383700753",
+    "clave": "c1",
+    "cuenta": "Cuenta 1",
+    "campana": "dupli 1",
+    "anuncio": "27. Balcón",
+    "estado": "CAMPAIGN_PAUSED",
+    "gasto": 34.81,
+    "compras": 3,
+    "cpa": 11.6
+   },
+   {
+    "id": "120250622169660753",
+    "clave": "c1",
+    "cuenta": "Cuenta 1",
+    "campana": "dupli 1 - Copia",
+    "anuncio": "29. Tren Tigre",
+    "estado": "CAMPAIGN_PAUSED",
+    "gasto": 5.86,
+    "compras": 0,
+    "cpa": null
+   },
+   {
+    "id": "120250618383420753",
+    "clave": "c1",
+    "cuenta": "Cuenta 1",
+    "campana": "dupli 1",
+    "anuncio": "29. Tren Tigre",
+    "estado": "CAMPAIGN_PAUSED",
+    "gasto": 2.37,
+    "compras": 0,
+    "cpa": null
+   },
+   {
+    "id": "120250622169680753",
+    "clave": "c1",
+    "cuenta": "Cuenta 1",
+    "campana": "dupli 1 - Copia",
+    "anuncio": "27. Balcón",
+    "estado": "CAMPAIGN_PAUSED",
+    "gasto": 41.44,
+    "compras": 2,
+    "cpa": 20.72
+   },
+   {
+    "id": "120248076126440009",
+    "clave": "c2",
+    "cuenta": "Cuenta 2",
+    "campana": "ESCALA 1",
+    "anuncio": "27. Balcón",
+    "estado": "ADSET_PAUSED",
+    "gasto": 1.8,
+    "compras": 0,
+    "cpa": null
+   },
+   {
+    "id": "120250431945190149",
+    "clave": "c3",
+    "cuenta": "Cuenta 3",
+    "campana": "dupli 1",
+    "anuncio": "32. Balcón",
+    "estado": "ACTIVE",
+    "gasto": 26.99,
+    "compras": 3,
+    "cpa": 9.0
+   },
+   {
+    "id": "120254711902310204",
+    "clave": "cb",
+    "cuenta": "ComboBiotina",
+    "campana": "dupli 1",
+    "anuncio": "27. Balcón",
+    "estado": "ACTIVE",
+    "gasto": 82.53,
+    "compras": 3,
+    "cpa": 27.51
    },
    {
     "id": "120254711903400204",
@@ -712,25 +602,25 @@
    "clave": "c1",
    "fecha": "2026-11-06",
    "compras": 5,
-   "gasto": 35.42
+   "gasto": 36.98
   },
   {
    "clave": "c2",
    "fecha": "2026-11-06",
    "compras": 5,
-   "gasto": 72.83
+   "gasto": 72.97
   },
   {
    "clave": "c3",
    "fecha": "2026-11-06",
    "compras": 4,
-   "gasto": 94.52
+   "gasto": 97.18
   },
   {
    "clave": "cb",
    "fecha": "2026-11-06",
    "compras": 1,
-   "gasto": 34.8
+   "gasto": 35.95
   }
  ],
  "videos": {
@@ -752,11 +642,7 @@
    "120250618383420753": "v29",
    "120250622169680753": "v27",
    "120248076126440009": "v27",
-   "120248072360020009": "v28",
-   "120248072530150009": "v28",
    "120250431945190149": "v32",
-   "120250431945220149": "v30",
-   "120250431945200149": "v29",
    "120254711902310204": "v27",
    "120254711903400204": "v30",
    "120254711900590204": "v29",
@@ -783,18 +669,6 @@
    "id": "120250622169690753",
    "anuncio": "32. Balcón",
    "campana": "dupli 1 - Copia"
-  },
-  {
-   "clave": "c1",
-   "id": "120250644140950753",
-   "anuncio": "27. Balcón",
-   "campana": "26 - 27 - 33"
-  },
-  {
-   "clave": "c1",
-   "id": "120250644140940753",
-   "anuncio": "31. Señoras",
-   "campana": "26 - 27 - 33"
   },
   {
    "clave": "c1",
