@@ -1,6 +1,6 @@
 {
  "estado": "ok",
- "actualizado": "2026-11-08T20:16:57+00:00",
+ "actualizado": "2026-11-08T20:26:44+00:00",
  "hoy": "2026-11-08",
  "inicio": "2026-11-05",
  "cuentas": [
@@ -53,9 +53,9 @@
     "campana": "26 - 27 - 33",
     "anuncio": "26. Jubilada",
     "estado": "ACTIVE",
-    "gasto": 100.74,
+    "gasto": 102.1,
     "compras": 8,
-    "cpa": 12.59
+    "cpa": 12.76
    },
    {
     "id": "120248097316430009",
@@ -64,9 +64,9 @@
     "campana": "28 - 32 - 37",
     "anuncio": "53. La de la costa",
     "estado": "ACTIVE",
-    "gasto": 103.79,
+    "gasto": 122.3,
     "compras": 1,
-    "cpa": 103.79
+    "cpa": 122.3
    },
    {
     "id": "120248088694150009",
@@ -86,7 +86,7 @@
     "campana": "28 - 32 - 37",
     "anuncio": "45. Matrimonio living",
     "estado": "ACTIVE",
-    "gasto": 39.27,
+    "gasto": 39.28,
     "compras": 0,
     "cpa": null
    },
@@ -119,9 +119,9 @@
     "campana": "dupli 1",
     "anuncio": "48. Hermanas mate",
     "estado": "ACTIVE",
-    "gasto": 48.24,
+    "gasto": 48.81,
     "compras": 5,
-    "cpa": 9.65
+    "cpa": 9.76
    },
    {
     "id": "120250476582600149",
@@ -141,9 +141,9 @@
     "campana": "dupli 1",
     "anuncio": "51. Primera noche",
     "estado": "ACTIVE",
-    "gasto": 15.32,
+    "gasto": 15.59,
     "compras": 1,
-    "cpa": 15.32
+    "cpa": 15.59
    },
    {
     "id": "120254777021490204",
@@ -152,9 +152,9 @@
     "campana": "dupli 1",
     "anuncio": "50. Respondiendo preguntas",
     "estado": "ACTIVE",
-    "gasto": 11.78,
+    "gasto": 11.97,
     "compras": 1,
-    "cpa": 11.78
+    "cpa": 11.97
    },
    {
     "id": "120254765847740204",
@@ -163,9 +163,9 @@
     "campana": "dupli 1",
     "anuncio": "37. Vecino",
     "estado": "ACTIVE",
-    "gasto": 14.96,
+    "gasto": 15.29,
     "compras": 2,
-    "cpa": 7.48
+    "cpa": 7.65
    }
   ],
   "yesterday": [
@@ -743,9 +743,9 @@
     "campana": "26 - 27 - 33",
     "anuncio": "26. Jubilada",
     "estado": "ACTIVE",
-    "gasto": 199.78,
+    "gasto": 201.14,
     "compras": 21,
-    "cpa": 9.51
+    "cpa": 9.58
    },
    {
     "id": "120250618383700753",
@@ -798,9 +798,9 @@
     "campana": "28 - 32 - 37",
     "anuncio": "53. La de la costa",
     "estado": "ACTIVE",
-    "gasto": 103.79,
+    "gasto": 122.3,
     "compras": 1,
-    "cpa": 103.79
+    "cpa": 122.3
    },
    {
     "id": "120248088694150009",
@@ -820,7 +820,7 @@
     "campana": "28 - 32 - 37",
     "anuncio": "45. Matrimonio living",
     "estado": "ACTIVE",
-    "gasto": 53.33,
+    "gasto": 53.34,
     "compras": 0,
     "cpa": null
    },
@@ -864,9 +864,9 @@
     "campana": "dupli 1",
     "anuncio": "48. Hermanas mate",
     "estado": "ACTIVE",
-    "gasto": 54.16,
+    "gasto": 54.73,
     "compras": 5,
-    "cpa": 10.83
+    "cpa": 10.95
    },
    {
     "id": "120250476577390149",
@@ -908,9 +908,9 @@
     "campana": "dupli 1",
     "anuncio": "51. Primera noche",
     "estado": "ACTIVE",
-    "gasto": 15.32,
+    "gasto": 15.59,
     "compras": 1,
-    "cpa": 15.32
+    "cpa": 15.59
    },
    {
     "id": "120254777021490204",
@@ -919,9 +919,9 @@
     "campana": "dupli 1",
     "anuncio": "50. Respondiendo preguntas",
     "estado": "ACTIVE",
-    "gasto": 11.78,
+    "gasto": 11.97,
     "compras": 1,
-    "cpa": 11.78
+    "cpa": 11.97
    },
    {
     "id": "120254765847740204",
@@ -930,9 +930,9 @@
     "campana": "dupli 1",
     "anuncio": "37. Vecino",
     "estado": "ACTIVE",
-    "gasto": 21.77,
+    "gasto": 22.1,
     "compras": 3,
-    "cpa": 7.26
+    "cpa": 7.37
    },
    {
     "id": "120254711903400204",
@@ -1046,25 +1046,25 @@
    "clave": "c1",
    "fecha": "2026-11-08",
    "compras": 8,
-   "gasto": 100.87
+   "gasto": 102.86
   },
   {
    "clave": "c2",
    "fecha": "2026-11-08",
    "compras": 1,
-   "gasto": 164.16
+   "gasto": 184.08
   },
   {
    "clave": "c3",
    "fecha": "2026-11-08",
    "compras": 5,
-   "gasto": 48.26
+   "gasto": 49.11
   },
   {
    "clave": "cb",
    "fecha": "2026-11-08",
    "compras": 6,
-   "gasto": 83.55
+   "gasto": 84.59
   }
  ],
  "videos": {
