@@ -1,6 +1,6 @@
 {
  "estado": "ok",
- "actualizado": "2026-11-08T17:16:26+00:00",
+ "actualizado": "2026-11-08T17:26:42+00:00",
  "hoy": "2026-11-08",
  "inicio": "2026-11-05",
  "cuentas": [
@@ -53,9 +53,64 @@
     "campana": "26 - 27 - 33",
     "anuncio": "26. Jubilada",
     "estado": "ACTIVE",
-    "gasto": 73.17,
+    "gasto": 74.37,
     "compras": 5,
-    "cpa": 14.63
+    "cpa": 14.87
+   },
+   {
+    "id": "120248097316430009",
+    "clave": "c2",
+    "cuenta": "Cuenta 2",
+    "campana": "28 - 32 - 37",
+    "anuncio": "53. La de la costa",
+    "estado": "ADSET_PAUSED",
+    "gasto": 73.58,
+    "compras": 1,
+    "cpa": 73.58
+   },
+   {
+    "id": "120248088694150009",
+    "clave": "c2",
+    "cuenta": "Cuenta 2",
+    "campana": "28 - 32 - 37",
+    "anuncio": "47. Primo visita",
+    "estado": "ADSET_PAUSED",
+    "gasto": 8.22,
+    "compras": 0,
+    "cpa": null
+   },
+   {
+    "id": "120248088693620009",
+    "clave": "c2",
+    "cuenta": "Cuenta 2",
+    "campana": "28 - 32 - 37",
+    "anuncio": "45. Matrimonio living",
+    "estado": "ADSET_PAUSED",
+    "gasto": 38.44,
+    "compras": 0,
+    "cpa": null
+   },
+   {
+    "id": "120248088693890009",
+    "clave": "c2",
+    "cuenta": "Cuenta 2",
+    "campana": "28 - 32 - 37",
+    "anuncio": "46. Tejedora",
+    "estado": "ADSET_PAUSED",
+    "gasto": 11.87,
+    "compras": 0,
+    "cpa": null
+   },
+   {
+    "id": "120248097227050009",
+    "clave": "c2",
+    "cuenta": "Cuenta 2",
+    "campana": "28 - 32 - 37",
+    "anuncio": "39. Balcón lunes v2",
+    "estado": "DISAPPROVED",
+    "gasto": 0.67,
+    "compras": 0,
+    "cpa": null
    },
    {
     "id": "120250488616810149",
@@ -64,9 +119,9 @@
     "campana": "dupli 1",
     "anuncio": "48. Hermanas mate",
     "estado": "ACTIVE",
-    "gasto": 37.09,
+    "gasto": 37.52,
     "compras": 4,
-    "cpa": 9.27
+    "cpa": 9.38
    },
    {
     "id": "120250476582600149",
@@ -86,7 +141,7 @@
     "campana": "dupli 1",
     "anuncio": "51. Primera noche",
     "estado": "ACTIVE",
-    "gasto": 6.72,
+    "gasto": 7.16,
     "compras": 0,
     "cpa": null
    },
@@ -97,7 +152,7 @@
     "campana": "dupli 1",
     "anuncio": "50. Respondiendo preguntas",
     "estado": "ACTIVE",
-    "gasto": 3.91,
+    "gasto": 4.33,
     "compras": 0,
     "cpa": null
    },
@@ -108,9 +163,9 @@
     "campana": "dupli 1",
     "anuncio": "37. Vecino",
     "estado": "ACTIVE",
-    "gasto": 8.65,
+    "gasto": 8.77,
     "compras": 1,
-    "cpa": 8.65
+    "cpa": 8.77
    }
   ],
   "yesterday": [
@@ -315,24 +370,13 @@
     "cpa": 20.72
    },
    {
-    "id": "120248097316430009",
-    "clave": "c2",
-    "cuenta": "Cuenta 2",
-    "campana": "28 - 32 - 37",
-    "anuncio": "53. La de la costa",
-    "estado": "ADSET_PAUSED",
-    "gasto": 73.37,
-    "compras": 1,
-    "cpa": 73.37
-   },
-   {
     "id": "120248088694150009",
     "clave": "c2",
     "cuenta": "Cuenta 2",
     "campana": "28 - 32 - 37",
     "anuncio": "47. Primo visita",
     "estado": "ADSET_PAUSED",
-    "gasto": 8.22,
+    "gasto": 4.86,
     "compras": 0,
     "cpa": null
    },
@@ -343,7 +387,7 @@
     "campana": "28 - 32 - 37",
     "anuncio": "45. Matrimonio living",
     "estado": "ADSET_PAUSED",
-    "gasto": 38.38,
+    "gasto": 14.06,
     "compras": 0,
     "cpa": null
    },
@@ -354,18 +398,18 @@
     "campana": "28 - 32 - 37",
     "anuncio": "46. Tejedora",
     "estado": "ADSET_PAUSED",
-    "gasto": 11.81,
+    "gasto": 7.03,
     "compras": 0,
     "cpa": null
    },
    {
-    "id": "120248097227050009",
+    "id": "120248076126440009",
     "clave": "c2",
     "cuenta": "Cuenta 2",
-    "campana": "28 - 32 - 37",
-    "anuncio": "39. Balcón lunes v2",
-    "estado": "DISAPPROVED",
-    "gasto": 0.67,
+    "campana": "ESCALA 1",
+    "anuncio": "27. Balcón",
+    "estado": "ADSET_PAUSED",
+    "gasto": 1.8,
     "compras": 0,
     "cpa": null
    },
@@ -537,24 +581,13 @@
     "cpa": 20.72
    },
    {
-    "id": "120248097316430009",
-    "clave": "c2",
-    "cuenta": "Cuenta 2",
-    "campana": "28 - 32 - 37",
-    "anuncio": "53. La de la costa",
-    "estado": "ADSET_PAUSED",
-    "gasto": 73.37,
-    "compras": 1,
-    "cpa": 73.37
-   },
-   {
     "id": "120248088694150009",
     "clave": "c2",
     "cuenta": "Cuenta 2",
     "campana": "28 - 32 - 37",
     "anuncio": "47. Primo visita",
     "estado": "ADSET_PAUSED",
-    "gasto": 8.22,
+    "gasto": 4.86,
     "compras": 0,
     "cpa": null
    },
@@ -565,7 +598,7 @@
     "campana": "28 - 32 - 37",
     "anuncio": "45. Matrimonio living",
     "estado": "ADSET_PAUSED",
-    "gasto": 38.38,
+    "gasto": 14.06,
     "compras": 0,
     "cpa": null
    },
@@ -576,18 +609,18 @@
     "campana": "28 - 32 - 37",
     "anuncio": "46. Tejedora",
     "estado": "ADSET_PAUSED",
-    "gasto": 11.81,
+    "gasto": 7.03,
     "compras": 0,
     "cpa": null
    },
    {
-    "id": "120248097227050009",
+    "id": "120248076126440009",
     "clave": "c2",
     "cuenta": "Cuenta 2",
-    "campana": "28 - 32 - 37",
-    "anuncio": "39. Balcón lunes v2",
-    "estado": "DISAPPROVED",
-    "gasto": 0.67,
+    "campana": "ESCALA 1",
+    "anuncio": "27. Balcón",
+    "estado": "ADSET_PAUSED",
+    "gasto": 1.8,
     "compras": 0,
     "cpa": null
    },
@@ -710,9 +743,9 @@
     "campana": "26 - 27 - 33",
     "anuncio": "26. Jubilada",
     "estado": "ACTIVE",
-    "gasto": 172.19,
+    "gasto": 173.39,
     "compras": 18,
-    "cpa": 9.57
+    "cpa": 9.63
    },
    {
     "id": "120250618383700753",
@@ -765,9 +798,9 @@
     "campana": "28 - 32 - 37",
     "anuncio": "53. La de la costa",
     "estado": "ADSET_PAUSED",
-    "gasto": 73.37,
+    "gasto": 73.61,
     "compras": 1,
-    "cpa": 73.37
+    "cpa": 73.61
    },
    {
     "id": "120248088694150009",
@@ -787,7 +820,7 @@
     "campana": "28 - 32 - 37",
     "anuncio": "45. Matrimonio living",
     "estado": "ADSET_PAUSED",
-    "gasto": 52.44,
+    "gasto": 52.5,
     "compras": 0,
     "cpa": null
    },
@@ -798,7 +831,7 @@
     "campana": "28 - 32 - 37",
     "anuncio": "46. Tejedora",
     "estado": "ADSET_PAUSED",
-    "gasto": 18.84,
+    "gasto": 18.9,
     "compras": 0,
     "cpa": null
    },
@@ -831,9 +864,9 @@
     "campana": "dupli 1",
     "anuncio": "48. Hermanas mate",
     "estado": "ACTIVE",
-    "gasto": 43.01,
+    "gasto": 43.44,
     "compras": 4,
-    "cpa": 10.75
+    "cpa": 10.86
    },
    {
     "id": "120250476577390149",
@@ -875,7 +908,7 @@
     "campana": "dupli 1",
     "anuncio": "51. Primera noche",
     "estado": "ACTIVE",
-    "gasto": 6.72,
+    "gasto": 7.16,
     "compras": 0,
     "cpa": null
    },
@@ -886,7 +919,7 @@
     "campana": "dupli 1",
     "anuncio": "50. Respondiendo preguntas",
     "estado": "ACTIVE",
-    "gasto": 3.91,
+    "gasto": 4.33,
     "compras": 0,
     "cpa": null
    },
@@ -897,9 +930,9 @@
     "campana": "dupli 1",
     "anuncio": "37. Vecino",
     "estado": "ACTIVE",
-    "gasto": 15.46,
+    "gasto": 15.58,
     "compras": 2,
-    "cpa": 7.73
+    "cpa": 7.79
    },
    {
     "id": "120254711903400204",
@@ -1013,25 +1046,25 @@
    "clave": "c1",
    "fecha": "2026-11-08",
    "compras": 5,
-   "gasto": 73.3
+   "gasto": 74.5
   },
   {
    "clave": "c2",
    "fecha": "2026-11-08",
    "compras": 1,
-   "gasto": 132.45
+   "gasto": 132.81
   },
   {
    "clave": "c3",
    "fecha": "2026-11-08",
    "compras": 4,
-   "gasto": 37.11
+   "gasto": 37.76
   },
   {
    "clave": "cb",
    "fecha": "2026-11-08",
    "compras": 3,
-   "gasto": 59.95
+   "gasto": 61.11
   }
  ],
  "videos": {
@@ -1084,10 +1117,10 @@
    "120250622169660753": "v29",
    "120250618383420753": "v29",
    "120250622169680753": "v27",
+   "120248097316430009": "v53",
    "120248088694150009": "vid-1478965747490454",
    "120248088693620009": "vid-2311278362973029",
    "120248088693890009": "vid-4661331717519589",
-   "120248097316430009": "v53",
    "120248097227050009": "v39",
    "120248076126440009": "v27",
    "120250488616810149": "v48",
