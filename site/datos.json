@@ -1,6 +1,6 @@
 {
  "estado": "ok",
- "actualizado": "2026-11-08T21:37:11+00:00",
+ "actualizado": "2026-11-08T21:47:18+00:00",
  "hoy": "2026-11-08",
  "inicio": "2026-11-05",
  "cuentas": [
@@ -53,9 +53,9 @@
     "campana": "26 - 27 - 33",
     "anuncio": "26. Jubilada",
     "estado": "ACTIVE",
-    "gasto": 110.82,
-    "compras": 11,
-    "cpa": 10.07
+    "gasto": 112.24,
+    "compras": 12,
+    "cpa": 9.35
    },
    {
     "id": "120248097316430009",
@@ -64,9 +64,9 @@
     "campana": "28 - 32 - 37",
     "anuncio": "53. La de la costa",
     "estado": "ACTIVE",
-    "gasto": 156.44,
+    "gasto": 157.63,
     "compras": 4,
-    "cpa": 39.11
+    "cpa": 39.41
    },
    {
     "id": "120248088694150009",
@@ -75,7 +75,7 @@
     "campana": "28 - 32 - 37",
     "anuncio": "47. Primo visita",
     "estado": "ACTIVE",
-    "gasto": 8.47,
+    "gasto": 8.48,
     "compras": 0,
     "cpa": null
    },
@@ -119,9 +119,9 @@
     "campana": "dupli 1",
     "anuncio": "48. Hermanas mate",
     "estado": "ACTIVE",
-    "gasto": 51.68,
+    "gasto": 51.97,
     "compras": 5,
-    "cpa": 10.34
+    "cpa": 10.39
    },
    {
     "id": "120250476582600149",
@@ -141,9 +141,9 @@
     "campana": "dupli 1",
     "anuncio": "51. Primera noche",
     "estado": "ACTIVE",
-    "gasto": 19.39,
+    "gasto": 20.07,
     "compras": 2,
-    "cpa": 9.7
+    "cpa": 10.04
    },
    {
     "id": "120254777021490204",
@@ -152,9 +152,9 @@
     "campana": "dupli 1",
     "anuncio": "50. Respondiendo preguntas",
     "estado": "ACTIVE",
-    "gasto": 14.34,
+    "gasto": 14.8,
     "compras": 1,
-    "cpa": 14.34
+    "cpa": 14.8
    },
    {
     "id": "120254765847740204",
@@ -163,9 +163,9 @@
     "campana": "dupli 1",
     "anuncio": "37. Vecino",
     "estado": "ACTIVE",
-    "gasto": 16.94,
+    "gasto": 17.05,
     "compras": 2,
-    "cpa": 8.47
+    "cpa": 8.53
    }
   ],
   "yesterday": [
@@ -743,9 +743,9 @@
     "campana": "26 - 27 - 33",
     "anuncio": "26. Jubilada",
     "estado": "ACTIVE",
-    "gasto": 209.9,
-    "compras": 24,
-    "cpa": 8.75
+    "gasto": 211.55,
+    "compras": 25,
+    "cpa": 8.46
    },
    {
     "id": "120250618383700753",
@@ -798,9 +798,9 @@
     "campana": "28 - 32 - 37",
     "anuncio": "53. La de la costa",
     "estado": "ACTIVE",
-    "gasto": 156.44,
+    "gasto": 157.63,
     "compras": 4,
-    "cpa": 39.11
+    "cpa": 39.41
    },
    {
     "id": "120248088694150009",
@@ -809,7 +809,7 @@
     "campana": "28 - 32 - 37",
     "anuncio": "47. Primo visita",
     "estado": "ACTIVE",
-    "gasto": 13.36,
+    "gasto": 13.37,
     "compras": 0,
     "cpa": null
    },
@@ -864,9 +864,9 @@
     "campana": "dupli 1",
     "anuncio": "48. Hermanas mate",
     "estado": "ACTIVE",
-    "gasto": 57.6,
+    "gasto": 58.16,
     "compras": 5,
-    "cpa": 11.52
+    "cpa": 11.63
    },
    {
     "id": "120250476577390149",
@@ -908,9 +908,9 @@
     "campana": "dupli 1",
     "anuncio": "51. Primera noche",
     "estado": "ACTIVE",
-    "gasto": 19.39,
+    "gasto": 20.27,
     "compras": 2,
-    "cpa": 9.7
+    "cpa": 10.14
    },
    {
     "id": "120254777021490204",
@@ -919,9 +919,9 @@
     "campana": "dupli 1",
     "anuncio": "50. Respondiendo preguntas",
     "estado": "ACTIVE",
-    "gasto": 14.34,
+    "gasto": 14.8,
     "compras": 1,
-    "cpa": 14.34
+    "cpa": 14.8
    },
    {
     "id": "120254765847740204",
@@ -930,9 +930,9 @@
     "campana": "dupli 1",
     "anuncio": "37. Vecino",
     "estado": "ACTIVE",
-    "gasto": 23.75,
+    "gasto": 23.86,
     "compras": 3,
-    "cpa": 7.92
+    "cpa": 7.95
    },
    {
     "id": "120254711903400204",
@@ -1045,26 +1045,26 @@
   {
    "clave": "c1",
    "fecha": "2026-11-08",
-   "compras": 11,
-   "gasto": 110.96
+   "compras": 12,
+   "gasto": 112.38
   },
   {
    "clave": "c2",
    "fecha": "2026-11-08",
    "compras": 4,
-   "gasto": 217.16
+   "gasto": 218.36
   },
   {
    "clave": "c3",
    "fecha": "2026-11-08",
    "compras": 5,
-   "gasto": 51.7
+   "gasto": 52.26
   },
   {
    "clave": "cb",
    "fecha": "2026-11-08",
    "compras": 7,
-   "gasto": 92.19
+   "gasto": 93.49
   }
  ],
  "videos": {
