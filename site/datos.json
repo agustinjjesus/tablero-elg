@@ -1,6 +1,6 @@
 {
  "estado": "ok",
- "actualizado": "2026-11-08T04:05:21+00:00",
+ "actualizado": "2026-11-08T04:35:30+00:00",
  "hoy": "2026-11-08",
  "inicio": "2026-11-05",
  "cuentas": [
@@ -42,9 +42,9 @@
     "campana": "26 - 27 - 33",
     "anuncio": "26. Jubilada",
     "estado": "ACTIVE",
-    "gasto": 2.34,
+    "gasto": 4.09,
     "compras": 1,
-    "cpa": 2.34
+    "cpa": 4.09
    },
    {
     "id": "120248088694150009",
@@ -53,7 +53,7 @@
     "campana": "28 - 32 - 37",
     "anuncio": "47. Primo visita",
     "estado": "ACTIVE",
-    "gasto": 0.53,
+    "gasto": 0.69,
     "compras": 0,
     "cpa": null
    },
@@ -64,7 +64,7 @@
     "campana": "28 - 32 - 37",
     "anuncio": "45. Matrimonio living",
     "estado": "ACTIVE",
-    "gasto": 0.72,
+    "gasto": 1.07,
     "compras": 0,
     "cpa": null
    },
@@ -75,7 +75,7 @@
     "campana": "28 - 32 - 37",
     "anuncio": "46. Tejedora",
     "estado": "ACTIVE",
-    "gasto": 0.98,
+    "gasto": 1.21,
     "compras": 0,
     "cpa": null
    },
@@ -86,9 +86,9 @@
     "campana": "dupli 1",
     "anuncio": "48. Hermanas mate",
     "estado": "ACTIVE",
-    "gasto": 6.01,
+    "gasto": 7.58,
     "compras": 2,
-    "cpa": 3.01
+    "cpa": 3.79
    },
    {
     "id": "120254765847740204",
@@ -97,7 +97,7 @@
     "campana": "dupli 1",
     "anuncio": "37. Vecino",
     "estado": "ACTIVE",
-    "gasto": 0.22,
+    "gasto": 0.47,
     "compras": 0,
     "cpa": null
    },
@@ -108,9 +108,9 @@
     "campana": "dupli 1",
     "anuncio": "33. Cinco minutitos",
     "estado": "ACTIVE",
-    "gasto": 3.16,
+    "gasto": 4.64,
     "compras": 1,
-    "cpa": 3.16
+    "cpa": 4.64
    },
    {
     "id": "120254765846800204",
@@ -119,7 +119,7 @@
     "campana": "dupli 1",
     "anuncio": "38. Hermanas",
     "estado": "ACTIVE",
-    "gasto": 0.95,
+    "gasto": 1.62,
     "compras": 0,
     "cpa": null
    }
@@ -154,7 +154,7 @@
     "campana": "26 - 27 - 33",
     "anuncio": "26. Jubilada",
     "estado": "ACTIVE",
-    "gasto": 58.93,
+    "gasto": 58.96,
     "compras": 8,
     "cpa": 7.37
    },
@@ -165,7 +165,7 @@
     "campana": "28 - 32 - 37",
     "anuncio": "47. Primo visita",
     "estado": "ACTIVE",
-    "gasto": 4.7,
+    "gasto": 4.81,
     "compras": 0,
     "cpa": null
    },
@@ -176,7 +176,7 @@
     "campana": "28 - 32 - 37",
     "anuncio": "45. Matrimonio living",
     "estado": "ACTIVE",
-    "gasto": 13.94,
+    "gasto": 13.95,
     "compras": 0,
     "cpa": null
    },
@@ -253,9 +253,9 @@
     "campana": "dupli 1",
     "anuncio": "33. Cinco minutitos",
     "estado": "ACTIVE",
-    "gasto": 20.52,
+    "gasto": 20.53,
     "compras": 2,
-    "cpa": 10.26
+    "cpa": 10.27
    },
    {
     "id": "120254765846800204",
@@ -264,9 +264,9 @@
     "campana": "dupli 1",
     "anuncio": "38. Hermanas",
     "estado": "ACTIVE",
-    "gasto": 20.52,
+    "gasto": 20.53,
     "compras": 2,
-    "cpa": 10.26
+    "cpa": 10.27
    }
   ],
   "last_7d": [
@@ -299,9 +299,9 @@
     "campana": "26 - 27 - 33",
     "anuncio": "26. Jubilada",
     "estado": "ACTIVE",
-    "gasto": 98.72,
+    "gasto": 98.75,
     "compras": 13,
-    "cpa": 7.59
+    "cpa": 7.6
    },
    {
     "id": "120250618383700753",
@@ -354,7 +354,7 @@
     "campana": "28 - 32 - 37",
     "anuncio": "47. Primo visita",
     "estado": "ACTIVE",
-    "gasto": 4.7,
+    "gasto": 4.81,
     "compras": 0,
     "cpa": null
    },
@@ -365,7 +365,7 @@
     "campana": "28 - 32 - 37",
     "anuncio": "45. Matrimonio living",
     "estado": "ACTIVE",
-    "gasto": 13.94,
+    "gasto": 13.95,
     "compras": 0,
     "cpa": null
    },
@@ -453,9 +453,9 @@
     "campana": "dupli 1",
     "anuncio": "33. Cinco minutitos",
     "estado": "ACTIVE",
-    "gasto": 20.52,
+    "gasto": 20.53,
     "compras": 2,
-    "cpa": 10.26
+    "cpa": 10.27
    },
    {
     "id": "120254765846800204",
@@ -464,9 +464,9 @@
     "campana": "dupli 1",
     "anuncio": "38. Hermanas",
     "estado": "ACTIVE",
-    "gasto": 20.52,
+    "gasto": 20.53,
     "compras": 2,
-    "cpa": 10.26
+    "cpa": 10.27
    },
    {
     "id": "120254711903400204",
@@ -532,9 +532,9 @@
     "campana": "26 - 27 - 33",
     "anuncio": "26. Jubilada",
     "estado": "ACTIVE",
-    "gasto": 98.72,
+    "gasto": 98.75,
     "compras": 13,
-    "cpa": 7.59
+    "cpa": 7.6
    },
    {
     "id": "120250618383700753",
@@ -587,7 +587,7 @@
     "campana": "28 - 32 - 37",
     "anuncio": "47. Primo visita",
     "estado": "ACTIVE",
-    "gasto": 4.7,
+    "gasto": 4.81,
     "compras": 0,
     "cpa": null
    },
@@ -598,7 +598,7 @@
     "campana": "28 - 32 - 37",
     "anuncio": "45. Matrimonio living",
     "estado": "ACTIVE",
-    "gasto": 13.94,
+    "gasto": 13.95,
     "compras": 0,
     "cpa": null
    },
@@ -686,9 +686,9 @@
     "campana": "dupli 1",
     "anuncio": "33. Cinco minutitos",
     "estado": "ACTIVE",
-    "gasto": 20.52,
+    "gasto": 20.53,
     "compras": 2,
-    "cpa": 10.26
+    "cpa": 10.27
    },
    {
     "id": "120254765846800204",
@@ -697,9 +697,9 @@
     "campana": "dupli 1",
     "anuncio": "38. Hermanas",
     "estado": "ACTIVE",
-    "gasto": 20.52,
+    "gasto": 20.53,
     "compras": 2,
-    "cpa": 10.26
+    "cpa": 10.27
    },
    {
     "id": "120254711903400204",
@@ -765,9 +765,9 @@
     "campana": "26 - 27 - 33",
     "anuncio": "26. Jubilada",
     "estado": "ACTIVE",
-    "gasto": 101.06,
+    "gasto": 102.84,
     "compras": 14,
-    "cpa": 7.22
+    "cpa": 7.35
    },
    {
     "id": "120250618383700753",
@@ -820,7 +820,7 @@
     "campana": "28 - 32 - 37",
     "anuncio": "47. Primo visita",
     "estado": "ACTIVE",
-    "gasto": 5.23,
+    "gasto": 5.5,
     "compras": 0,
     "cpa": null
    },
@@ -831,7 +831,7 @@
     "campana": "28 - 32 - 37",
     "anuncio": "45. Matrimonio living",
     "estado": "ACTIVE",
-    "gasto": 14.66,
+    "gasto": 15.02,
     "compras": 0,
     "cpa": null
    },
@@ -842,7 +842,7 @@
     "campana": "28 - 32 - 37",
     "anuncio": "46. Tejedora",
     "estado": "ACTIVE",
-    "gasto": 7.99,
+    "gasto": 8.22,
     "compras": 0,
     "cpa": null
    },
@@ -864,9 +864,9 @@
     "campana": "dupli 1",
     "anuncio": "48. Hermanas mate",
     "estado": "ACTIVE",
-    "gasto": 11.93,
+    "gasto": 13.55,
     "compras": 2,
-    "cpa": 5.97
+    "cpa": 6.78
    },
    {
     "id": "120250476577390149",
@@ -908,9 +908,9 @@
     "campana": "dupli 1",
     "anuncio": "37. Vecino",
     "estado": "ACTIVE",
-    "gasto": 7.03,
+    "gasto": 7.28,
     "compras": 1,
-    "cpa": 7.03
+    "cpa": 7.28
    },
    {
     "id": "120254765847110204",
@@ -919,9 +919,9 @@
     "campana": "dupli 1",
     "anuncio": "33. Cinco minutitos",
     "estado": "ACTIVE",
-    "gasto": 23.68,
+    "gasto": 25.17,
     "compras": 3,
-    "cpa": 7.89
+    "cpa": 8.39
    },
    {
     "id": "120254765846800204",
@@ -930,9 +930,9 @@
     "campana": "dupli 1",
     "anuncio": "38. Hermanas",
     "estado": "ACTIVE",
-    "gasto": 21.47,
+    "gasto": 22.15,
     "compras": 2,
-    "cpa": 10.74
+    "cpa": 11.08
    },
    {
     "id": "120254711903400204",
@@ -1022,13 +1022,13 @@
    "clave": "c1",
    "fecha": "2026-11-07",
    "compras": 8,
-   "gasto": 59.2
+   "gasto": 59.23
   },
   {
    "clave": "c2",
    "fecha": "2026-11-07",
    "compras": 1,
-   "gasto": 25.65
+   "gasto": 25.77
   },
   {
    "clave": "c3",
@@ -1040,31 +1040,31 @@
    "clave": "cb",
    "fecha": "2026-11-07",
    "compras": 6,
-   "gasto": 47.85
+   "gasto": 47.87
   },
   {
    "clave": "c1",
    "fecha": "2026-11-08",
    "compras": 1,
-   "gasto": 2.35
+   "gasto": 4.42
   },
   {
    "clave": "c2",
    "fecha": "2026-11-08",
    "compras": 0,
-   "gasto": 2.23
+   "gasto": 2.97
   },
   {
    "clave": "c3",
    "fecha": "2026-11-08",
    "compras": 2,
-   "gasto": 6.01
+   "gasto": 7.63
   },
   {
    "clave": "cb",
    "fecha": "2026-11-08",
    "compras": 1,
-   "gasto": 4.33
+   "gasto": 6.73
   }
  ],
  "videos": {
