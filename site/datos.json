@@ -1,6 +1,6 @@
 {
  "estado": "ok",
- "actualizado": "2026-11-08T16:36:24+00:00",
+ "actualizado": "2026-11-08T16:47:56+00:00",
  "hoy": "2026-11-08",
  "inicio": "2026-11-05",
  "cuentas": [
@@ -53,9 +53,9 @@
     "campana": "26 - 27 - 33",
     "anuncio": "26. Jubilada",
     "estado": "ACTIVE",
-    "gasto": 67.15,
-    "compras": 4,
-    "cpa": 16.79
+    "gasto": 68.35,
+    "compras": 5,
+    "cpa": 13.67
    },
    {
     "id": "120248097316430009",
@@ -64,9 +64,9 @@
     "campana": "28 - 32 - 37",
     "anuncio": "53. La de la costa",
     "estado": "ADSET_PAUSED",
-    "gasto": 72.01,
+    "gasto": 72.71,
     "compras": 1,
-    "cpa": 72.01
+    "cpa": 72.71
    },
    {
     "id": "120248088694150009",
@@ -75,7 +75,7 @@
     "campana": "28 - 32 - 37",
     "anuncio": "47. Primo visita",
     "estado": "ADSET_PAUSED",
-    "gasto": 8.21,
+    "gasto": 8.22,
     "compras": 0,
     "cpa": null
    },
@@ -97,7 +97,7 @@
     "campana": "28 - 32 - 37",
     "anuncio": "46. Tejedora",
     "estado": "ADSET_PAUSED",
-    "gasto": 11.77,
+    "gasto": 11.78,
     "compras": 0,
     "cpa": null
    },
@@ -119,9 +119,9 @@
     "campana": "dupli 1",
     "anuncio": "48. Hermanas mate",
     "estado": "ACTIVE",
-    "gasto": 33.63,
+    "gasto": 34.39,
     "compras": 4,
-    "cpa": 8.41
+    "cpa": 8.6
    },
    {
     "id": "120250476582600149",
@@ -141,7 +141,7 @@
     "campana": "dupli 1",
     "anuncio": "51. Primera noche",
     "estado": "ACTIVE",
-    "gasto": 3.66,
+    "gasto": 4.04,
     "compras": 0,
     "cpa": null
    },
@@ -152,7 +152,7 @@
     "campana": "dupli 1",
     "anuncio": "50. Respondiendo preguntas",
     "estado": "ACTIVE",
-    "gasto": 1.8,
+    "gasto": 2.59,
     "compras": 0,
     "cpa": null
    },
@@ -163,9 +163,9 @@
     "campana": "dupli 1",
     "anuncio": "37. Vecino",
     "estado": "ACTIVE",
-    "gasto": 8.48,
+    "gasto": 8.57,
     "compras": 1,
-    "cpa": 8.48
+    "cpa": 8.57
    }
   ],
   "yesterday": [
@@ -743,9 +743,9 @@
     "campana": "26 - 27 - 33",
     "anuncio": "26. Jubilada",
     "estado": "ACTIVE",
-    "gasto": 166.17,
-    "compras": 17,
-    "cpa": 9.77
+    "gasto": 167.37,
+    "compras": 18,
+    "cpa": 9.3
    },
    {
     "id": "120250618383700753",
@@ -798,9 +798,9 @@
     "campana": "28 - 32 - 37",
     "anuncio": "53. La de la costa",
     "estado": "ADSET_PAUSED",
-    "gasto": 72.01,
+    "gasto": 72.71,
     "compras": 1,
-    "cpa": 72.01
+    "cpa": 72.71
    },
    {
     "id": "120248088694150009",
@@ -809,7 +809,7 @@
     "campana": "28 - 32 - 37",
     "anuncio": "47. Primo visita",
     "estado": "ADSET_PAUSED",
-    "gasto": 13.07,
+    "gasto": 13.08,
     "compras": 0,
     "cpa": null
    },
@@ -831,7 +831,7 @@
     "campana": "28 - 32 - 37",
     "anuncio": "46. Tejedora",
     "estado": "ADSET_PAUSED",
-    "gasto": 18.8,
+    "gasto": 18.81,
     "compras": 0,
     "cpa": null
    },
@@ -864,9 +864,9 @@
     "campana": "dupli 1",
     "anuncio": "48. Hermanas mate",
     "estado": "ACTIVE",
-    "gasto": 39.55,
+    "gasto": 40.31,
     "compras": 4,
-    "cpa": 9.89
+    "cpa": 10.08
    },
    {
     "id": "120250476577390149",
@@ -908,7 +908,7 @@
     "campana": "dupli 1",
     "anuncio": "51. Primera noche",
     "estado": "ACTIVE",
-    "gasto": 3.66,
+    "gasto": 4.04,
     "compras": 0,
     "cpa": null
    },
@@ -919,7 +919,7 @@
     "campana": "dupli 1",
     "anuncio": "50. Respondiendo preguntas",
     "estado": "ACTIVE",
-    "gasto": 1.8,
+    "gasto": 2.59,
     "compras": 0,
     "cpa": null
    },
@@ -930,9 +930,9 @@
     "campana": "dupli 1",
     "anuncio": "37. Vecino",
     "estado": "ACTIVE",
-    "gasto": 15.29,
+    "gasto": 15.38,
     "compras": 2,
-    "cpa": 7.65
+    "cpa": 7.69
    },
    {
     "id": "120254711903400204",
@@ -1045,26 +1045,26 @@
   {
    "clave": "c1",
    "fecha": "2026-11-08",
-   "compras": 4,
-   "gasto": 67.28
+   "compras": 5,
+   "gasto": 68.48
   },
   {
    "clave": "c2",
    "fecha": "2026-11-08",
    "compras": 1,
-   "gasto": 130.76
+   "gasto": 131.48
   },
   {
    "clave": "c3",
    "fecha": "2026-11-08",
    "compras": 4,
-   "gasto": 33.65
+   "gasto": 34.41
   },
   {
    "clave": "cb",
    "fecha": "2026-11-08",
    "compras": 3,
-   "gasto": 54.28
+   "gasto": 56.1
   }
  ],
  "videos": {
@@ -1105,7 +1105,8 @@
    "v50": "50 · Respondiendo preguntas",
    "v51": "51 · Primera noche",
    "v52": "52 · El del campo",
-   "v53": "53 · La de la costa"
+   "v53": "53 · La de la costa",
+   "v54": "54 · Suegra y yerno (reserva, no cargado en Meta)"
   },
   "anuncios": {
    "120250652567540753": "vid-1692683338883699",
