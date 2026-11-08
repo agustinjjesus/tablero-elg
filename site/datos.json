@@ -1,6 +1,6 @@
 {
  "estado": "ok",
- "actualizado": "2026-11-08T18:16:48+00:00",
+ "actualizado": "2026-11-08T18:26:25+00:00",
  "hoy": "2026-11-08",
  "inicio": "2026-11-05",
  "cuentas": [
@@ -53,9 +53,9 @@
     "campana": "26 - 27 - 33",
     "anuncio": "26. Jubilada",
     "estado": "ACTIVE",
-    "gasto": 83.57,
+    "gasto": 85.01,
     "compras": 6,
-    "cpa": 13.93
+    "cpa": 14.17
    },
    {
     "id": "120248097316430009",
@@ -64,9 +64,9 @@
     "campana": "28 - 32 - 37",
     "anuncio": "53. La de la costa",
     "estado": "ADSET_PAUSED",
-    "gasto": 74.52,
+    "gasto": 74.63,
     "compras": 1,
-    "cpa": 74.52
+    "cpa": 74.63
    },
    {
     "id": "120248088694150009",
@@ -75,7 +75,7 @@
     "campana": "28 - 32 - 37",
     "anuncio": "47. Primo visita",
     "estado": "ADSET_PAUSED",
-    "gasto": 8.26,
+    "gasto": 8.27,
     "compras": 0,
     "cpa": null
    },
@@ -86,7 +86,7 @@
     "campana": "28 - 32 - 37",
     "anuncio": "45. Matrimonio living",
     "estado": "ADSET_PAUSED",
-    "gasto": 38.55,
+    "gasto": 38.79,
     "compras": 0,
     "cpa": null
    },
@@ -97,7 +97,7 @@
     "campana": "28 - 32 - 37",
     "anuncio": "46. Tejedora",
     "estado": "ADSET_PAUSED",
-    "gasto": 11.91,
+    "gasto": 11.95,
     "compras": 0,
     "cpa": null
    },
@@ -119,9 +119,9 @@
     "campana": "dupli 1",
     "anuncio": "48. Hermanas mate",
     "estado": "ACTIVE",
-    "gasto": 40.71,
+    "gasto": 41.15,
     "compras": 4,
-    "cpa": 10.18
+    "cpa": 10.29
    },
    {
     "id": "120250476582600149",
@@ -141,9 +141,9 @@
     "campana": "dupli 1",
     "anuncio": "51. Primera noche",
     "estado": "ACTIVE",
-    "gasto": 9.01,
+    "gasto": 9.23,
     "compras": 1,
-    "cpa": 9.01
+    "cpa": 9.23
    },
    {
     "id": "120254777021490204",
@@ -152,7 +152,7 @@
     "campana": "dupli 1",
     "anuncio": "50. Respondiendo preguntas",
     "estado": "ACTIVE",
-    "gasto": 5.56,
+    "gasto": 5.96,
     "compras": 0,
     "cpa": null
    },
@@ -163,9 +163,9 @@
     "campana": "dupli 1",
     "anuncio": "37. Vecino",
     "estado": "ACTIVE",
-    "gasto": 11.35,
-    "compras": 1,
-    "cpa": 11.35
+    "gasto": 11.61,
+    "compras": 2,
+    "cpa": 5.81
    }
   ],
   "yesterday": [
@@ -467,6 +467,39 @@
     "gasto": 6.81,
     "compras": 1,
     "cpa": 6.81
+   },
+   {
+    "id": "120254711903400204",
+    "clave": "cb",
+    "cuenta": "ComboBiotina",
+    "campana": "dupli 1",
+    "anuncio": "30. Enfermera",
+    "estado": "PAUSED",
+    "gasto": 4.23,
+    "compras": 0,
+    "cpa": null
+   },
+   {
+    "id": "120254711900590204",
+    "clave": "cb",
+    "cuenta": "ComboBiotina",
+    "campana": "dupli 1",
+    "anuncio": "29. Tren Tigre",
+    "estado": "PAUSED",
+    "gasto": 1.26,
+    "compras": 0,
+    "cpa": null
+   },
+   {
+    "id": "120254711902040204",
+    "clave": "cb",
+    "cuenta": "ComboBiotina",
+    "campana": "dupli 1",
+    "anuncio": "32. Balcón",
+    "estado": "PAUSED",
+    "gasto": 4.62,
+    "compras": 0,
+    "cpa": null
    }
   ],
   "last_30d": [
@@ -710,9 +743,9 @@
     "campana": "26 - 27 - 33",
     "anuncio": "26. Jubilada",
     "estado": "ACTIVE",
-    "gasto": 182.59,
+    "gasto": 184.03,
     "compras": 19,
-    "cpa": 9.61
+    "cpa": 9.69
    },
    {
     "id": "120250618383700753",
@@ -765,9 +798,9 @@
     "campana": "28 - 32 - 37",
     "anuncio": "53. La de la costa",
     "estado": "ADSET_PAUSED",
-    "gasto": 74.52,
+    "gasto": 74.63,
     "compras": 1,
-    "cpa": 74.52
+    "cpa": 74.63
    },
    {
     "id": "120248088694150009",
@@ -776,7 +809,7 @@
     "campana": "28 - 32 - 37",
     "anuncio": "47. Primo visita",
     "estado": "ADSET_PAUSED",
-    "gasto": 13.14,
+    "gasto": 13.15,
     "compras": 0,
     "cpa": null
    },
@@ -787,7 +820,7 @@
     "campana": "28 - 32 - 37",
     "anuncio": "45. Matrimonio living",
     "estado": "ADSET_PAUSED",
-    "gasto": 52.61,
+    "gasto": 52.85,
     "compras": 0,
     "cpa": null
    },
@@ -798,7 +831,7 @@
     "campana": "28 - 32 - 37",
     "anuncio": "46. Tejedora",
     "estado": "ADSET_PAUSED",
-    "gasto": 18.94,
+    "gasto": 18.98,
     "compras": 0,
     "cpa": null
    },
@@ -831,9 +864,9 @@
     "campana": "dupli 1",
     "anuncio": "48. Hermanas mate",
     "estado": "ACTIVE",
-    "gasto": 46.63,
+    "gasto": 47.07,
     "compras": 4,
-    "cpa": 11.66
+    "cpa": 11.77
    },
    {
     "id": "120250476577390149",
@@ -875,9 +908,9 @@
     "campana": "dupli 1",
     "anuncio": "51. Primera noche",
     "estado": "ACTIVE",
-    "gasto": 9.01,
+    "gasto": 9.23,
     "compras": 1,
-    "cpa": 9.01
+    "cpa": 9.23
    },
    {
     "id": "120254777021490204",
@@ -886,7 +919,7 @@
     "campana": "dupli 1",
     "anuncio": "50. Respondiendo preguntas",
     "estado": "ACTIVE",
-    "gasto": 5.56,
+    "gasto": 5.96,
     "compras": 0,
     "cpa": null
    },
@@ -897,9 +930,9 @@
     "campana": "dupli 1",
     "anuncio": "37. Vecino",
     "estado": "ACTIVE",
-    "gasto": 18.16,
-    "compras": 2,
-    "cpa": 9.08
+    "gasto": 18.42,
+    "compras": 3,
+    "cpa": 6.14
    },
    {
     "id": "120254711903400204",
@@ -1013,25 +1046,25 @@
    "clave": "c1",
    "fecha": "2026-11-08",
    "compras": 6,
-   "gasto": 83.7
+   "gasto": 85.14
   },
   {
    "clave": "c2",
    "fecha": "2026-11-08",
    "compras": 1,
-   "gasto": 133.91
+   "gasto": 134.32
   },
   {
    "clave": "c3",
    "fecha": "2026-11-08",
    "compras": 4,
-   "gasto": 40.73
+   "gasto": 41.17
   },
   {
    "clave": "cb",
    "fecha": "2026-11-08",
-   "compras": 4,
-   "gasto": 67.24
+   "compras": 5,
+   "gasto": 68.12
   }
  ],
  "videos": {
@@ -1076,7 +1109,8 @@
    "v54": "54 · Suegra y yerno (reserva, no cargado en Meta)",
    "v55": "55 · El nieto y la abuela (reserva, no cargado en Meta)",
    "v56": "56 · Jubilados en motorhome (reserva, no cargado en Meta)",
-   "v57": "57 · Los compadres pescando (reserva, no cargado en Meta)"
+   "v57": "57 · Los compadres pescando (reserva, no cargado en Meta)",
+   "v58": "58 · La sala de espera (reserva, no cargado en Meta)"
   },
   "anuncios": {
    "120250652567540753": "vid-1692683338883699",
