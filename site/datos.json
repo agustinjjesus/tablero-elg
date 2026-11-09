@@ -1,6 +1,6 @@
 {
  "estado": "ok",
- "actualizado": "2026-11-09T09:47:02+00:00",
+ "actualizado": "2026-11-09T09:56:57+00:00",
  "hoy": "2026-11-09",
  "inicio": "2026-11-05",
  "cuentas": [
@@ -31,7 +31,7 @@
     "campana": "ESCALA 1",
     "anuncio": "48. Hermanas mate (ESCALA)",
     "estado": "ACTIVE",
-    "gasto": 9.15,
+    "gasto": 10.03,
     "compras": 0,
     "cpa": null
    },
@@ -42,9 +42,9 @@
     "campana": "26 - 27 - 33",
     "anuncio": "60. Las amigas en la pileta",
     "estado": "ACTIVE",
-    "gasto": 9.38,
+    "gasto": 9.94,
     "compras": 1,
-    "cpa": 9.38
+    "cpa": 9.94
    },
    {
     "id": "120250652567540753",
@@ -75,9 +75,9 @@
     "campana": "28 - 32 - 37",
     "anuncio": "53. La de la costa",
     "estado": "ACTIVE",
-    "gasto": 63.67,
+    "gasto": 64.45,
     "compras": 2,
-    "cpa": 31.84
+    "cpa": 32.23
    },
    {
     "id": "120248088693620009",
@@ -97,9 +97,9 @@
     "campana": "dupli 1",
     "anuncio": "48. Hermanas mate",
     "estado": "ACTIVE",
-    "gasto": 7.51,
+    "gasto": 7.6,
     "compras": 2,
-    "cpa": 3.76
+    "cpa": 3.8
    },
    {
     "id": "120250476577390149",
@@ -231,7 +231,7 @@
     "campana": "28 - 32 - 37",
     "anuncio": "53. La de la costa",
     "estado": "ACTIVE",
-    "gasto": 241.18,
+    "gasto": 241.21,
     "compras": 11,
     "cpa": 21.93
    },
@@ -273,7 +273,7 @@
     "clave": "c2",
     "cuenta": "Cuenta 2",
     "campana": "28 - 32 - 37",
-    "anuncio": "39. Balcón lunes v2",
+    "anuncio": "39. Balón lunes v2",
     "estado": "DISAPPROVED",
     "gasto": 0.67,
     "compras": 0,
@@ -385,7 +385,7 @@
     "clave": "c1",
     "cuenta": "Cuenta 1",
     "campana": "dupli 1",
-    "anuncio": "27. Balcón",
+    "anuncio": "27. Balón",
     "estado": "CAMPAIGN_PAUSED",
     "gasto": 34.81,
     "compras": 3,
@@ -418,7 +418,7 @@
     "clave": "c1",
     "cuenta": "Cuenta 1",
     "campana": "dupli 1 - Copia",
-    "anuncio": "27. Balcón",
+    "anuncio": "27. Balón",
     "estado": "CAMPAIGN_PAUSED",
     "gasto": 41.44,
     "compras": 2,
@@ -453,7 +453,7 @@
     "campana": "28 - 32 - 37",
     "anuncio": "53. La de la costa",
     "estado": "ACTIVE",
-    "gasto": 241.18,
+    "gasto": 241.21,
     "compras": 11,
     "cpa": 21.93
    },
@@ -495,7 +495,7 @@
     "clave": "c2",
     "cuenta": "Cuenta 2",
     "campana": "ESCALA 1",
-    "anuncio": "27. Balcón",
+    "anuncio": "27. Balón",
     "estado": "ADSET_PAUSED",
     "gasto": 1.8,
     "compras": 0,
@@ -506,7 +506,7 @@
     "clave": "c2",
     "cuenta": "Cuenta 2",
     "campana": "28 - 32 - 37",
-    "anuncio": "39. Balcón lunes v2",
+    "anuncio": "39. Balón lunes v2",
     "estado": "DISAPPROVED",
     "gasto": 0.67,
     "compras": 0,
@@ -550,7 +550,7 @@
     "clave": "c3",
     "cuenta": "Cuenta 3",
     "campana": "dupli 1",
-    "anuncio": "32. Balcón",
+    "anuncio": "32. Balón",
     "estado": "PAUSED",
     "gasto": 82.05,
     "compras": 5,
@@ -627,7 +627,7 @@
     "clave": "cb",
     "cuenta": "ComboBiotina",
     "campana": "dupli 1",
-    "anuncio": "32. Balcón",
+    "anuncio": "32. Balón",
     "estado": "PAUSED",
     "gasto": 4.62,
     "compras": 0,
@@ -662,7 +662,7 @@
     "clave": "c1",
     "cuenta": "Cuenta 1",
     "campana": "dupli 1",
-    "anuncio": "27. Balcón",
+    "anuncio": "27. Balón",
     "estado": "CAMPAIGN_PAUSED",
     "gasto": 34.81,
     "compras": 3,
@@ -695,7 +695,7 @@
     "clave": "c1",
     "cuenta": "Cuenta 1",
     "campana": "dupli 1 - Copia",
-    "anuncio": "27. Balcón",
+    "anuncio": "27. Balón",
     "estado": "CAMPAIGN_PAUSED",
     "gasto": 41.44,
     "compras": 2,
@@ -730,7 +730,7 @@
     "campana": "28 - 32 - 37",
     "anuncio": "53. La de la costa",
     "estado": "ACTIVE",
-    "gasto": 241.18,
+    "gasto": 241.21,
     "compras": 11,
     "cpa": 21.93
    },
@@ -772,7 +772,7 @@
     "clave": "c2",
     "cuenta": "Cuenta 2",
     "campana": "ESCALA 1",
-    "anuncio": "27. Balcón",
+    "anuncio": "27. Balón",
     "estado": "ADSET_PAUSED",
     "gasto": 1.8,
     "compras": 0,
@@ -783,7 +783,7 @@
     "clave": "c2",
     "cuenta": "Cuenta 2",
     "campana": "28 - 32 - 37",
-    "anuncio": "39. Balcón lunes v2",
+    "anuncio": "39. Balón lunes v2",
     "estado": "DISAPPROVED",
     "gasto": 0.67,
     "compras": 0,
@@ -827,7 +827,7 @@
     "clave": "c3",
     "cuenta": "Cuenta 3",
     "campana": "dupli 1",
-    "anuncio": "32. Balcón",
+    "anuncio": "32. Balón",
     "estado": "PAUSED",
     "gasto": 82.05,
     "compras": 5,
@@ -904,7 +904,7 @@
     "clave": "cb",
     "cuenta": "ComboBiotina",
     "campana": "dupli 1",
-    "anuncio": "32. Balcón",
+    "anuncio": "32. Balón",
     "estado": "PAUSED",
     "gasto": 4.62,
     "compras": 0,
@@ -919,7 +919,7 @@
     "campana": "ESCALA 1",
     "anuncio": "48. Hermanas mate (ESCALA)",
     "estado": "ACTIVE",
-    "gasto": 9.15,
+    "gasto": 10.03,
     "compras": 0,
     "cpa": null
    },
@@ -930,9 +930,9 @@
     "campana": "26 - 27 - 33",
     "anuncio": "60. Las amigas en la pileta",
     "estado": "ACTIVE",
-    "gasto": 9.38,
+    "gasto": 9.94,
     "compras": 1,
-    "cpa": 9.38
+    "cpa": 9.94
    },
    {
     "id": "120250652567540753",
@@ -961,7 +961,7 @@
     "clave": "c1",
     "cuenta": "Cuenta 1",
     "campana": "dupli 1",
-    "anuncio": "27. Balcón",
+    "anuncio": "27. Balón",
     "estado": "CAMPAIGN_PAUSED",
     "gasto": 34.81,
     "compras": 3,
@@ -994,7 +994,7 @@
     "clave": "c1",
     "cuenta": "Cuenta 1",
     "campana": "dupli 1 - Copia",
-    "anuncio": "27. Balcón",
+    "anuncio": "27. Balón",
     "estado": "CAMPAIGN_PAUSED",
     "gasto": 41.44,
     "compras": 2,
@@ -1029,9 +1029,9 @@
     "campana": "28 - 32 - 37",
     "anuncio": "53. La de la costa",
     "estado": "ACTIVE",
-    "gasto": 304.97,
+    "gasto": 305.66,
     "compras": 13,
-    "cpa": 23.46
+    "cpa": 23.51
    },
    {
     "id": "120248088694150009",
@@ -1071,7 +1071,7 @@
     "clave": "c2",
     "cuenta": "Cuenta 2",
     "campana": "ESCALA 1",
-    "anuncio": "27. Balcón",
+    "anuncio": "27. Balón",
     "estado": "ADSET_PAUSED",
     "gasto": 1.8,
     "compras": 0,
@@ -1082,7 +1082,7 @@
     "clave": "c2",
     "cuenta": "Cuenta 2",
     "campana": "28 - 32 - 37",
-    "anuncio": "39. Balcón lunes v2",
+    "anuncio": "39. Balón lunes v2",
     "estado": "DISAPPROVED",
     "gasto": 0.67,
     "compras": 0,
@@ -1095,9 +1095,9 @@
     "campana": "dupli 1",
     "anuncio": "48. Hermanas mate",
     "estado": "ACTIVE",
-    "gasto": 86.78,
+    "gasto": 86.87,
     "compras": 8,
-    "cpa": 10.85
+    "cpa": 10.86
    },
    {
     "id": "120250476577390149",
@@ -1126,7 +1126,7 @@
     "clave": "c3",
     "cuenta": "Cuenta 3",
     "campana": "dupli 1",
-    "anuncio": "32. Balcón",
+    "anuncio": "32. Balón",
     "estado": "PAUSED",
     "gasto": 82.05,
     "compras": 5,
@@ -1214,7 +1214,7 @@
     "clave": "cb",
     "cuenta": "ComboBiotina",
     "campana": "dupli 1",
-    "anuncio": "32. Balcón",
+    "anuncio": "32. Balón",
     "estado": "PAUSED",
     "gasto": 4.62,
     "compras": 0,
@@ -1323,19 +1323,19 @@
    "clave": "c1",
    "fecha": "2026-11-09",
    "compras": 1,
-   "gasto": 18.99
+   "gasto": 20.17
   },
   {
    "clave": "c2",
    "fecha": "2026-11-09",
    "compras": 2,
-   "gasto": 63.85
+   "gasto": 64.51
   },
   {
    "clave": "c3",
    "fecha": "2026-11-09",
    "compras": 2,
-   "gasto": 7.61
+   "gasto": 7.7
   },
   {
    "clave": "cb",
@@ -1459,7 +1459,7 @@
   {
    "clave": "c1",
    "id": "120250669662140753",
-   "anuncio": "39. Balcón lunes",
+   "anuncio": "39. Balón lunes",
    "campana": "26 - 27 - 33"
   },
   {
@@ -1489,7 +1489,7 @@
   {
    "clave": "c2",
    "id": "120248097227050009",
-   "anuncio": "39. Balcón lunes v2",
+   "anuncio": "39. Balón lunes v2",
    "campana": "28 - 32 - 37"
   },
   {
@@ -1539,13 +1539,13 @@
   {
    "clave": "c1",
    "id": "120250622169690753",
-   "anuncio": "32. Balcón",
+   "anuncio": "32. Balón",
    "campana": "dupli 1 - Copia"
   },
   {
    "clave": "c1",
    "id": "120250618383520753",
-   "anuncio": "32. Balcón",
+   "anuncio": "32. Balón",
    "campana": "dupli 1"
   },
   {
@@ -1563,7 +1563,7 @@
   {
    "clave": "c2",
    "id": "120248072530140009",
-   "anuncio": "32. Balcón",
+   "anuncio": "32. Balón",
    "campana": "28 - 32 - 37"
   },
   {
