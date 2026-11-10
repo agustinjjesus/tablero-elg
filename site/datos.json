@@ -1,6 +1,6 @@
 {
  "estado": "ok",
- "actualizado": "2026-11-10T08:17:32+00:00",
+ "actualizado": "2026-11-10T08:27:48+00:00",
  "hoy": "2026-11-10",
  "inicio": "2026-11-05",
  "cuentas": [
@@ -31,7 +31,7 @@
     "campana": "26 - 27 - 33",
     "anuncio": "60. Las amigas en la pileta",
     "estado": "ACTIVE",
-    "gasto": 14.46,
+    "gasto": 14.67,
     "compras": 0,
     "cpa": null
    },
@@ -42,7 +42,7 @@
     "campana": "26 - 27 - 33",
     "anuncio": "44. Vecina",
     "estado": "ACTIVE",
-    "gasto": 0.01,
+    "gasto": 0.02,
     "compras": 0,
     "cpa": null
    },
@@ -53,9 +53,9 @@
     "campana": "28 - 32 - 37",
     "anuncio": "53. La de la costa",
     "estado": "ACTIVE",
-    "gasto": 7.23,
+    "gasto": 7.28,
     "compras": 1,
-    "cpa": 7.23
+    "cpa": 7.28
    },
    {
     "id": "120250488616810149",
@@ -64,9 +64,9 @@
     "campana": "dupli 1",
     "anuncio": "48. Hermanas mate",
     "estado": "ACTIVE",
-    "gasto": 5.63,
+    "gasto": 5.69,
     "compras": 1,
-    "cpa": 5.63
+    "cpa": 5.69
    },
    {
     "id": "120254784752850204",
@@ -75,7 +75,7 @@
     "campana": "dupli 1",
     "anuncio": "44. Vecina (ComboBiotina)",
     "estado": "ACTIVE",
-    "gasto": 2.65,
+    "gasto": 2.66,
     "compras": 0,
     "cpa": null
    },
@@ -97,7 +97,7 @@
     "campana": "dupli 1",
     "anuncio": "51. Primera noche",
     "estado": "ACTIVE",
-    "gasto": 7.86,
+    "gasto": 7.93,
     "compras": 0,
     "cpa": null
    },
@@ -974,9 +974,9 @@
     "campana": "26 - 27 - 33",
     "anuncio": "60. Las amigas en la pileta",
     "estado": "ACTIVE",
-    "gasto": 217.96,
+    "gasto": 217.99,
     "compras": 11,
-    "cpa": 19.81
+    "cpa": 19.82
    },
    {
     "id": "120250652567540753",
@@ -996,7 +996,7 @@
     "campana": "26 - 27 - 33",
     "anuncio": "44. Vecina",
     "estado": "ACTIVE",
-    "gasto": 0.78,
+    "gasto": 0.79,
     "compras": 0,
     "cpa": null
    },
@@ -1095,7 +1095,7 @@
     "campana": "28 - 32 - 37",
     "anuncio": "53. La de la costa",
     "estado": "ACTIVE",
-    "gasto": 435.08,
+    "gasto": 435.13,
     "compras": 24,
     "cpa": 18.13
    },
@@ -1172,7 +1172,7 @@
     "campana": "dupli 1",
     "anuncio": "48. Hermanas mate",
     "estado": "ACTIVE",
-    "gasto": 164.37,
+    "gasto": 164.43,
     "compras": 17,
     "cpa": 9.67
    },
@@ -1216,9 +1216,9 @@
     "campana": "dupli 1",
     "anuncio": "44. Vecina (ComboBiotina)",
     "estado": "ACTIVE",
-    "gasto": 22.66,
+    "gasto": 22.67,
     "compras": 2,
-    "cpa": 11.33
+    "cpa": 11.34
    },
    {
     "id": "120254782511900204",
@@ -1238,9 +1238,9 @@
     "campana": "dupli 1",
     "anuncio": "51. Primera noche",
     "estado": "ACTIVE",
-    "gasto": 95.67,
+    "gasto": 95.74,
     "compras": 5,
-    "cpa": 19.13
+    "cpa": 19.15
    },
    {
     "id": "120254777021490204",
@@ -1412,7 +1412,7 @@
    "clave": "c3",
    "fecha": "2026-11-09",
    "compras": 10,
-   "gasto": 79.38
+   "gasto": 79.43
   },
   {
    "clave": "cb",
@@ -1424,25 +1424,25 @@
    "clave": "c1",
    "fecha": "2026-11-10",
    "compras": 0,
-   "gasto": 14.65
+   "gasto": 14.69
   },
   {
    "clave": "c2",
    "fecha": "2026-11-10",
    "compras": 1,
-   "gasto": 7.23
+   "gasto": 7.28
   },
   {
    "clave": "c3",
    "fecha": "2026-11-10",
    "compras": 1,
-   "gasto": 5.63
+   "gasto": 5.69
   },
   {
    "clave": "cb",
    "fecha": "2026-11-10",
    "compras": 0,
-   "gasto": 13.42
+   "gasto": 13.52
   }
  ],
  "videos": {
