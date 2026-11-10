@@ -1,6 +1,6 @@
 {
  "estado": "ok",
- "actualizado": "2026-11-10T01:27:01+00:00",
+ "actualizado": "2026-11-10T01:36:57+00:00",
  "hoy": "2026-11-09",
  "inicio": "2026-11-05",
  "cuentas": [
@@ -31,9 +31,9 @@
     "campana": "26 - 27 - 33",
     "anuncio": "60. Las amigas en la pileta",
     "estado": "ACTIVE",
-    "gasto": 183.87,
+    "gasto": 185.64,
     "compras": 11,
-    "cpa": 16.72
+    "cpa": 16.88
    },
    {
     "id": "120250652567540753",
@@ -86,9 +86,9 @@
     "campana": "28 - 32 - 37",
     "anuncio": "53. La de la costa",
     "estado": "ACTIVE",
-    "gasto": 174.81,
+    "gasto": 175.8,
     "compras": 11,
-    "cpa": 15.89
+    "cpa": 15.98
    },
    {
     "id": "120248088694150009",
@@ -130,9 +130,9 @@
     "campana": "dupli 1",
     "anuncio": "48. Hermanas mate",
     "estado": "ACTIVE",
-    "gasto": 71.18,
+    "gasto": 72.32,
     "compras": 10,
-    "cpa": 7.12
+    "cpa": 7.23
    },
    {
     "id": "120250476577390149",
@@ -163,9 +163,9 @@
     "campana": "dupli 1",
     "anuncio": "44. Vecina (ComboBiotina)",
     "estado": "ACTIVE",
-    "gasto": 17.43,
+    "gasto": 17.52,
     "compras": 2,
-    "cpa": 8.72
+    "cpa": 8.76
    },
    {
     "id": "120254782511900204",
@@ -174,7 +174,7 @@
     "campana": "dupli 1",
     "anuncio": "58. La sala de espera",
     "estado": "ACTIVE",
-    "gasto": 13.49,
+    "gasto": 13.62,
     "compras": 0,
     "cpa": null
    },
@@ -185,9 +185,9 @@
     "campana": "dupli 1",
     "anuncio": "51. Primera noche",
     "estado": "ACTIVE",
-    "gasto": 42.49,
+    "gasto": 43.81,
     "compras": 3,
-    "cpa": 14.16
+    "cpa": 14.6
    },
    {
     "id": "120254777021490204",
@@ -196,7 +196,7 @@
     "campana": "dupli 1",
     "anuncio": "50. Respondiendo preguntas",
     "estado": "ACTIVE",
-    "gasto": 14.68,
+    "gasto": 14.9,
     "compras": 0,
     "cpa": null
    },
@@ -952,9 +952,9 @@
     "campana": "26 - 27 - 33",
     "anuncio": "60. Las amigas en la pileta",
     "estado": "ACTIVE",
-    "gasto": 183.87,
+    "gasto": 185.64,
     "compras": 11,
-    "cpa": 16.72
+    "cpa": 16.88
    },
    {
     "id": "120250652567540753",
@@ -1073,9 +1073,9 @@
     "campana": "28 - 32 - 37",
     "anuncio": "53. La de la costa",
     "estado": "ACTIVE",
-    "gasto": 418.14,
+    "gasto": 419.13,
     "compras": 22,
-    "cpa": 19.01
+    "cpa": 19.05
    },
    {
     "id": "120248088694150009",
@@ -1150,9 +1150,9 @@
     "campana": "dupli 1",
     "anuncio": "48. Hermanas mate",
     "estado": "ACTIVE",
-    "gasto": 150.89,
+    "gasto": 152.03,
     "compras": 16,
-    "cpa": 9.43
+    "cpa": 9.5
    },
    {
     "id": "120250476577390149",
@@ -1194,9 +1194,9 @@
     "campana": "dupli 1",
     "anuncio": "44. Vecina (ComboBiotina)",
     "estado": "ACTIVE",
-    "gasto": 17.43,
+    "gasto": 17.52,
     "compras": 2,
-    "cpa": 8.72
+    "cpa": 8.76
    },
    {
     "id": "120254782511900204",
@@ -1205,9 +1205,9 @@
     "campana": "dupli 1",
     "anuncio": "58. La sala de espera",
     "estado": "ACTIVE",
-    "gasto": 28.94,
+    "gasto": 29.07,
     "compras": 1,
-    "cpa": 28.94
+    "cpa": 29.07
    },
    {
     "id": "120254777022500204",
@@ -1216,9 +1216,9 @@
     "campana": "dupli 1",
     "anuncio": "51. Primera noche",
     "estado": "ACTIVE",
-    "gasto": 78.68,
+    "gasto": 80.0,
     "compras": 5,
-    "cpa": 15.74
+    "cpa": 16.0
    },
    {
     "id": "120254777021490204",
@@ -1227,9 +1227,9 @@
     "campana": "dupli 1",
     "anuncio": "50. Respondiendo preguntas",
     "estado": "ACTIVE",
-    "gasto": 40.45,
+    "gasto": 40.61,
     "compras": 1,
-    "cpa": 40.45
+    "cpa": 40.61
    },
    {
     "id": "120254765847740204",
@@ -1378,25 +1378,25 @@
    "clave": "c1",
    "fecha": "2026-11-09",
    "compras": 12,
-   "gasto": 218.47
+   "gasto": 220.24
   },
   {
    "clave": "c2",
    "fecha": "2026-11-09",
    "compras": 11,
-   "gasto": 174.94
+   "gasto": 175.93
   },
   {
    "clave": "c3",
    "fecha": "2026-11-09",
    "compras": 10,
-   "gasto": 71.57
+   "gasto": 72.71
   },
   {
    "clave": "cb",
    "fecha": "2026-11-09",
    "compras": 5,
-   "gasto": 88.63
+   "gasto": 90.14
   }
  ],
  "videos": {
