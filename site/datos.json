@@ -1,6 +1,6 @@
 {
  "estado": "ok",
- "actualizado": "2026-11-12T23:17:24+00:00",
+ "actualizado": "2026-11-12T23:27:23+00:00",
  "hoy": "2026-11-12",
  "inicio": "2026-11-05",
  "cuentas": [
@@ -31,9 +31,9 @@
     "campana": "26 - 27 - 33",
     "anuncio": "53. La de la costa",
     "estado": "ACTIVE",
-    "gasto": 1.97,
+    "gasto": 2.03,
     "compras": 1,
-    "cpa": 1.97
+    "cpa": 2.03
    },
    {
     "id": "120250709462300753",
@@ -42,9 +42,9 @@
     "campana": "26 - 27 - 33",
     "anuncio": "48. Hermanas mate",
     "estado": "ACTIVE",
-    "gasto": 4.3,
+    "gasto": 4.32,
     "compras": 1,
-    "cpa": 4.3
+    "cpa": 4.32
    },
    {
     "id": "120250694595320753",
@@ -64,9 +64,9 @@
     "campana": "26 - 27 - 33",
     "anuncio": "60. Las amigas en la pileta",
     "estado": "ACTIVE",
-    "gasto": 7.35,
+    "gasto": 7.38,
     "compras": 1,
-    "cpa": 7.35
+    "cpa": 7.38
    },
    {
     "id": "120250652567540753",
@@ -108,9 +108,9 @@
     "campana": "28 - 32 - 37",
     "anuncio": "53. La de la costa",
     "estado": "ACTIVE",
-    "gasto": 32.92,
+    "gasto": 33.0,
     "compras": 1,
-    "cpa": 32.92
+    "cpa": 33.0
    },
    {
     "id": "120248088694150009",
@@ -152,9 +152,9 @@
     "campana": "28 - 32 - 37",
     "anuncio": "IMG 2. Gorila de espaldas (50% bonif)",
     "estado": "ACTIVE",
-    "gasto": 5.28,
+    "gasto": 5.32,
     "compras": 3,
-    "cpa": 1.76
+    "cpa": 1.77
    },
    {
     "id": "120250547365520149",
@@ -163,7 +163,7 @@
     "campana": "dupli 1",
     "anuncio": "53. La de la costa",
     "estado": "ACTIVE",
-    "gasto": 8.18,
+    "gasto": 8.27,
     "compras": 0,
     "cpa": null
    },
@@ -185,9 +185,9 @@
     "campana": "dupli 1",
     "anuncio": "48. Hermanas mate",
     "estado": "ACTIVE",
-    "gasto": 15.24,
+    "gasto": 15.37,
     "compras": 1,
-    "cpa": 15.24
+    "cpa": 15.37
    },
    {
     "id": "120250476577390149",
@@ -308,7 +308,7 @@
     "campana": "26 - 27 - 33",
     "anuncio": "60. Las amigas en la pileta",
     "estado": "ACTIVE",
-    "gasto": 111.08,
+    "gasto": 111.09,
     "compras": 3,
     "cpa": 37.03
    },
@@ -552,7 +552,7 @@
     "campana": "26 - 27 - 33",
     "anuncio": "60. Las amigas en la pileta",
     "estado": "ACTIVE",
-    "gasto": 568.44,
+    "gasto": 568.45,
     "compras": 15,
     "cpa": 37.9
    },
@@ -961,7 +961,7 @@
     "campana": "26 - 27 - 33",
     "anuncio": "60. Las amigas en la pileta",
     "estado": "ACTIVE",
-    "gasto": 568.44,
+    "gasto": 568.45,
     "compras": 15,
     "cpa": 37.9
    },
@@ -1337,9 +1337,9 @@
     "campana": "26 - 27 - 33",
     "anuncio": "53. La de la costa",
     "estado": "ACTIVE",
-    "gasto": 17.5,
+    "gasto": 17.56,
     "compras": 2,
-    "cpa": 8.75
+    "cpa": 8.78
    },
    {
     "id": "120250709462300753",
@@ -1348,9 +1348,9 @@
     "campana": "26 - 27 - 33",
     "anuncio": "48. Hermanas mate",
     "estado": "ACTIVE",
-    "gasto": 22.42,
+    "gasto": 22.44,
     "compras": 2,
-    "cpa": 11.21
+    "cpa": 11.22
    },
    {
     "id": "120250694595320753",
@@ -1370,7 +1370,7 @@
     "campana": "26 - 27 - 33",
     "anuncio": "60. Las amigas en la pileta",
     "estado": "ACTIVE",
-    "gasto": 575.79,
+    "gasto": 575.83,
     "compras": 16,
     "cpa": 35.99
    },
@@ -1491,9 +1491,9 @@
     "campana": "28 - 32 - 37",
     "anuncio": "53. La de la costa",
     "estado": "ACTIVE",
-    "gasto": 658.17,
+    "gasto": 658.25,
     "compras": 35,
-    "cpa": 18.8
+    "cpa": 18.81
    },
    {
     "id": "120248088694150009",
@@ -1546,9 +1546,9 @@
     "campana": "28 - 32 - 37",
     "anuncio": "IMG 2. Gorila de espaldas (50% bonif)",
     "estado": "ACTIVE",
-    "gasto": 5.28,
+    "gasto": 5.32,
     "compras": 3,
-    "cpa": 1.76
+    "cpa": 1.77
    },
    {
     "id": "120248129275650009",
@@ -1579,9 +1579,9 @@
     "campana": "dupli 1",
     "anuncio": "53. La de la costa",
     "estado": "ACTIVE",
-    "gasto": 13.21,
+    "gasto": 13.3,
     "compras": 1,
-    "cpa": 13.21
+    "cpa": 13.3
    },
    {
     "id": "120250508073670149",
@@ -1601,7 +1601,7 @@
     "campana": "dupli 1",
     "anuncio": "48. Hermanas mate",
     "estado": "ACTIVE",
-    "gasto": 289.36,
+    "gasto": 289.49,
     "compras": 27,
     "cpa": 10.72
    },
@@ -1899,7 +1899,7 @@
    "clave": "c1",
    "fecha": "2026-11-11",
    "compras": 5,
-   "gasto": 149.92
+   "gasto": 149.93
   },
   {
    "clave": "c2",
@@ -1923,19 +1923,19 @@
    "clave": "c1",
    "fecha": "2026-11-12",
    "compras": 3,
-   "gasto": 14.46
+   "gasto": 14.56
   },
   {
    "clave": "c2",
    "fecha": "2026-11-12",
    "compras": 4,
-   "gasto": 38.44
+   "gasto": 38.56
   },
   {
    "clave": "c3",
    "fecha": "2026-11-12",
    "compras": 1,
-   "gasto": 23.56
+   "gasto": 23.78
   },
   {
    "clave": "cb",
