@@ -1,6 +1,6 @@
 {
  "estado": "ok",
- "actualizado": "2026-11-12T19:27:40+00:00",
+ "actualizado": "2026-11-12T19:36:56+00:00",
  "hoy": "2026-11-12",
  "inicio": "2026-11-05",
  "cuentas": [
@@ -31,9 +31,9 @@
     "campana": "26 - 27 - 33",
     "anuncio": "53. La de la costa",
     "estado": "ACTIVE",
-    "gasto": 1.32,
+    "gasto": 1.34,
     "compras": 1,
-    "cpa": 1.32
+    "cpa": 1.34
    },
    {
     "id": "120250709462300753",
@@ -42,9 +42,9 @@
     "campana": "26 - 27 - 33",
     "anuncio": "48. Hermanas mate",
     "estado": "ACTIVE",
-    "gasto": 3.48,
+    "gasto": 3.5,
     "compras": 1,
-    "cpa": 3.48
+    "cpa": 3.5
    },
    {
     "id": "120250694595320753",
@@ -64,7 +64,7 @@
     "campana": "26 - 27 - 33",
     "anuncio": "60. Las amigas en la pileta",
     "estado": "ACTIVE",
-    "gasto": 5.25,
+    "gasto": 5.72,
     "compras": 0,
     "cpa": null
    },
@@ -108,9 +108,9 @@
     "campana": "28 - 32 - 37",
     "anuncio": "53. La de la costa",
     "estado": "ACTIVE",
-    "gasto": 29.27,
+    "gasto": 29.58,
     "compras": 1,
-    "cpa": 29.27
+    "cpa": 29.58
    },
    {
     "id": "120248088694150009",
@@ -146,13 +146,24 @@
     "cpa": null
    },
    {
+    "id": "120248167692510009",
+    "clave": "c2",
+    "cuenta": "Cuenta 2",
+    "campana": "28 - 32 - 37",
+    "anuncio": "IMG 2. Gorila de espaldas (50% bonif)",
+    "estado": "ACTIVE",
+    "gasto": 2.22,
+    "compras": 0,
+    "cpa": null
+   },
+   {
     "id": "120250547365520149",
     "clave": "c3",
     "cuenta": "Cuenta 3",
     "campana": "dupli 1",
     "anuncio": "53. La de la costa",
     "estado": "ACTIVE",
-    "gasto": 6.92,
+    "gasto": 6.94,
     "compras": 0,
     "cpa": null
    },
@@ -174,9 +185,9 @@
     "campana": "dupli 1",
     "anuncio": "48. Hermanas mate",
     "estado": "ACTIVE",
-    "gasto": 12.2,
+    "gasto": 12.37,
     "compras": 1,
-    "cpa": 12.2
+    "cpa": 12.37
    },
    {
     "id": "120250476577390149",
@@ -218,7 +229,7 @@
     "campana": "dupli 1",
     "anuncio": "70. El verdulero (ComboBiotina)",
     "estado": "ACTIVE",
-    "gasto": 1.92,
+    "gasto": 2.04,
     "compras": 0,
     "cpa": null
    },
@@ -1326,9 +1337,9 @@
     "campana": "26 - 27 - 33",
     "anuncio": "53. La de la costa",
     "estado": "ACTIVE",
-    "gasto": 16.84,
+    "gasto": 16.86,
     "compras": 2,
-    "cpa": 8.42
+    "cpa": 8.43
    },
    {
     "id": "120250709462300753",
@@ -1337,9 +1348,9 @@
     "campana": "26 - 27 - 33",
     "anuncio": "48. Hermanas mate",
     "estado": "ACTIVE",
-    "gasto": 21.58,
+    "gasto": 21.6,
     "compras": 2,
-    "cpa": 10.79
+    "cpa": 10.8
    },
    {
     "id": "120250694595320753",
@@ -1359,9 +1370,9 @@
     "campana": "26 - 27 - 33",
     "anuncio": "60. Las amigas en la pileta",
     "estado": "ACTIVE",
-    "gasto": 573.64,
+    "gasto": 574.11,
     "compras": 15,
-    "cpa": 38.24
+    "cpa": 38.27
    },
    {
     "id": "120250652567540753",
@@ -1480,9 +1491,9 @@
     "campana": "28 - 32 - 37",
     "anuncio": "53. La de la costa",
     "estado": "ACTIVE",
-    "gasto": 654.43,
+    "gasto": 654.74,
     "compras": 35,
-    "cpa": 18.7
+    "cpa": 18.71
    },
    {
     "id": "120248088694150009",
@@ -1529,6 +1540,17 @@
     "cpa": null
    },
    {
+    "id": "120248167692510009",
+    "clave": "c2",
+    "cuenta": "Cuenta 2",
+    "campana": "28 - 32 - 37",
+    "anuncio": "IMG 2. Gorila de espaldas (50% bonif)",
+    "estado": "ACTIVE",
+    "gasto": 2.22,
+    "compras": 0,
+    "cpa": null
+   },
+   {
     "id": "120248129275650009",
     "clave": "c2",
     "cuenta": "Cuenta 2",
@@ -1557,9 +1579,9 @@
     "campana": "dupli 1",
     "anuncio": "53. La de la costa",
     "estado": "ACTIVE",
-    "gasto": 11.95,
+    "gasto": 11.97,
     "compras": 1,
-    "cpa": 11.95
+    "cpa": 11.97
    },
    {
     "id": "120250508073670149",
@@ -1579,9 +1601,9 @@
     "campana": "dupli 1",
     "anuncio": "48. Hermanas mate",
     "estado": "ACTIVE",
-    "gasto": 286.31,
+    "gasto": 286.48,
     "compras": 27,
-    "cpa": 10.6
+    "cpa": 10.61
    },
    {
     "id": "120250476577390149",
@@ -1634,7 +1656,7 @@
     "campana": "dupli 1",
     "anuncio": "70. El verdulero (ComboBiotina)",
     "estado": "ACTIVE",
-    "gasto": 21.04,
+    "gasto": 21.16,
     "compras": 0,
     "cpa": null
    },
@@ -1901,25 +1923,25 @@
    "clave": "c1",
    "fecha": "2026-11-12",
    "compras": 2,
-   "gasto": 11.12
+   "gasto": 11.14
   },
   {
    "clave": "c2",
    "fecha": "2026-11-12",
    "compras": 1,
-   "gasto": 30.58
+   "gasto": 32.02
   },
   {
    "clave": "c3",
    "fecha": "2026-11-12",
    "compras": 1,
-   "gasto": 19.24
+   "gasto": 19.58
   },
   {
    "clave": "cb",
    "fecha": "2026-11-12",
    "compras": 0,
-   "gasto": 7.75
+   "gasto": 7.87
   }
  ],
  "videos": {
@@ -1976,7 +1998,8 @@
    "vid-1869256114088900": "69. La vecina del banco",
    "vid-1283106010660237": "70. El verdulero",
    "vid-3060073324345083": "48. Hermanas mate (ComboBiotina)",
-   "vid-1632110114984028": "53. La de la costa"
+   "vid-1632110114984028": "53. La de la costa",
+   "a120248167692510009": "IMG 2. Gorila de espaldas (50% bonif)"
   },
   "anuncios": {
    "120250709463020753": "vid-1632110114984028",
@@ -1997,6 +2020,7 @@
    "120248088694150009": "vid-1478965747490454",
    "120248088693620009": "vid-2311278362973029",
    "120248088693890009": "vid-4661331717519589",
+   "120248167692510009": "a120248167692510009",
    "120248129275650009": "vid-1283106010660237",
    "120248076126440009": "v27",
    "120248097227050009": "v39",
