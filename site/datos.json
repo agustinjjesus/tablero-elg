@@ -1,6 +1,6 @@
 {
  "estado": "ok",
- "actualizado": "2026-11-12T17:46:07+00:00",
+ "actualizado": "2026-11-12T17:57:03+00:00",
  "hoy": "2026-11-12",
  "inicio": "2026-11-05",
  "cuentas": [
@@ -31,7 +31,7 @@
     "campana": "26 - 27 - 33",
     "anuncio": "69. La vecina del banco",
     "estado": "ACTIVE",
-    "gasto": 0.38,
+    "gasto": 0.4,
     "compras": 0,
     "cpa": null
    },
@@ -42,7 +42,7 @@
     "campana": "26 - 27 - 33",
     "anuncio": "60. Las amigas en la pileta",
     "estado": "ACTIVE",
-    "gasto": 4.57,
+    "gasto": 4.74,
     "compras": 0,
     "cpa": null
    },
@@ -86,9 +86,9 @@
     "campana": "26 - 27 - 33",
     "anuncio": "48. Hermanas mate",
     "estado": "ACTIVE",
-    "gasto": 3.01,
+    "gasto": 3.1,
     "compras": 1,
-    "cpa": 3.01
+    "cpa": 3.1
    },
    {
     "id": "120248118837910009",
@@ -108,9 +108,9 @@
     "campana": "28 - 32 - 37",
     "anuncio": "53. La de la costa",
     "estado": "ACTIVE",
-    "gasto": 23.63,
+    "gasto": 24.29,
     "compras": 1,
-    "cpa": 23.63
+    "cpa": 24.29
    },
    {
     "id": "120248088694150009",
@@ -152,7 +152,7 @@
     "campana": "dupli 1",
     "anuncio": "53. La de la costa",
     "estado": "ACTIVE",
-    "gasto": 6.13,
+    "gasto": 6.18,
     "compras": 0,
     "cpa": null
    },
@@ -174,9 +174,9 @@
     "campana": "dupli 1",
     "anuncio": "48. Hermanas mate",
     "estado": "ACTIVE",
-    "gasto": 10.73,
+    "gasto": 11.02,
     "compras": 1,
-    "cpa": 10.73
+    "cpa": 11.02
    },
    {
     "id": "120250476577390149",
@@ -196,7 +196,7 @@
     "campana": "dupli 1",
     "anuncio": "42. Audio amiga",
     "estado": "ACTIVE",
-    "gasto": 0.02,
+    "gasto": 0.04,
     "compras": 0,
     "cpa": null
    },
@@ -1326,9 +1326,9 @@
     "campana": "26 - 27 - 33",
     "anuncio": "69. La vecina del banco",
     "estado": "ACTIVE",
-    "gasto": 31.33,
+    "gasto": 31.35,
     "compras": 1,
-    "cpa": 31.33
+    "cpa": 31.35
    },
    {
     "id": "120250673711360753",
@@ -1337,9 +1337,9 @@
     "campana": "26 - 27 - 33",
     "anuncio": "60. Las amigas en la pileta",
     "estado": "ACTIVE",
-    "gasto": 572.92,
+    "gasto": 573.09,
     "compras": 15,
-    "cpa": 38.19
+    "cpa": 38.21
    },
    {
     "id": "120250652567540753",
@@ -1436,9 +1436,9 @@
     "campana": "26 - 27 - 33",
     "anuncio": "48. Hermanas mate",
     "estado": "ACTIVE",
-    "gasto": 21.11,
+    "gasto": 21.2,
     "compras": 2,
-    "cpa": 10.56
+    "cpa": 10.6
    },
    {
     "id": "120250643506460753",
@@ -1480,9 +1480,9 @@
     "campana": "28 - 32 - 37",
     "anuncio": "53. La de la costa",
     "estado": "ACTIVE",
-    "gasto": 648.75,
+    "gasto": 649.41,
     "compras": 35,
-    "cpa": 18.54
+    "cpa": 18.55
    },
    {
     "id": "120248088694150009",
@@ -1557,9 +1557,9 @@
     "campana": "dupli 1",
     "anuncio": "53. La de la costa",
     "estado": "ACTIVE",
-    "gasto": 11.16,
+    "gasto": 11.21,
     "compras": 1,
-    "cpa": 11.16
+    "cpa": 11.21
    },
    {
     "id": "120250508073670149",
@@ -1579,9 +1579,9 @@
     "campana": "dupli 1",
     "anuncio": "48. Hermanas mate",
     "estado": "ACTIVE",
-    "gasto": 284.84,
+    "gasto": 285.13,
     "compras": 27,
-    "cpa": 10.55
+    "cpa": 10.56
    },
    {
     "id": "120250476577390149",
@@ -1601,7 +1601,7 @@
     "campana": "dupli 1",
     "anuncio": "42. Audio amiga",
     "estado": "ACTIVE",
-    "gasto": 6.24,
+    "gasto": 6.26,
     "compras": 0,
     "cpa": null
    },
@@ -1901,19 +1901,19 @@
    "clave": "c1",
    "fecha": "2026-11-12",
    "compras": 2,
-   "gasto": 9.19
+   "gasto": 9.51
   },
   {
    "clave": "c2",
    "fecha": "2026-11-12",
    "compras": 1,
-   "gasto": 23.85
+   "gasto": 24.51
   },
   {
    "clave": "c3",
    "fecha": "2026-11-12",
    "compras": 1,
-   "gasto": 16.93
+   "gasto": 17.37
   },
   {
    "clave": "cb",
