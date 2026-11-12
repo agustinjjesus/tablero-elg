@@ -1,6 +1,6 @@
 {
  "estado": "ok",
- "actualizado": "2026-11-12T15:21:02+00:00",
+ "actualizado": "2026-11-12T15:27:24+00:00",
  "hoy": "2026-11-12",
  "inicio": "2026-11-05",
  "cuentas": [
@@ -75,9 +75,9 @@
     "campana": "26 - 27 - 33",
     "anuncio": "53. La de la costa",
     "estado": "ACTIVE",
-    "gasto": 0.87,
+    "gasto": 0.89,
     "compras": 1,
-    "cpa": 0.87
+    "cpa": 0.89
    },
    {
     "id": "120250709462300753",
@@ -86,9 +86,9 @@
     "campana": "26 - 27 - 33",
     "anuncio": "48. Hermanas mate",
     "estado": "ACTIVE",
-    "gasto": 1.74,
+    "gasto": 1.96,
     "compras": 1,
-    "cpa": 1.74
+    "cpa": 1.96
    },
    {
     "id": "120248118837910009",
@@ -108,9 +108,9 @@
     "campana": "28 - 32 - 37",
     "anuncio": "53. La de la costa",
     "estado": "ACTIVE",
-    "gasto": 16.82,
+    "gasto": 17.07,
     "compras": 1,
-    "cpa": 16.82
+    "cpa": 17.07
    },
    {
     "id": "120248088694150009",
@@ -152,7 +152,7 @@
     "campana": "dupli 1",
     "anuncio": "53. La de la costa",
     "estado": "ACTIVE",
-    "gasto": 4.82,
+    "gasto": 4.85,
     "compras": 0,
     "cpa": null
    },
@@ -174,9 +174,9 @@
     "campana": "dupli 1",
     "anuncio": "48. Hermanas mate",
     "estado": "ACTIVE",
-    "gasto": 7.6,
+    "gasto": 7.7,
     "compras": 1,
-    "cpa": 7.6
+    "cpa": 7.7
    },
    {
     "id": "120250476577390149",
@@ -1414,9 +1414,9 @@
     "campana": "26 - 27 - 33",
     "anuncio": "53. La de la costa",
     "estado": "ACTIVE",
-    "gasto": 16.39,
+    "gasto": 16.41,
     "compras": 2,
-    "cpa": 8.2
+    "cpa": 8.21
    },
    {
     "id": "120250709462300753",
@@ -1425,9 +1425,9 @@
     "campana": "26 - 27 - 33",
     "anuncio": "48. Hermanas mate",
     "estado": "ACTIVE",
-    "gasto": 19.82,
+    "gasto": 20.04,
     "compras": 2,
-    "cpa": 9.91
+    "cpa": 10.02
    },
    {
     "id": "120250643506460753",
@@ -1469,9 +1469,9 @@
     "campana": "28 - 32 - 37",
     "anuncio": "53. La de la costa",
     "estado": "ACTIVE",
-    "gasto": 641.85,
+    "gasto": 642.1,
     "compras": 35,
-    "cpa": 18.34
+    "cpa": 18.35
    },
    {
     "id": "120248088694150009",
@@ -1546,9 +1546,9 @@
     "campana": "dupli 1",
     "anuncio": "53. La de la costa",
     "estado": "ACTIVE",
-    "gasto": 9.85,
+    "gasto": 9.88,
     "compras": 1,
-    "cpa": 9.85
+    "cpa": 9.88
    },
    {
     "id": "120250508073670149",
@@ -1568,9 +1568,9 @@
     "campana": "dupli 1",
     "anuncio": "48. Hermanas mate",
     "estado": "ACTIVE",
-    "gasto": 281.71,
+    "gasto": 281.81,
     "compras": 27,
-    "cpa": 10.43
+    "cpa": 10.44
    },
    {
     "id": "120250476577390149",
@@ -1890,19 +1890,19 @@
    "clave": "c1",
    "fecha": "2026-11-12",
    "compras": 2,
-   "gasto": 5.94
+   "gasto": 6.18
   },
   {
    "clave": "c2",
    "fecha": "2026-11-12",
    "compras": 1,
-   "gasto": 17.02
+   "gasto": 17.27
   },
   {
    "clave": "c3",
    "fecha": "2026-11-12",
    "compras": 1,
-   "gasto": 12.48
+   "gasto": 12.6
   },
   {
    "clave": "cb",
