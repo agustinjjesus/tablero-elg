@@ -1,6 +1,6 @@
 {
  "estado": "ok",
- "actualizado": "2026-11-13T23:37:12+00:00",
+ "actualizado": "2026-11-13T23:47:50+00:00",
  "hoy": "2026-11-13",
  "inicio": "2026-11-05",
  "cuentas": [
@@ -31,7 +31,7 @@
     "campana": "26 - 27 - 33",
     "anuncio": "48. Hermanas mate",
     "estado": "ACTIVE",
-    "gasto": 8.0,
+    "gasto": 8.03,
     "compras": 0,
     "cpa": null
    },
@@ -86,9 +86,9 @@
     "campana": "28 - 32 - 37",
     "anuncio": "IMG 2. Gorila de espaldas (50% bonif)",
     "estado": "ACTIVE",
-    "gasto": 15.57,
+    "gasto": 15.73,
     "compras": 1,
-    "cpa": 15.57
+    "cpa": 15.73
    },
    {
     "id": "120248118837910009",
@@ -97,7 +97,7 @@
     "campana": "28 - 32 - 37",
     "anuncio": "48. Hermanas mate",
     "estado": "ACTIVE",
-    "gasto": 0.2,
+    "gasto": 0.22,
     "compras": 0,
     "cpa": null
    },
@@ -174,7 +174,7 @@
     "campana": "dupli 1",
     "anuncio": "48. Hermanas mate",
     "estado": "ACTIVE",
-    "gasto": 4.82,
+    "gasto": 4.89,
     "compras": 0,
     "cpa": null
    },
@@ -186,6 +186,28 @@
     "anuncio": "41. Perro plaza",
     "estado": "ACTIVE",
     "gasto": 0.01,
+    "compras": 0,
+    "cpa": null
+   },
+   {
+    "id": "120254824068320204",
+    "clave": "cb",
+    "cuenta": "ComboBiotina",
+    "campana": "dupli 1",
+    "anuncio": "48. Hermanas mate (ComboBiotina)",
+    "estado": "ACTIVE",
+    "gasto": 0.59,
+    "compras": 0,
+    "cpa": null
+   },
+   {
+    "id": "120254824067580204",
+    "clave": "cb",
+    "cuenta": "ComboBiotina",
+    "campana": "dupli 1",
+    "anuncio": "70. El verdulero (ComboBiotina)",
+    "estado": "ACTIVE",
+    "gasto": 0.09,
     "compras": 0,
     "cpa": null
    }
@@ -1238,9 +1260,9 @@
     "campana": "26 - 27 - 33",
     "anuncio": "48. Hermanas mate",
     "estado": "ACTIVE",
-    "gasto": 31.4,
+    "gasto": 31.43,
     "compras": 2,
-    "cpa": 15.7
+    "cpa": 15.72
    },
    {
     "id": "120250694595320753",
@@ -1381,9 +1403,9 @@
     "campana": "28 - 32 - 37",
     "anuncio": "IMG 2. Gorila de espaldas (50% bonif)",
     "estado": "ACTIVE",
-    "gasto": 30.68,
+    "gasto": 30.84,
     "compras": 5,
-    "cpa": 6.14
+    "cpa": 6.17
    },
    {
     "id": "120248118837910009",
@@ -1392,7 +1414,7 @@
     "campana": "28 - 32 - 37",
     "anuncio": "48. Hermanas mate",
     "estado": "ACTIVE",
-    "gasto": 1.83,
+    "gasto": 1.85,
     "compras": 0,
     "cpa": null
    },
@@ -1502,7 +1524,7 @@
     "campana": "dupli 1",
     "anuncio": "48. Hermanas mate",
     "estado": "ACTIVE",
-    "gasto": 297.54,
+    "gasto": 297.61,
     "compras": 27,
     "cpa": 11.02
    },
@@ -1546,9 +1568,9 @@
     "campana": "dupli 1",
     "anuncio": "48. Hermanas mate (ComboBiotina)",
     "estado": "ACTIVE",
-    "gasto": 89.04,
+    "gasto": 89.63,
     "compras": 6,
-    "cpa": 14.84
+    "cpa": 14.94
    },
    {
     "id": "120254824067580204",
@@ -1557,7 +1579,7 @@
     "campana": "dupli 1",
     "anuncio": "70. El verdulero (ComboBiotina)",
     "estado": "ACTIVE",
-    "gasto": 21.37,
+    "gasto": 21.46,
     "compras": 0,
     "cpa": null
    },
@@ -1568,9 +1590,9 @@
     "campana": "dupli 1",
     "anuncio": "44. Vecina (ComboBiotina)",
     "estado": "ACTIVE",
-    "gasto": 76.02,
+    "gasto": 76.05,
     "compras": 3,
-    "cpa": 25.34
+    "cpa": 25.35
    },
    {
     "id": "120254782511900204",
@@ -1590,9 +1612,9 @@
     "campana": "dupli 1",
     "anuncio": "51. Primera noche",
     "estado": "ACTIVE",
-    "gasto": 170.64,
+    "gasto": 170.7,
     "compras": 6,
-    "cpa": 28.44
+    "cpa": 28.45
    },
    {
     "id": "120254777021490204",
@@ -1848,19 +1870,25 @@
    "clave": "c1",
    "fecha": "2026-11-13",
    "compras": 1,
-   "gasto": 11.86
+   "gasto": 11.89
   },
   {
    "clave": "c2",
    "fecha": "2026-11-13",
    "compras": 1,
-   "gasto": 23.04
+   "gasto": 23.22
   },
   {
    "clave": "c3",
    "fecha": "2026-11-13",
    "compras": 1,
-   "gasto": 8.98
+   "gasto": 9.05
+  },
+  {
+   "clave": "cb",
+   "fecha": "2026-11-13",
+   "compras": 0,
+   "gasto": 0.77
   }
  ],
  "videos": {
