@@ -1,6 +1,6 @@
 {
  "estado": "ok",
- "actualizado": "2026-11-13T23:27:49+00:00",
+ "actualizado": "2026-11-13T23:37:12+00:00",
  "hoy": "2026-11-13",
  "inicio": "2026-11-05",
  "cuentas": [
@@ -31,7 +31,7 @@
     "campana": "26 - 27 - 33",
     "anuncio": "48. Hermanas mate",
     "estado": "ACTIVE",
-    "gasto": 7.93,
+    "gasto": 8.0,
     "compras": 0,
     "cpa": null
    },
@@ -86,9 +86,9 @@
     "campana": "28 - 32 - 37",
     "anuncio": "IMG 2. Gorila de espaldas (50% bonif)",
     "estado": "ACTIVE",
-    "gasto": 15.39,
+    "gasto": 15.57,
     "compras": 1,
-    "cpa": 15.39
+    "cpa": 15.57
    },
    {
     "id": "120248118837910009",
@@ -97,7 +97,7 @@
     "campana": "28 - 32 - 37",
     "anuncio": "48. Hermanas mate",
     "estado": "ACTIVE",
-    "gasto": 0.18,
+    "gasto": 0.2,
     "compras": 0,
     "cpa": null
    },
@@ -130,7 +130,7 @@
     "campana": "28 - 32 - 37",
     "anuncio": "46. Tejedora",
     "estado": "ACTIVE",
-    "gasto": 0.04,
+    "gasto": 0.05,
     "compras": 0,
     "cpa": null
    },
@@ -1238,9 +1238,9 @@
     "campana": "26 - 27 - 33",
     "anuncio": "48. Hermanas mate",
     "estado": "ACTIVE",
-    "gasto": 31.33,
+    "gasto": 31.4,
     "compras": 2,
-    "cpa": 15.67
+    "cpa": 15.7
    },
    {
     "id": "120250694595320753",
@@ -1381,9 +1381,9 @@
     "campana": "28 - 32 - 37",
     "anuncio": "IMG 2. Gorila de espaldas (50% bonif)",
     "estado": "ACTIVE",
-    "gasto": 30.5,
+    "gasto": 30.68,
     "compras": 5,
-    "cpa": 6.1
+    "cpa": 6.14
    },
    {
     "id": "120248118837910009",
@@ -1392,7 +1392,7 @@
     "campana": "28 - 32 - 37",
     "anuncio": "48. Hermanas mate",
     "estado": "ACTIVE",
-    "gasto": 1.81,
+    "gasto": 1.83,
     "compras": 0,
     "cpa": null
    },
@@ -1425,7 +1425,7 @@
     "campana": "28 - 32 - 37",
     "anuncio": "46. Tejedora",
     "estado": "ACTIVE",
-    "gasto": 20.05,
+    "gasto": 20.06,
     "compras": 0,
     "cpa": null
    },
@@ -1848,13 +1848,13 @@
    "clave": "c1",
    "fecha": "2026-11-13",
    "compras": 1,
-   "gasto": 11.79
+   "gasto": 11.86
   },
   {
    "clave": "c2",
    "fecha": "2026-11-13",
    "compras": 1,
-   "gasto": 22.83
+   "gasto": 23.04
   },
   {
    "clave": "c3",
