@@ -1,6 +1,6 @@
 {
  "estado": "ok",
- "actualizado": "2026-11-13T17:08:37+00:00",
+ "actualizado": "2026-11-13T17:18:56+00:00",
  "hoy": "2026-11-13",
  "inicio": "2026-11-05",
  "cuentas": [
@@ -31,7 +31,7 @@
     "campana": "26 - 27 - 33",
     "anuncio": "48. Hermanas mate",
     "estado": "ACTIVE",
-    "gasto": 4.26,
+    "gasto": 4.57,
     "compras": 0,
     "cpa": null
    },
@@ -42,7 +42,7 @@
     "campana": "26 - 27 - 33",
     "anuncio": "69. La vecina del banco",
     "estado": "ACTIVE",
-    "gasto": 0.61,
+    "gasto": 0.62,
     "compras": 0,
     "cpa": null
    },
@@ -86,7 +86,7 @@
     "campana": "28 - 32 - 37",
     "anuncio": "IMG 2. Gorila de espaldas (50% bonif)",
     "estado": "ACTIVE",
-    "gasto": 7.06,
+    "gasto": 7.3,
     "compras": 0,
     "cpa": null
    },
@@ -97,7 +97,7 @@
     "campana": "28 - 32 - 37",
     "anuncio": "48. Hermanas mate",
     "estado": "ACTIVE",
-    "gasto": 0.01,
+    "gasto": 0.12,
     "compras": 0,
     "cpa": null
    },
@@ -1227,9 +1227,9 @@
     "campana": "26 - 27 - 33",
     "anuncio": "48. Hermanas mate",
     "estado": "ACTIVE",
-    "gasto": 27.66,
+    "gasto": 27.97,
     "compras": 2,
-    "cpa": 13.83
+    "cpa": 13.99
    },
    {
     "id": "120250694595320753",
@@ -1238,9 +1238,9 @@
     "campana": "26 - 27 - 33",
     "anuncio": "69. La vecina del banco",
     "estado": "ACTIVE",
-    "gasto": 32.49,
+    "gasto": 32.5,
     "compras": 1,
-    "cpa": 32.49
+    "cpa": 32.5
    },
    {
     "id": "120250652567540753",
@@ -1370,9 +1370,9 @@
     "campana": "28 - 32 - 37",
     "anuncio": "IMG 2. Gorila de espaldas (50% bonif)",
     "estado": "ACTIVE",
-    "gasto": 22.17,
+    "gasto": 22.41,
     "compras": 4,
-    "cpa": 5.54
+    "cpa": 5.6
    },
    {
     "id": "120248118837910009",
@@ -1381,7 +1381,7 @@
     "campana": "28 - 32 - 37",
     "anuncio": "48. Hermanas mate",
     "estado": "ACTIVE",
-    "gasto": 1.64,
+    "gasto": 1.75,
     "compras": 0,
     "cpa": null
    },
@@ -1837,13 +1837,13 @@
    "clave": "c1",
    "fecha": "2026-11-13",
    "compras": 1,
-   "gasto": 7.23
+   "gasto": 7.58
   },
   {
    "clave": "c2",
    "fecha": "2026-11-13",
    "compras": 0,
-   "gasto": 14.38
+   "gasto": 14.6
   },
   {
    "clave": "c3",
