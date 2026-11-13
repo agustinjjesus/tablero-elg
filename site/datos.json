@@ -1,6 +1,6 @@
 {
  "estado": "ok",
- "actualizado": "2026-11-13T22:40:17+00:00",
+ "actualizado": "2026-11-13T22:48:38+00:00",
  "hoy": "2026-11-13",
  "inicio": "2026-11-05",
  "cuentas": [
@@ -31,7 +31,7 @@
     "campana": "26 - 27 - 33",
     "anuncio": "48. Hermanas mate",
     "estado": "ACTIVE",
-    "gasto": 7.63,
+    "gasto": 7.75,
     "compras": 0,
     "cpa": null
    },
@@ -86,7 +86,7 @@
     "campana": "28 - 32 - 37",
     "anuncio": "IMG 2. Gorila de espaldas (50% bonif)",
     "estado": "ACTIVE",
-    "gasto": 14.22,
+    "gasto": 14.34,
     "compras": 0,
     "cpa": null
    },
@@ -97,7 +97,7 @@
     "campana": "28 - 32 - 37",
     "anuncio": "48. Hermanas mate",
     "estado": "ACTIVE",
-    "gasto": 0.17,
+    "gasto": 0.18,
     "compras": 0,
     "cpa": null
    },
@@ -783,7 +783,7 @@
     "campana": "dupli 1",
     "anuncio": "30. Enfermera",
     "estado": "PAUSED",
-    "gasto": 4.23,
+    "gasto": 2.32,
     "compras": 0,
     "cpa": null
    },
@@ -794,7 +794,7 @@
     "campana": "dupli 1",
     "anuncio": "29. Tren Tigre",
     "estado": "PAUSED",
-    "gasto": 1.26,
+    "gasto": 0.12,
     "compras": 0,
     "cpa": null
    },
@@ -805,7 +805,7 @@
     "campana": "dupli 1",
     "anuncio": "32. Balcón",
     "estado": "PAUSED",
-    "gasto": 4.62,
+    "gasto": 0.1,
     "compras": 0,
     "cpa": null
    }
@@ -1203,7 +1203,7 @@
     "campana": "dupli 1",
     "anuncio": "30. Enfermera",
     "estado": "PAUSED",
-    "gasto": 4.23,
+    "gasto": 2.32,
     "compras": 0,
     "cpa": null
    },
@@ -1214,7 +1214,7 @@
     "campana": "dupli 1",
     "anuncio": "29. Tren Tigre",
     "estado": "PAUSED",
-    "gasto": 1.26,
+    "gasto": 0.12,
     "compras": 0,
     "cpa": null
    },
@@ -1225,7 +1225,7 @@
     "campana": "dupli 1",
     "anuncio": "32. Balcón",
     "estado": "PAUSED",
-    "gasto": 4.62,
+    "gasto": 0.1,
     "compras": 0,
     "cpa": null
    }
@@ -1238,9 +1238,9 @@
     "campana": "26 - 27 - 33",
     "anuncio": "48. Hermanas mate",
     "estado": "ACTIVE",
-    "gasto": 31.03,
+    "gasto": 31.15,
     "compras": 2,
-    "cpa": 15.52
+    "cpa": 15.58
    },
    {
     "id": "120250694595320753",
@@ -1381,9 +1381,9 @@
     "campana": "28 - 32 - 37",
     "anuncio": "IMG 2. Gorila de espaldas (50% bonif)",
     "estado": "ACTIVE",
-    "gasto": 29.33,
+    "gasto": 29.65,
     "compras": 4,
-    "cpa": 7.33
+    "cpa": 7.41
    },
    {
     "id": "120248118837910009",
@@ -1392,7 +1392,7 @@
     "campana": "28 - 32 - 37",
     "anuncio": "48. Hermanas mate",
     "estado": "ACTIVE",
-    "gasto": 1.8,
+    "gasto": 1.81,
     "compras": 0,
     "cpa": null
    },
@@ -1848,13 +1848,13 @@
    "clave": "c1",
    "fecha": "2026-11-13",
    "compras": 1,
-   "gasto": 11.51
+   "gasto": 11.52
   },
   {
    "clave": "c2",
    "fecha": "2026-11-13",
    "compras": 0,
-   "gasto": 21.64
+   "gasto": 21.97
   },
   {
    "clave": "c3",
