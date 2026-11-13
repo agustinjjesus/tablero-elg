@@ -1,6 +1,6 @@
 {
  "estado": "ok",
- "actualizado": "2026-11-13T21:28:35+00:00",
+ "actualizado": "2026-11-13T21:38:43+00:00",
  "hoy": "2026-11-13",
  "inicio": "2026-11-05",
  "cuentas": [
@@ -31,7 +31,7 @@
     "campana": "26 - 27 - 33",
     "anuncio": "48. Hermanas mate",
     "estado": "ACTIVE",
-    "gasto": 7.28,
+    "gasto": 7.35,
     "compras": 0,
     "cpa": null
    },
@@ -86,7 +86,7 @@
     "campana": "28 - 32 - 37",
     "anuncio": "IMG 2. Gorila de espaldas (50% bonif)",
     "estado": "ACTIVE",
-    "gasto": 12.9,
+    "gasto": 12.96,
     "compras": 0,
     "cpa": null
    },
@@ -1192,7 +1192,7 @@
     "campana": "dupli 1",
     "anuncio": "30. Enfermera",
     "estado": "PAUSED",
-    "gasto": 4.23,
+    "gasto": 2.32,
     "compras": 0,
     "cpa": null
    },
@@ -1203,7 +1203,7 @@
     "campana": "dupli 1",
     "anuncio": "29. Tren Tigre",
     "estado": "PAUSED",
-    "gasto": 1.26,
+    "gasto": 0.12,
     "compras": 0,
     "cpa": null
    },
@@ -1214,7 +1214,7 @@
     "campana": "dupli 1",
     "anuncio": "32. Balcón",
     "estado": "PAUSED",
-    "gasto": 4.62,
+    "gasto": 0.1,
     "compras": 0,
     "cpa": null
    }
@@ -1227,9 +1227,9 @@
     "campana": "26 - 27 - 33",
     "anuncio": "48. Hermanas mate",
     "estado": "ACTIVE",
-    "gasto": 30.68,
+    "gasto": 30.75,
     "compras": 2,
-    "cpa": 15.34
+    "cpa": 15.38
    },
    {
     "id": "120250694595320753",
@@ -1370,9 +1370,9 @@
     "campana": "28 - 32 - 37",
     "anuncio": "IMG 2. Gorila de espaldas (50% bonif)",
     "estado": "ACTIVE",
-    "gasto": 28.01,
+    "gasto": 28.07,
     "compras": 4,
-    "cpa": 7.0
+    "cpa": 7.02
    },
    {
     "id": "120248118837910009",
@@ -1837,13 +1837,13 @@
    "clave": "c1",
    "fecha": "2026-11-13",
    "compras": 1,
-   "gasto": 10.91
+   "gasto": 10.98
   },
   {
    "clave": "c2",
    "fecha": "2026-11-13",
    "compras": 0,
-   "gasto": 20.3
+   "gasto": 20.36
   },
   {
    "clave": "c3",
