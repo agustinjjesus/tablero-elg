@@ -1,6 +1,6 @@
 {
  "estado": "ok",
- "actualizado": "2026-11-13T03:17:31+00:00",
+ "actualizado": "2026-11-13T03:28:10+00:00",
  "hoy": "2026-11-13",
  "inicio": "2026-11-05",
  "cuentas": [
@@ -36,13 +36,90 @@
     "cpa": null
    },
    {
+    "id": "120250694595320753",
+    "clave": "c1",
+    "cuenta": "Cuenta 1",
+    "campana": "26 - 27 - 33",
+    "anuncio": "69. La vecina del banco",
+    "estado": "ACTIVE",
+    "gasto": 0.07,
+    "compras": 0,
+    "cpa": null
+   },
+   {
+    "id": "120250673711360753",
+    "clave": "c1",
+    "cuenta": "Cuenta 1",
+    "campana": "26 - 27 - 33",
+    "anuncio": "60. Las amigas en la pileta",
+    "estado": "ACTIVE",
+    "gasto": 0.02,
+    "compras": 0,
+    "cpa": null
+   },
+   {
+    "id": "120248118837910009",
+    "clave": "c2",
+    "cuenta": "Cuenta 2",
+    "campana": "28 - 32 - 37",
+    "anuncio": "48. Hermanas mate",
+    "estado": "ACTIVE",
+    "gasto": 0.01,
+    "compras": 0,
+    "cpa": null
+   },
+   {
+    "id": "120248097316430009",
+    "clave": "c2",
+    "cuenta": "Cuenta 2",
+    "campana": "28 - 32 - 37",
+    "anuncio": "53. La de la costa",
+    "estado": "ACTIVE",
+    "gasto": 0.11,
+    "compras": 0,
+    "cpa": null
+   },
+   {
+    "id": "120248167692510009",
+    "clave": "c2",
+    "cuenta": "Cuenta 2",
+    "campana": "28 - 32 - 37",
+    "anuncio": "IMG 2. Gorila de espaldas (50% bonif)",
+    "estado": "ACTIVE",
+    "gasto": 0.65,
+    "compras": 0,
+    "cpa": null
+   },
+   {
     "id": "120250547365520149",
     "clave": "c3",
     "cuenta": "Cuenta 3",
     "campana": "dupli 1",
     "anuncio": "53. La de la costa",
     "estado": "ACTIVE",
-    "gasto": 0.86,
+    "gasto": 0.87,
+    "compras": 0,
+    "cpa": null
+   },
+   {
+    "id": "120250508073670149",
+    "clave": "c3",
+    "cuenta": "Cuenta 3",
+    "campana": "dupli 1",
+    "anuncio": "46. Tejedora",
+    "estado": "ACTIVE",
+    "gasto": 0.01,
+    "compras": 0,
+    "cpa": null
+   },
+   {
+    "id": "120250488616810149",
+    "clave": "c3",
+    "cuenta": "Cuenta 3",
+    "campana": "dupli 1",
+    "anuncio": "48. Hermanas mate",
+    "estado": "ACTIVE",
+    "gasto": 0.23,
     "compras": 0,
     "cpa": null
    }
@@ -209,9 +286,9 @@
     "campana": "dupli 1",
     "anuncio": "48. Hermanas mate",
     "estado": "ACTIVE",
-    "gasto": 18.27,
+    "gasto": 18.29,
     "compras": 1,
-    "cpa": 18.27
+    "cpa": 18.29
    },
    {
     "id": "120250476577390149",
@@ -519,7 +596,7 @@
     "campana": "dupli 1",
     "anuncio": "48. Hermanas mate",
     "estado": "ACTIVE",
-    "gasto": 292.42,
+    "gasto": 292.44,
     "compras": 27,
     "cpa": 10.83
    },
@@ -939,7 +1016,7 @@
     "campana": "dupli 1",
     "anuncio": "48. Hermanas mate",
     "estado": "ACTIVE",
-    "gasto": 292.42,
+    "gasto": 292.44,
     "compras": 27,
     "cpa": 10.83
    },
@@ -1128,7 +1205,7 @@
     "campana": "26 - 27 - 33",
     "anuncio": "60. Las amigas en la pileta",
     "estado": "ACTIVE",
-    "gasto": 577.36,
+    "gasto": 577.37,
     "compras": 16,
     "cpa": 36.09
    },
@@ -1249,7 +1326,7 @@
     "campana": "28 - 32 - 37",
     "anuncio": "53. La de la costa",
     "estado": "ACTIVE",
-    "gasto": 662.31,
+    "gasto": 662.38,
     "compras": 36,
     "cpa": 18.4
    },
@@ -1304,9 +1381,9 @@
     "campana": "28 - 32 - 37",
     "anuncio": "IMG 2. Gorila de espaldas (50% bonif)",
     "estado": "ACTIVE",
-    "gasto": 14.41,
+    "gasto": 14.44,
     "compras": 4,
-    "cpa": 3.6
+    "cpa": 3.61
    },
    {
     "id": "120248129275650009",
@@ -1337,9 +1414,9 @@
     "campana": "dupli 1",
     "anuncio": "53. La de la costa",
     "estado": "ACTIVE",
-    "gasto": 17.38,
+    "gasto": 17.39,
     "compras": 1,
-    "cpa": 17.38
+    "cpa": 17.39
    },
    {
     "id": "120250508073670149",
@@ -1359,7 +1436,7 @@
     "campana": "dupli 1",
     "anuncio": "48. Hermanas mate",
     "estado": "ACTIVE",
-    "gasto": 292.63,
+    "gasto": 292.67,
     "compras": 27,
     "cpa": 10.84
    },
@@ -1693,7 +1770,7 @@
    "clave": "c3",
    "fecha": "2026-11-12",
    "compras": 1,
-   "gasto": 29.91
+   "gasto": 29.93
   },
   {
    "clave": "cb",
@@ -1705,19 +1782,19 @@
    "clave": "c1",
    "fecha": "2026-11-13",
    "compras": 0,
-   "gasto": 0.09
+   "gasto": 0.1
   },
   {
    "clave": "c2",
    "fecha": "2026-11-13",
    "compras": 0,
-   "gasto": 0.67
+   "gasto": 0.77
   },
   {
    "clave": "c3",
    "fecha": "2026-11-13",
    "compras": 0,
-   "gasto": 1.08
+   "gasto": 1.11
   }
  ],
  "videos": {
@@ -1779,9 +1856,9 @@
   },
   "anuncios": {
    "120250709463020753": "vid-1632110114984028",
-   "120250709462300753": "vid-3060073324345083",
    "120250694595320753": "vid-1869256114088900",
    "120250673711360753": "vid-1460245032877810",
+   "120250709462300753": "vid-3060073324345083",
    "120250652567540753": "vid-1692683338883699",
    "120250652570230753": "vid-991127800704808",
    "120250674258010753": "vid-1679967646981330",
@@ -1793,10 +1870,10 @@
    "120250622169680753": "v27",
    "120248118837910009": "vid-1794585108691885",
    "120248097316430009": "v53",
+   "120248167692510009": "a120248167692510009",
    "120248088694150009": "vid-1478965747490454",
    "120248088693620009": "vid-2311278362973029",
    "120248088693890009": "vid-4661331717519589",
-   "120248167692510009": "a120248167692510009",
    "120248076126440009": "v27",
    "120248129275650009": "vid-1283106010660237",
    "120248097227050009": "v39",
