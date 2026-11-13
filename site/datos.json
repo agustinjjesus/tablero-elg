@@ -1,6 +1,6 @@
 {
  "estado": "ok",
- "actualizado": "2026-11-13T16:56:13+00:00",
+ "actualizado": "2026-11-13T17:08:37+00:00",
  "hoy": "2026-11-13",
  "inicio": "2026-11-05",
  "cuentas": [
@@ -31,7 +31,7 @@
     "campana": "26 - 27 - 33",
     "anuncio": "48. Hermanas mate",
     "estado": "ACTIVE",
-    "gasto": 4.11,
+    "gasto": 4.26,
     "compras": 0,
     "cpa": null
    },
@@ -42,7 +42,7 @@
     "campana": "26 - 27 - 33",
     "anuncio": "69. La vecina del banco",
     "estado": "ACTIVE",
-    "gasto": 0.54,
+    "gasto": 0.61,
     "compras": 0,
     "cpa": null
    },
@@ -53,7 +53,7 @@
     "campana": "26 - 27 - 33",
     "anuncio": "44. Vecina",
     "estado": "ACTIVE",
-    "gasto": 0.03,
+    "gasto": 0.04,
     "compras": 0,
     "cpa": null
    },
@@ -86,7 +86,7 @@
     "campana": "28 - 32 - 37",
     "anuncio": "IMG 2. Gorila de espaldas (50% bonif)",
     "estado": "ACTIVE",
-    "gasto": 7.0,
+    "gasto": 7.06,
     "compras": 0,
     "cpa": null
    },
@@ -330,7 +330,7 @@
     "campana": "dupli 1",
     "anuncio": "53. La de la costa",
     "estado": "WITH_ISSUES",
-    "gasto": 11.56,
+    "gasto": 11.57,
     "compras": 0,
     "cpa": null
    },
@@ -640,9 +640,9 @@
     "campana": "dupli 1",
     "anuncio": "53. La de la costa",
     "estado": "WITH_ISSUES",
-    "gasto": 16.65,
+    "gasto": 16.66,
     "compras": 1,
-    "cpa": 16.65
+    "cpa": 16.66
    },
    {
     "id": "120250488616810149",
@@ -651,7 +651,7 @@
     "campana": "dupli 1",
     "anuncio": "48. Hermanas mate",
     "estado": "ACTIVE",
-    "gasto": 292.64,
+    "gasto": 292.67,
     "compras": 27,
     "cpa": 10.84
    },
@@ -1060,9 +1060,9 @@
     "campana": "dupli 1",
     "anuncio": "53. La de la costa",
     "estado": "WITH_ISSUES",
-    "gasto": 16.65,
+    "gasto": 16.66,
     "compras": 1,
-    "cpa": 16.65
+    "cpa": 16.66
    },
    {
     "id": "120250488616810149",
@@ -1071,7 +1071,7 @@
     "campana": "dupli 1",
     "anuncio": "48. Hermanas mate",
     "estado": "ACTIVE",
-    "gasto": 292.64,
+    "gasto": 292.67,
     "compras": 27,
     "cpa": 10.84
    },
@@ -1227,9 +1227,9 @@
     "campana": "26 - 27 - 33",
     "anuncio": "48. Hermanas mate",
     "estado": "ACTIVE",
-    "gasto": 27.51,
+    "gasto": 27.66,
     "compras": 2,
-    "cpa": 13.76
+    "cpa": 13.83
    },
    {
     "id": "120250694595320753",
@@ -1238,9 +1238,9 @@
     "campana": "26 - 27 - 33",
     "anuncio": "69. La vecina del banco",
     "estado": "ACTIVE",
-    "gasto": 32.42,
+    "gasto": 32.49,
     "compras": 1,
-    "cpa": 32.42
+    "cpa": 32.49
    },
    {
     "id": "120250652567540753",
@@ -1260,7 +1260,7 @@
     "campana": "26 - 27 - 33",
     "anuncio": "44. Vecina",
     "estado": "ACTIVE",
-    "gasto": 1.95,
+    "gasto": 1.96,
     "compras": 0,
     "cpa": null
    },
@@ -1370,9 +1370,9 @@
     "campana": "28 - 32 - 37",
     "anuncio": "IMG 2. Gorila de espaldas (50% bonif)",
     "estado": "ACTIVE",
-    "gasto": 22.11,
+    "gasto": 22.17,
     "compras": 4,
-    "cpa": 5.53
+    "cpa": 5.54
    },
    {
     "id": "120248118837910009",
@@ -1480,7 +1480,7 @@
     "campana": "dupli 1",
     "anuncio": "53. La de la costa",
     "estado": "WITH_ISSUES",
-    "gasto": 20.73,
+    "gasto": 20.74,
     "compras": 2,
     "cpa": 10.37
    },
@@ -1491,9 +1491,9 @@
     "campana": "dupli 1",
     "anuncio": "48. Hermanas mate",
     "estado": "ACTIVE",
-    "gasto": 297.4,
+    "gasto": 297.43,
     "compras": 27,
-    "cpa": 11.01
+    "cpa": 11.02
    },
    {
     "id": "120250431945190149",
@@ -1801,7 +1801,7 @@
    "clave": "c3",
    "fecha": "2026-11-11",
    "compras": 4,
-   "gasto": 47.09
+   "gasto": 47.12
   },
   {
    "clave": "cb",
@@ -1825,7 +1825,7 @@
    "clave": "c3",
    "fecha": "2026-11-12",
    "compras": 1,
-   "gasto": 30.19
+   "gasto": 30.2
   },
   {
    "clave": "cb",
@@ -1837,13 +1837,13 @@
    "clave": "c1",
    "fecha": "2026-11-13",
    "compras": 1,
-   "gasto": 7.0
+   "gasto": 7.23
   },
   {
    "clave": "c2",
    "fecha": "2026-11-13",
    "compras": 0,
-   "gasto": 14.21
+   "gasto": 14.38
   },
   {
    "clave": "c3",
