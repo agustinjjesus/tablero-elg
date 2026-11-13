@@ -1,6 +1,6 @@
 {
  "estado": "ok",
- "actualizado": "2026-11-13T03:47:38+00:00",
+ "actualizado": "2026-11-13T16:48:07+00:00",
  "hoy": "2026-11-13",
  "inicio": "2026-11-05",
  "cuentas": [
@@ -53,7 +53,7 @@
     "campana": "26 - 27 - 33",
     "anuncio": "69. La vecina del banco",
     "estado": "ACTIVE",
-    "gasto": 0.07,
+    "gasto": 0.11,
     "compras": 0,
     "cpa": null
    },
@@ -64,7 +64,7 @@
     "campana": "26 - 27 - 33",
     "anuncio": "60. Las amigas en la pileta",
     "estado": "ACTIVE",
-    "gasto": 0.12,
+    "gasto": 0.13,
     "compras": 0,
     "cpa": null
    },
@@ -86,7 +86,7 @@
     "campana": "28 - 32 - 37",
     "anuncio": "53. La de la costa",
     "estado": "ACTIVE",
-    "gasto": 1.46,
+    "gasto": 1.93,
     "compras": 0,
     "cpa": null
    },
@@ -97,7 +97,7 @@
     "campana": "28 - 32 - 37",
     "anuncio": "IMG 2. Gorila de espaldas (50% bonif)",
     "estado": "ACTIVE",
-    "gasto": 0.75,
+    "gasto": 0.98,
     "compras": 0,
     "cpa": null
    },
@@ -108,7 +108,7 @@
     "campana": "dupli 1",
     "anuncio": "53. La de la costa",
     "estado": "ACTIVE",
-    "gasto": 1.03,
+    "gasto": 1.28,
     "compras": 0,
     "cpa": null
    },
@@ -130,7 +130,7 @@
     "campana": "dupli 1",
     "anuncio": "48. Hermanas mate",
     "estado": "ACTIVE",
-    "gasto": 0.32,
+    "gasto": 0.41,
     "compras": 0,
     "cpa": null
    }
@@ -275,7 +275,7 @@
     "campana": "dupli 1",
     "anuncio": "53. La de la costa",
     "estado": "ACTIVE",
-    "gasto": 11.49,
+    "gasto": 11.51,
     "compras": 0,
     "cpa": null
    },
@@ -585,9 +585,9 @@
     "campana": "dupli 1",
     "anuncio": "53. La de la costa",
     "estado": "ACTIVE",
-    "gasto": 16.52,
+    "gasto": 16.54,
     "compras": 1,
-    "cpa": 16.52
+    "cpa": 16.54
    },
    {
     "id": "120250508073670149",
@@ -1005,9 +1005,9 @@
     "campana": "dupli 1",
     "anuncio": "53. La de la costa",
     "estado": "ACTIVE",
-    "gasto": 16.52,
+    "gasto": 16.54,
     "compras": 1,
-    "cpa": 16.52
+    "cpa": 16.54
    },
    {
     "id": "120250508073670149",
@@ -1205,9 +1205,9 @@
     "campana": "26 - 27 - 33",
     "anuncio": "69. La vecina del banco",
     "estado": "ACTIVE",
-    "gasto": 31.95,
+    "gasto": 31.99,
     "compras": 1,
-    "cpa": 31.95
+    "cpa": 31.99
    },
    {
     "id": "120250673711360753",
@@ -1216,7 +1216,7 @@
     "campana": "26 - 27 - 33",
     "anuncio": "60. Las amigas en la pileta",
     "estado": "ACTIVE",
-    "gasto": 577.56,
+    "gasto": 577.57,
     "compras": 16,
     "cpa": 36.1
    },
@@ -1337,9 +1337,9 @@
     "campana": "28 - 32 - 37",
     "anuncio": "53. La de la costa",
     "estado": "ACTIVE",
-    "gasto": 663.73,
+    "gasto": 664.2,
     "compras": 36,
-    "cpa": 18.44
+    "cpa": 18.45
    },
    {
     "id": "120248088694150009",
@@ -1392,9 +1392,9 @@
     "campana": "28 - 32 - 37",
     "anuncio": "IMG 2. Gorila de espaldas (50% bonif)",
     "estado": "ACTIVE",
-    "gasto": 15.59,
+    "gasto": 15.82,
     "compras": 4,
-    "cpa": 3.9
+    "cpa": 3.96
    },
    {
     "id": "120248129275650009",
@@ -1425,9 +1425,9 @@
     "campana": "dupli 1",
     "anuncio": "53. La de la costa",
     "estado": "ACTIVE",
-    "gasto": 17.55,
+    "gasto": 17.82,
     "compras": 1,
-    "cpa": 17.55
+    "cpa": 17.82
    },
    {
     "id": "120250508073670149",
@@ -1447,9 +1447,9 @@
     "campana": "dupli 1",
     "anuncio": "48. Hermanas mate",
     "estado": "ACTIVE",
-    "gasto": 292.77,
+    "gasto": 292.87,
     "compras": 27,
-    "cpa": 10.84
+    "cpa": 10.85
    },
    {
     "id": "120250476577390149",
@@ -1781,7 +1781,7 @@
    "clave": "c3",
    "fecha": "2026-11-12",
    "compras": 1,
-   "gasto": 29.94
+   "gasto": 29.96
   },
   {
    "clave": "cb",
@@ -1793,19 +1793,19 @@
    "clave": "c1",
    "fecha": "2026-11-13",
    "compras": 0,
-   "gasto": 0.23
+   "gasto": 0.28
   },
   {
    "clave": "c2",
    "fecha": "2026-11-13",
    "compras": 0,
-   "gasto": 2.22
+   "gasto": 2.92
   },
   {
    "clave": "c3",
    "fecha": "2026-11-13",
    "compras": 0,
-   "gasto": 1.36
+   "gasto": 1.71
   }
  ],
  "videos": {
