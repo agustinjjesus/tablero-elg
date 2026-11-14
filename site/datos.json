@@ -1,6 +1,6 @@
 {
  "estado": "ok",
- "actualizado": "2026-11-14T00:47:54+00:00",
+ "actualizado": "2026-11-14T00:57:55+00:00",
  "hoy": "2026-11-13",
  "inicio": "2026-11-05",
  "cuentas": [
@@ -31,7 +31,7 @@
     "campana": "26 - 27 - 33",
     "anuncio": "48. Hermanas mate",
     "estado": "ACTIVE",
-    "gasto": 8.26,
+    "gasto": 8.28,
     "compras": 0,
     "cpa": null
    },
@@ -86,9 +86,9 @@
     "campana": "28 - 32 - 37",
     "anuncio": "IMG 2. Gorila de espaldas (50% bonif)",
     "estado": "ACTIVE",
-    "gasto": 16.8,
+    "gasto": 16.86,
     "compras": 1,
-    "cpa": 16.8
+    "cpa": 16.86
    },
    {
     "id": "120248118837910009",
@@ -196,7 +196,7 @@
     "campana": "WhatsApp - Biotina 13-11",
     "anuncio": "Bio 3",
     "estado": "ACTIVE",
-    "gasto": 0.07,
+    "gasto": 0.09,
     "compras": 0,
     "cpa": null
    },
@@ -207,7 +207,7 @@
     "campana": "WhatsApp - Biotina 13-11",
     "anuncio": "Bio 3b",
     "estado": "ACTIVE",
-    "gasto": 0.81,
+    "gasto": 1.22,
     "compras": 0,
     "cpa": null
    },
@@ -218,9 +218,9 @@
     "campana": "dupli 1",
     "anuncio": "48. Hermanas mate (ComboBiotina)",
     "estado": "ACTIVE",
-    "gasto": 2.66,
+    "gasto": 3.16,
     "compras": 1,
-    "cpa": 2.66
+    "cpa": 3.16
    },
    {
     "id": "120254824067580204",
@@ -229,7 +229,7 @@
     "campana": "dupli 1",
     "anuncio": "70. El verdulero (ComboBiotina)",
     "estado": "ACTIVE",
-    "gasto": 0.79,
+    "gasto": 0.8,
     "compras": 0,
     "cpa": null
    },
@@ -240,7 +240,7 @@
     "campana": "dupli 1",
     "anuncio": "44. Vecina (ComboBiotina)",
     "estado": "ACTIVE",
-    "gasto": 0.2,
+    "gasto": 0.25,
     "compras": 0,
     "cpa": null
    },
@@ -262,7 +262,7 @@
     "campana": "dupli 1",
     "anuncio": "50. Respondiendo preguntas",
     "estado": "ACTIVE",
-    "gasto": 0.17,
+    "gasto": 0.21,
     "compras": 0,
     "cpa": null
    }
@@ -1315,9 +1315,9 @@
     "campana": "26 - 27 - 33",
     "anuncio": "48. Hermanas mate",
     "estado": "ACTIVE",
-    "gasto": 31.66,
+    "gasto": 31.68,
     "compras": 2,
-    "cpa": 15.83
+    "cpa": 15.84
    },
    {
     "id": "120250694595320753",
@@ -1458,9 +1458,9 @@
     "campana": "28 - 32 - 37",
     "anuncio": "IMG 2. Gorila de espaldas (50% bonif)",
     "estado": "ACTIVE",
-    "gasto": 31.91,
+    "gasto": 31.97,
     "compras": 5,
-    "cpa": 6.38
+    "cpa": 6.39
    },
    {
     "id": "120248118837910009",
@@ -1623,7 +1623,7 @@
     "campana": "WhatsApp - Biotina 13-11",
     "anuncio": "Bio 3",
     "estado": "ACTIVE",
-    "gasto": 0.07,
+    "gasto": 0.09,
     "compras": 0,
     "cpa": null
    },
@@ -1634,7 +1634,7 @@
     "campana": "WhatsApp - Biotina 13-11",
     "anuncio": "Bio 3b",
     "estado": "ACTIVE",
-    "gasto": 0.81,
+    "gasto": 1.22,
     "compras": 0,
     "cpa": null
    },
@@ -1645,9 +1645,9 @@
     "campana": "dupli 1",
     "anuncio": "48. Hermanas mate (ComboBiotina)",
     "estado": "ACTIVE",
-    "gasto": 91.7,
+    "gasto": 92.2,
     "compras": 7,
-    "cpa": 13.1
+    "cpa": 13.17
    },
    {
     "id": "120254824067580204",
@@ -1656,7 +1656,7 @@
     "campana": "dupli 1",
     "anuncio": "70. El verdulero (ComboBiotina)",
     "estado": "ACTIVE",
-    "gasto": 22.16,
+    "gasto": 22.17,
     "compras": 0,
     "cpa": null
    },
@@ -1667,9 +1667,9 @@
     "campana": "dupli 1",
     "anuncio": "44. Vecina (ComboBiotina)",
     "estado": "ACTIVE",
-    "gasto": 76.22,
+    "gasto": 76.27,
     "compras": 3,
-    "cpa": 25.41
+    "cpa": 25.42
    },
    {
     "id": "120254782511900204",
@@ -1700,9 +1700,9 @@
     "campana": "dupli 1",
     "anuncio": "50. Respondiendo preguntas",
     "estado": "ACTIVE",
-    "gasto": 60.03,
+    "gasto": 60.07,
     "compras": 4,
-    "cpa": 15.01
+    "cpa": 15.02
    },
    {
     "id": "120254765847740204",
@@ -1947,13 +1947,13 @@
    "clave": "c1",
    "fecha": "2026-11-13",
    "compras": 1,
-   "gasto": 12.13
+   "gasto": 12.15
   },
   {
    "clave": "c2",
    "fecha": "2026-11-13",
    "compras": 1,
-   "gasto": 24.3
+   "gasto": 24.4
   },
   {
    "clave": "c3",
@@ -1965,7 +1965,7 @@
    "clave": "cb",
    "fecha": "2026-11-13",
    "compras": 1,
-   "gasto": 5.08
+   "gasto": 5.91
   }
  ],
  "videos": {
