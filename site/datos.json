@@ -1,6 +1,6 @@
 {
  "estado": "ok",
- "actualizado": "2026-11-14T04:27:39+00:00",
+ "actualizado": "2026-11-14T04:38:05+00:00",
  "hoy": "2026-11-14",
  "inicio": "2026-11-05",
  "cuentas": [
@@ -31,7 +31,7 @@
     "campana": "26 - 27 - 33",
     "anuncio": "48. Hermanas mate",
     "estado": "ACTIVE",
-    "gasto": 0.23,
+    "gasto": 0.24,
     "compras": 0,
     "cpa": null
    },
@@ -53,9 +53,9 @@
     "campana": "28 - 32 - 37",
     "anuncio": "IMG 2. Gorila de espaldas (50% bonif)",
     "estado": "ACTIVE",
-    "gasto": 1.26,
+    "gasto": 1.41,
     "compras": 1,
-    "cpa": 1.26
+    "cpa": 1.41
    },
    {
     "id": "120254874238640204",
@@ -75,7 +75,7 @@
     "campana": "WhatsApp - Biotina 13-11",
     "anuncio": "Bio 3",
     "estado": "ACTIVE",
-    "gasto": 0.06,
+    "gasto": 0.08,
     "compras": 0,
     "cpa": null
    },
@@ -86,7 +86,7 @@
     "campana": "WhatsApp - Biotina 13-11",
     "anuncio": "Bio 3b",
     "estado": "ACTIVE",
-    "gasto": 2.34,
+    "gasto": 2.42,
     "compras": 0,
     "cpa": null
    },
@@ -97,7 +97,7 @@
     "campana": "dupli 1",
     "anuncio": "48. Hermanas mate (ComboBiotina)",
     "estado": "ACTIVE",
-    "gasto": 0.61,
+    "gasto": 0.62,
     "compras": 0,
     "cpa": null
    },
@@ -108,7 +108,7 @@
     "campana": "dupli 1",
     "anuncio": "70. El verdulero (ComboBiotina)",
     "estado": "ACTIVE",
-    "gasto": 1.28,
+    "gasto": 1.38,
     "compras": 0,
     "cpa": null
    },
@@ -130,7 +130,7 @@
     "campana": "dupli 1",
     "anuncio": "51. Primera noche",
     "estado": "ACTIVE",
-    "gasto": 0.35,
+    "gasto": 0.45,
     "compras": 0,
     "cpa": null
    },
@@ -141,7 +141,7 @@
     "campana": "dupli 1",
     "anuncio": "50. Respondiendo preguntas",
     "estado": "ACTIVE",
-    "gasto": 0.35,
+    "gasto": 0.51,
     "compras": 0,
     "cpa": null
    }
@@ -1194,9 +1194,9 @@
     "campana": "26 - 27 - 33",
     "anuncio": "48. Hermanas mate",
     "estado": "ACTIVE",
-    "gasto": 32.58,
+    "gasto": 32.59,
     "compras": 2,
-    "cpa": 16.29
+    "cpa": 16.3
    },
    {
     "id": "120250694595320753",
@@ -1337,9 +1337,9 @@
     "campana": "28 - 32 - 37",
     "anuncio": "IMG 2. Gorila de espaldas (50% bonif)",
     "estado": "ACTIVE",
-    "gasto": 37.54,
+    "gasto": 37.69,
     "compras": 8,
-    "cpa": 4.69
+    "cpa": 4.71
    },
    {
     "id": "120248118837910009",
@@ -1513,7 +1513,7 @@
     "campana": "WhatsApp - Biotina 13-11",
     "anuncio": "Bio 3",
     "estado": "ACTIVE",
-    "gasto": 0.33,
+    "gasto": 0.35,
     "compras": 0,
     "cpa": null
    },
@@ -1524,7 +1524,7 @@
     "campana": "WhatsApp - Biotina 13-11",
     "anuncio": "Bio 3b",
     "estado": "ACTIVE",
-    "gasto": 6.86,
+    "gasto": 6.94,
     "compras": 0,
     "cpa": null
    },
@@ -1535,7 +1535,7 @@
     "campana": "dupli 1",
     "anuncio": "48. Hermanas mate (ComboBiotina)",
     "estado": "ACTIVE",
-    "gasto": 97.06,
+    "gasto": 97.07,
     "compras": 7,
     "cpa": 13.87
    },
@@ -1546,7 +1546,7 @@
     "campana": "dupli 1",
     "anuncio": "70. El verdulero (ComboBiotina)",
     "estado": "ACTIVE",
-    "gasto": 25.07,
+    "gasto": 25.17,
     "compras": 0,
     "cpa": null
    },
@@ -1579,9 +1579,9 @@
     "campana": "dupli 1",
     "anuncio": "51. Primera noche",
     "estado": "ACTIVE",
-    "gasto": 171.83,
+    "gasto": 171.93,
     "compras": 6,
-    "cpa": 28.64
+    "cpa": 28.66
    },
    {
     "id": "120254777021490204",
@@ -1590,9 +1590,9 @@
     "campana": "dupli 1",
     "anuncio": "50. Respondiendo preguntas",
     "estado": "ACTIVE",
-    "gasto": 60.67,
+    "gasto": 60.83,
     "compras": 4,
-    "cpa": 15.17
+    "cpa": 15.21
    },
    {
     "id": "120254765847740204",
@@ -1861,19 +1861,19 @@
    "clave": "c1",
    "fecha": "2026-11-14",
    "compras": 0,
-   "gasto": 0.25
+   "gasto": 0.26
   },
   {
    "clave": "c2",
    "fecha": "2026-11-14",
    "compras": 1,
-   "gasto": 1.26
+   "gasto": 1.36
   },
   {
    "clave": "cb",
    "fecha": "2026-11-14",
    "compras": 0,
-   "gasto": 5.34
+   "gasto": 5.81
   }
  ],
  "videos": {
