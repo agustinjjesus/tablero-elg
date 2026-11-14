@@ -1,6 +1,6 @@
 {
  "estado": "ok",
- "actualizado": "2026-11-14T05:47:59+00:00",
+ "actualizado": "2026-11-14T05:57:44+00:00",
  "hoy": "2026-11-14",
  "inicio": "2026-11-05",
  "cuentas": [
@@ -31,7 +31,7 @@
     "campana": "26 - 27 - 33",
     "anuncio": "48. Hermanas mate",
     "estado": "ACTIVE",
-    "gasto": 0.41,
+    "gasto": 0.52,
     "compras": 0,
     "cpa": null
    },
@@ -53,9 +53,20 @@
     "campana": "28 - 32 - 37",
     "anuncio": "IMG 2. Gorila de espaldas (50% bonif)",
     "estado": "ACTIVE",
-    "gasto": 3.21,
+    "gasto": 3.27,
     "compras": 1,
-    "cpa": 3.21
+    "cpa": 3.27
+   },
+   {
+    "id": "120248088694150009",
+    "clave": "c2",
+    "cuenta": "Cuenta 2",
+    "campana": "28 - 32 - 37",
+    "anuncio": "47. Primo visita",
+    "estado": "ACTIVE",
+    "gasto": 0.01,
+    "compras": 0,
+    "cpa": null
    },
    {
     "id": "120254874238640204",
@@ -86,7 +97,7 @@
     "campana": "WhatsApp - Biotina 13-11",
     "anuncio": "Bio 3b",
     "estado": "ACTIVE",
-    "gasto": 3.31,
+    "gasto": 3.37,
     "compras": 0,
     "cpa": null
    },
@@ -97,7 +108,7 @@
     "campana": "dupli 1",
     "anuncio": "48. Hermanas mate (ComboBiotina)",
     "estado": "ACTIVE",
-    "gasto": 0.86,
+    "gasto": 0.89,
     "compras": 0,
     "cpa": null
    },
@@ -108,7 +119,7 @@
     "campana": "dupli 1",
     "anuncio": "70. El verdulero (ComboBiotina)",
     "estado": "ACTIVE",
-    "gasto": 1.7,
+    "gasto": 1.73,
     "compras": 0,
     "cpa": null
    },
@@ -130,7 +141,7 @@
     "campana": "dupli 1",
     "anuncio": "51. Primera noche",
     "estado": "ACTIVE",
-    "gasto": 0.47,
+    "gasto": 0.48,
     "compras": 0,
     "cpa": null
    },
@@ -141,7 +152,7 @@
     "campana": "dupli 1",
     "anuncio": "50. Respondiendo preguntas",
     "estado": "ACTIVE",
-    "gasto": 0.61,
+    "gasto": 0.62,
     "compras": 0,
     "cpa": null
    }
@@ -1194,9 +1205,9 @@
     "campana": "26 - 27 - 33",
     "anuncio": "48. Hermanas mate",
     "estado": "ACTIVE",
-    "gasto": 32.78,
+    "gasto": 32.89,
     "compras": 2,
-    "cpa": 16.39
+    "cpa": 16.45
    },
    {
     "id": "120250694595320753",
@@ -1337,7 +1348,7 @@
     "campana": "28 - 32 - 37",
     "anuncio": "IMG 2. Gorila de espaldas (50% bonif)",
     "estado": "ACTIVE",
-    "gasto": 39.56,
+    "gasto": 39.62,
     "compras": 8,
     "cpa": 4.95
    },
@@ -1524,7 +1535,7 @@
     "campana": "WhatsApp - Biotina 13-11",
     "anuncio": "Bio 3b",
     "estado": "ACTIVE",
-    "gasto": 7.85,
+    "gasto": 7.89,
     "compras": 0,
     "cpa": null
    },
@@ -1535,9 +1546,9 @@
     "campana": "dupli 1",
     "anuncio": "48. Hermanas mate (ComboBiotina)",
     "estado": "ACTIVE",
-    "gasto": 97.31,
+    "gasto": 97.34,
     "compras": 7,
-    "cpa": 13.9
+    "cpa": 13.91
    },
    {
     "id": "120254824067580204",
@@ -1546,7 +1557,7 @@
     "campana": "dupli 1",
     "anuncio": "70. El verdulero (ComboBiotina)",
     "estado": "ACTIVE",
-    "gasto": 25.52,
+    "gasto": 25.55,
     "compras": 0,
     "cpa": null
    },
@@ -1579,7 +1590,7 @@
     "campana": "dupli 1",
     "anuncio": "51. Primera noche",
     "estado": "ACTIVE",
-    "gasto": 171.95,
+    "gasto": 171.96,
     "compras": 6,
     "cpa": 28.66
    },
@@ -1590,9 +1601,9 @@
     "campana": "dupli 1",
     "anuncio": "50. Respondiendo preguntas",
     "estado": "ACTIVE",
-    "gasto": 60.93,
+    "gasto": 60.94,
     "compras": 4,
-    "cpa": 15.23
+    "cpa": 15.24
    },
    {
     "id": "120254765847740204",
@@ -1861,19 +1872,19 @@
    "clave": "c1",
    "fecha": "2026-11-14",
    "compras": 0,
-   "gasto": 0.76
+   "gasto": 0.86
   },
   {
    "clave": "c2",
    "fecha": "2026-11-14",
    "compras": 1,
-   "gasto": 3.22
+   "gasto": 3.28
   },
   {
    "clave": "cb",
    "fecha": "2026-11-14",
    "compras": 0,
-   "gasto": 7.65
+   "gasto": 7.77
   }
  ],
  "videos": {
@@ -1951,8 +1962,8 @@
    "120250618383420753": "v29",
    "120250622169680753": "v27",
    "120248167692510009": "a120248167692510009",
-   "120248118837910009": "vid-1794585108691885",
    "120248088694150009": "vid-1478965747490454",
+   "120248118837910009": "vid-1794585108691885",
    "120248088693620009": "vid-2311278362973029",
    "120248088693890009": "vid-4661331717519589",
    "120248097316430009": "v53",
