@@ -1,6 +1,6 @@
 {
  "estado": "ok",
- "actualizado": "2026-11-16T18:47:53+00:00",
+ "actualizado": "2026-11-16T18:57:48+00:00",
  "hoy": "2026-11-16",
  "inicio": "2026-11-05",
  "cuentas": [
@@ -31,7 +31,7 @@
     "campana": "28 - 32 - 37",
     "anuncio": "48. Hermanas mate",
     "estado": "CAMPAIGN_PAUSED",
-    "gasto": 6.57,
+    "gasto": 6.58,
     "compras": 0,
     "cpa": null
    },
@@ -86,7 +86,7 @@
     "campana": "WhatsApp - Biotina 13-11",
     "anuncio": "Bio 3",
     "estado": "CAMPAIGN_PAUSED",
-    "gasto": 2.32,
+    "gasto": 2.33,
     "compras": 0,
     "cpa": null
    },
@@ -941,7 +941,7 @@
     "campana": "28 - 32 - 37",
     "anuncio": "48. Hermanas mate",
     "estado": "CAMPAIGN_PAUSED",
-    "gasto": 38.03,
+    "gasto": 38.04,
     "compras": 0,
     "cpa": null
    },
@@ -1117,7 +1117,7 @@
     "campana": "WhatsApp - Biotina 13-11",
     "anuncio": "Bio 3",
     "estado": "CAMPAIGN_PAUSED",
-    "gasto": 5.73,
+    "gasto": 5.74,
     "compras": 0,
     "cpa": null
    },
@@ -1391,13 +1391,13 @@
    "clave": "c2",
    "fecha": "2026-11-16",
    "compras": 0,
-   "gasto": 13.23
+   "gasto": 13.24
   },
   {
    "clave": "cb",
    "fecha": "2026-11-16",
    "compras": 0,
-   "gasto": 17.83
+   "gasto": 17.84
   }
  ],
  "videos": {
