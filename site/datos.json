@@ -1,6 +1,6 @@
 {
  "estado": "ok",
- "actualizado": "2026-11-16T19:27:56+00:00",
+ "actualizado": "2026-11-16T19:37:33+00:00",
  "hoy": "2026-11-16",
  "inicio": "2026-11-05",
  "cuentas": [
@@ -98,6 +98,17 @@
     "anuncio": "Bio 3b",
     "estado": "CAMPAIGN_PAUSED",
     "gasto": 15.33,
+    "compras": 0,
+    "cpa": null
+   },
+   {
+    "id": "120254912916640204",
+    "clave": "cb",
+    "cuenta": "ComboBiotina",
+    "campana": "WhatsApp - Biotina Prueba A-B-C 16-11",
+    "anuncio": "Precios A",
+    "estado": "ACTIVE",
+    "gasto": 0.22,
     "compras": 0,
     "cpa": null
    }
@@ -1131,6 +1142,17 @@
     "gasto": 73.23,
     "compras": 0,
     "cpa": null
+   },
+   {
+    "id": "120254912916640204",
+    "clave": "cb",
+    "cuenta": "ComboBiotina",
+    "campana": "WhatsApp - Biotina Prueba A-B-C 16-11",
+    "anuncio": "Precios A",
+    "estado": "ACTIVE",
+    "gasto": 0.22,
+    "compras": 0,
+    "cpa": null
    }
   ]
  },
@@ -1397,7 +1419,7 @@
    "clave": "cb",
    "fecha": "2026-11-16",
    "compras": 0,
-   "gasto": 17.96
+   "gasto": 18.14
   }
  ],
  "videos": {
@@ -1458,7 +1480,8 @@
    "a120248167692510009": "IMG 2. Gorila de espaldas (50% bonif)",
    "a120254874238110204": "Bio 3",
    "a120254874222650204": "Bio 3b",
-   "a120254874238640204": "Bio 5"
+   "a120254874238640204": "Bio 5",
+   "a120254912916640204": "Precios A"
   },
   "anuncios": {
    "120250709462300753": "vid-3060073324345083",
@@ -1491,7 +1514,8 @@
    "120250431945190149": "v32",
    "120254874238640204": "a120254874238640204",
    "120254874238110204": "a120254874238110204",
-   "120254874222650204": "a120254874222650204"
+   "120254874222650204": "a120254874222650204",
+   "120254912916640204": "a120254912916640204"
   }
  },
  "rechazados": [
