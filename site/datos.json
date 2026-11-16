@@ -1,6 +1,6 @@
 {
  "estado": "ok",
- "actualizado": "2026-11-16T18:28:28+00:00",
+ "actualizado": "2026-11-16T18:38:28+00:00",
  "hoy": "2026-11-16",
  "inicio": "2026-11-05",
  "cuentas": [
@@ -42,7 +42,7 @@
     "campana": "28 - 32 - 37",
     "anuncio": "47. Primo visita",
     "estado": "CAMPAIGN_PAUSED",
-    "gasto": 2.42,
+    "gasto": 2.46,
     "compras": 0,
     "cpa": null
    },
@@ -64,7 +64,7 @@
     "campana": "28 - 32 - 37",
     "anuncio": "46. Tejedora",
     "estado": "CAMPAIGN_PAUSED",
-    "gasto": 2.37,
+    "gasto": 2.38,
     "compras": 0,
     "cpa": null
    },
@@ -86,7 +86,7 @@
     "campana": "WhatsApp - Biotina 13-11",
     "anuncio": "Bio 3",
     "estado": "CAMPAIGN_PAUSED",
-    "gasto": 2.31,
+    "gasto": 2.32,
     "compras": 0,
     "cpa": null
    },
@@ -97,7 +97,7 @@
     "campana": "WhatsApp - Biotina 13-11",
     "anuncio": "Bio 3b",
     "estado": "CAMPAIGN_PAUSED",
-    "gasto": 15.2,
+    "gasto": 15.29,
     "compras": 0,
     "cpa": null
    }
@@ -952,7 +952,7 @@
     "campana": "28 - 32 - 37",
     "anuncio": "47. Primo visita",
     "estado": "CAMPAIGN_PAUSED",
-    "gasto": 25.47,
+    "gasto": 25.51,
     "compras": 0,
     "cpa": null
    },
@@ -974,7 +974,7 @@
     "campana": "28 - 32 - 37",
     "anuncio": "46. Tejedora",
     "estado": "CAMPAIGN_PAUSED",
-    "gasto": 27.64,
+    "gasto": 27.65,
     "compras": 0,
     "cpa": null
    },
@@ -1117,7 +1117,7 @@
     "campana": "WhatsApp - Biotina 13-11",
     "anuncio": "Bio 3",
     "estado": "CAMPAIGN_PAUSED",
-    "gasto": 5.72,
+    "gasto": 5.73,
     "compras": 0,
     "cpa": null
    },
@@ -1128,7 +1128,7 @@
     "campana": "WhatsApp - Biotina 13-11",
     "anuncio": "Bio 3b",
     "estado": "CAMPAIGN_PAUSED",
-    "gasto": 73.1,
+    "gasto": 73.19,
     "compras": 0,
     "cpa": null
    }
@@ -1391,13 +1391,13 @@
    "clave": "c2",
    "fecha": "2026-11-16",
    "compras": 0,
-   "gasto": 13.16
+   "gasto": 13.21
   },
   {
    "clave": "cb",
    "fecha": "2026-11-16",
    "compras": 0,
-   "gasto": 17.71
+   "gasto": 17.81
   }
  ],
  "videos": {
