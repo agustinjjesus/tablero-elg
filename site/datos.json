@@ -1,6 +1,6 @@
 {
  "estado": "ok",
- "actualizado": "2026-11-16T18:38:28+00:00",
+ "actualizado": "2026-11-16T18:47:53+00:00",
  "hoy": "2026-11-16",
  "inicio": "2026-11-05",
  "cuentas": [
@@ -31,7 +31,7 @@
     "campana": "28 - 32 - 37",
     "anuncio": "48. Hermanas mate",
     "estado": "CAMPAIGN_PAUSED",
-    "gasto": 6.56,
+    "gasto": 6.57,
     "compras": 0,
     "cpa": null
    },
@@ -64,7 +64,7 @@
     "campana": "28 - 32 - 37",
     "anuncio": "46. Tejedora",
     "estado": "CAMPAIGN_PAUSED",
-    "gasto": 2.38,
+    "gasto": 2.39,
     "compras": 0,
     "cpa": null
    },
@@ -97,7 +97,7 @@
     "campana": "WhatsApp - Biotina 13-11",
     "anuncio": "Bio 3b",
     "estado": "CAMPAIGN_PAUSED",
-    "gasto": 15.29,
+    "gasto": 15.31,
     "compras": 0,
     "cpa": null
    }
@@ -132,7 +132,7 @@
     "campana": "28 - 32 - 37",
     "anuncio": "48. Hermanas mate",
     "estado": "CAMPAIGN_PAUSED",
-    "gasto": 15.32,
+    "gasto": 15.33,
     "compras": 0,
     "cpa": null
    },
@@ -288,7 +288,7 @@
     "campana": "28 - 32 - 37",
     "anuncio": "48. Hermanas mate",
     "estado": "CAMPAIGN_PAUSED",
-    "gasto": 31.45,
+    "gasto": 31.46,
     "compras": 0,
     "cpa": null
    },
@@ -598,7 +598,7 @@
     "campana": "28 - 32 - 37",
     "anuncio": "48. Hermanas mate",
     "estado": "CAMPAIGN_PAUSED",
-    "gasto": 31.45,
+    "gasto": 31.46,
     "compras": 0,
     "cpa": null
    },
@@ -941,7 +941,7 @@
     "campana": "28 - 32 - 37",
     "anuncio": "48. Hermanas mate",
     "estado": "CAMPAIGN_PAUSED",
-    "gasto": 38.01,
+    "gasto": 38.03,
     "compras": 0,
     "cpa": null
    },
@@ -974,7 +974,7 @@
     "campana": "28 - 32 - 37",
     "anuncio": "46. Tejedora",
     "estado": "CAMPAIGN_PAUSED",
-    "gasto": 27.65,
+    "gasto": 27.66,
     "compras": 0,
     "cpa": null
    },
@@ -1128,7 +1128,7 @@
     "campana": "WhatsApp - Biotina 13-11",
     "anuncio": "Bio 3b",
     "estado": "CAMPAIGN_PAUSED",
-    "gasto": 73.19,
+    "gasto": 73.21,
     "compras": 0,
     "cpa": null
    }
@@ -1379,7 +1379,7 @@
    "clave": "c2",
    "fecha": "2026-11-15",
    "compras": 0,
-   "gasto": 28.4
+   "gasto": 28.41
   },
   {
    "clave": "cb",
@@ -1391,13 +1391,13 @@
    "clave": "c2",
    "fecha": "2026-11-16",
    "compras": 0,
-   "gasto": 13.21
+   "gasto": 13.23
   },
   {
    "clave": "cb",
    "fecha": "2026-11-16",
    "compras": 0,
-   "gasto": 17.81
+   "gasto": 17.83
   }
  ],
  "videos": {
