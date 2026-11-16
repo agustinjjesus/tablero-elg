@@ -1,6 +1,6 @@
 {
  "estado": "ok",
- "actualizado": "2026-11-16T18:18:02+00:00",
+ "actualizado": "2026-11-16T18:28:28+00:00",
  "hoy": "2026-11-16",
  "inicio": "2026-11-05",
  "cuentas": [
@@ -42,7 +42,7 @@
     "campana": "28 - 32 - 37",
     "anuncio": "47. Primo visita",
     "estado": "CAMPAIGN_PAUSED",
-    "gasto": 2.37,
+    "gasto": 2.42,
     "compras": 0,
     "cpa": null
    },
@@ -64,7 +64,7 @@
     "campana": "28 - 32 - 37",
     "anuncio": "46. Tejedora",
     "estado": "CAMPAIGN_PAUSED",
-    "gasto": 2.34,
+    "gasto": 2.37,
     "compras": 0,
     "cpa": null
    },
@@ -97,7 +97,7 @@
     "campana": "WhatsApp - Biotina 13-11",
     "anuncio": "Bio 3b",
     "estado": "CAMPAIGN_PAUSED",
-    "gasto": 15.18,
+    "gasto": 15.2,
     "compras": 0,
     "cpa": null
    }
@@ -952,7 +952,7 @@
     "campana": "28 - 32 - 37",
     "anuncio": "47. Primo visita",
     "estado": "CAMPAIGN_PAUSED",
-    "gasto": 25.42,
+    "gasto": 25.47,
     "compras": 0,
     "cpa": null
    },
@@ -974,7 +974,7 @@
     "campana": "28 - 32 - 37",
     "anuncio": "46. Tejedora",
     "estado": "CAMPAIGN_PAUSED",
-    "gasto": 27.61,
+    "gasto": 27.64,
     "compras": 0,
     "cpa": null
    },
@@ -1128,7 +1128,7 @@
     "campana": "WhatsApp - Biotina 13-11",
     "anuncio": "Bio 3b",
     "estado": "CAMPAIGN_PAUSED",
-    "gasto": 73.08,
+    "gasto": 73.1,
     "compras": 0,
     "cpa": null
    }
@@ -1391,13 +1391,13 @@
    "clave": "c2",
    "fecha": "2026-11-16",
    "compras": 0,
-   "gasto": 13.11
+   "gasto": 13.16
   },
   {
    "clave": "cb",
    "fecha": "2026-11-16",
    "compras": 0,
-   "gasto": 17.69
+   "gasto": 17.71
   }
  ],
  "videos": {
