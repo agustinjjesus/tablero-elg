@@ -1,6 +1,6 @@
 {
  "estado": "ok",
- "actualizado": "2026-11-16T19:37:33+00:00",
+ "actualizado": "2026-11-16T19:47:46+00:00",
  "hoy": "2026-11-16",
  "inicio": "2026-11-05",
  "cuentas": [
@@ -64,7 +64,18 @@
     "campana": "28 - 32 - 37",
     "anuncio": "46. Tejedora",
     "estado": "CAMPAIGN_PAUSED",
-    "gasto": 2.41,
+    "gasto": 2.42,
+    "compras": 0,
+    "cpa": null
+   },
+   {
+    "id": "120254912711930204",
+    "clave": "cb",
+    "cuenta": "ComboBiotina",
+    "campana": "WhatsApp - Biotina Prueba A-B-C 16-11",
+    "anuncio": "Bio 3b",
+    "estado": "ACTIVE",
+    "gasto": 0.07,
     "compras": 0,
     "cpa": null
    },
@@ -108,7 +119,7 @@
     "campana": "WhatsApp - Biotina Prueba A-B-C 16-11",
     "anuncio": "Precios A",
     "estado": "ACTIVE",
-    "gasto": 0.22,
+    "gasto": 0.56,
     "compras": 0,
     "cpa": null
    }
@@ -985,7 +996,7 @@
     "campana": "28 - 32 - 37",
     "anuncio": "46. Tejedora",
     "estado": "CAMPAIGN_PAUSED",
-    "gasto": 27.68,
+    "gasto": 27.69,
     "compras": 0,
     "cpa": null
    },
@@ -1111,6 +1122,17 @@
     "cpa": null
    },
    {
+    "id": "120254912711930204",
+    "clave": "cb",
+    "cuenta": "ComboBiotina",
+    "campana": "WhatsApp - Biotina Prueba A-B-C 16-11",
+    "anuncio": "Bio 3b",
+    "estado": "ACTIVE",
+    "gasto": 0.07,
+    "compras": 0,
+    "cpa": null
+   },
+   {
     "id": "120254874238640204",
     "clave": "cb",
     "cuenta": "ComboBiotina",
@@ -1128,7 +1150,7 @@
     "campana": "WhatsApp - Biotina 13-11",
     "anuncio": "Bio 3",
     "estado": "CAMPAIGN_PAUSED",
-    "gasto": 5.74,
+    "gasto": 5.75,
     "compras": 0,
     "cpa": null
    },
@@ -1150,7 +1172,7 @@
     "campana": "WhatsApp - Biotina Prueba A-B-C 16-11",
     "anuncio": "Precios A",
     "estado": "ACTIVE",
-    "gasto": 0.22,
+    "gasto": 0.56,
     "compras": 0,
     "cpa": null
    }
@@ -1413,13 +1435,13 @@
    "clave": "c2",
    "fecha": "2026-11-16",
    "compras": 0,
-   "gasto": 13.26
+   "gasto": 13.27
   },
   {
    "clave": "cb",
    "fecha": "2026-11-16",
    "compras": 0,
-   "gasto": 18.14
+   "gasto": 18.75
   }
  ],
  "videos": {
@@ -1481,7 +1503,8 @@
    "a120254874238110204": "Bio 3",
    "a120254874222650204": "Bio 3b",
    "a120254874238640204": "Bio 5",
-   "a120254912916640204": "Precios A"
+   "a120254912916640204": "Precios A",
+   "a120254912711930204": "Bio 3b"
   },
   "anuncios": {
    "120250709462300753": "vid-3060073324345083",
@@ -1512,6 +1535,7 @@
    "120250476577390149": "vid-2585270115275432",
    "120250476582600149": "vid-1644274337150468",
    "120250431945190149": "v32",
+   "120254912711930204": "a120254912711930204",
    "120254874238640204": "a120254874238640204",
    "120254874238110204": "a120254874238110204",
    "120254874222650204": "a120254874222650204",
