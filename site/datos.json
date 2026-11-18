@@ -1,6 +1,6 @@
 {
  "estado": "ok",
- "actualizado": "2026-11-18T12:57:33+00:00",
+ "actualizado": "2026-11-18T13:07:14+00:00",
  "hoy": "2026-11-18",
  "inicio": "2026-11-05",
  "cuentas": [
@@ -31,7 +31,7 @@
     "campana": "WhatsApp - Biotina Prueba A-B-C 16-11",
     "anuncio": "Bio 3b",
     "estado": "ACTIVE",
-    "gasto": 1.39,
+    "gasto": 1.44,
     "compras": 0,
     "cpa": null
    },
@@ -42,7 +42,7 @@
     "campana": "WhatsApp - Biotina Prueba A-B-C 16-11",
     "anuncio": "Precios C",
     "estado": "ACTIVE",
-    "gasto": 0.27,
+    "gasto": 0.28,
     "compras": 0,
     "cpa": null
    },
@@ -75,7 +75,7 @@
     "campana": "WhatsApp - Biotina 13-11",
     "anuncio": "Bio 3b",
     "estado": "ACTIVE",
-    "gasto": 6.48,
+    "gasto": 6.83,
     "compras": 0,
     "cpa": null
    },
@@ -97,7 +97,7 @@
     "campana": "WhatsApp - Biotina Prueba A-B-C 16-11",
     "anuncio": "Precios A",
     "estado": "ACTIVE",
-    "gasto": 11.16,
+    "gasto": 11.4,
     "compras": 0,
     "cpa": null
    }
@@ -1161,7 +1161,7 @@
     "campana": "WhatsApp - Biotina Prueba A-B-C 16-11",
     "anuncio": "Bio 3b",
     "estado": "ACTIVE",
-    "gasto": 11.96,
+    "gasto": 12.01,
     "compras": 0,
     "cpa": null
    },
@@ -1172,7 +1172,7 @@
     "campana": "WhatsApp - Biotina Prueba A-B-C 16-11",
     "anuncio": "Precios C",
     "estado": "ACTIVE",
-    "gasto": 5.99,
+    "gasto": 6.0,
     "compras": 0,
     "cpa": null
    },
@@ -1205,9 +1205,9 @@
     "campana": "WhatsApp - Biotina 13-11",
     "anuncio": "Bio 3b",
     "estado": "ACTIVE",
-    "gasto": 119.7,
+    "gasto": 120.05,
     "compras": 1,
-    "cpa": 119.7
+    "cpa": 120.05
    },
    {
     "id": "120254912917030204",
@@ -1227,7 +1227,7 @@
     "campana": "WhatsApp - Biotina Prueba A-B-C 16-11",
     "anuncio": "Precios A",
     "estado": "ACTIVE",
-    "gasto": 80.22,
+    "gasto": 80.46,
     "compras": 0,
     "cpa": null
    }
@@ -1514,7 +1514,7 @@
    "clave": "cb",
    "fecha": "2026-11-18",
    "compras": 0,
-   "gasto": 19.7
+   "gasto": 20.35
   }
  ],
  "videos": {
