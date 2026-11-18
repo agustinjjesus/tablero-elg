@@ -1,6 +1,6 @@
 {
  "estado": "ok",
- "actualizado": "2026-11-18T13:38:06+00:00",
+ "actualizado": "2026-11-18T13:47:51+00:00",
  "hoy": "2026-11-18",
  "inicio": "2026-11-05",
  "cuentas": [
@@ -31,7 +31,7 @@
     "campana": "WhatsApp - Biotina Prueba A-B-C 16-11",
     "anuncio": "Bio 3b",
     "estado": "ACTIVE",
-    "gasto": 1.5,
+    "gasto": 1.55,
     "compras": 0,
     "cpa": null
    },
@@ -64,7 +64,7 @@
     "campana": "WhatsApp - Biotina 13-11",
     "anuncio": "Bio 3",
     "estado": "ACTIVE",
-    "gasto": 0.39,
+    "gasto": 0.4,
     "compras": 0,
     "cpa": null
    },
@@ -75,7 +75,7 @@
     "campana": "WhatsApp - Biotina 13-11",
     "anuncio": "Bio 3b",
     "estado": "ACTIVE",
-    "gasto": 7.64,
+    "gasto": 7.91,
     "compras": 0,
     "cpa": null
    },
@@ -97,7 +97,7 @@
     "campana": "WhatsApp - Biotina Prueba A-B-C 16-11",
     "anuncio": "Precios A",
     "estado": "ACTIVE",
-    "gasto": 12.38,
+    "gasto": 12.62,
     "compras": 0,
     "cpa": null
    }
@@ -1161,7 +1161,7 @@
     "campana": "WhatsApp - Biotina Prueba A-B-C 16-11",
     "anuncio": "Bio 3b",
     "estado": "ACTIVE",
-    "gasto": 12.07,
+    "gasto": 12.12,
     "compras": 0,
     "cpa": null
    },
@@ -1194,7 +1194,7 @@
     "campana": "WhatsApp - Biotina 13-11",
     "anuncio": "Bio 3",
     "estado": "ACTIVE",
-    "gasto": 13.66,
+    "gasto": 13.67,
     "compras": 0,
     "cpa": null
    },
@@ -1205,9 +1205,9 @@
     "campana": "WhatsApp - Biotina 13-11",
     "anuncio": "Bio 3b",
     "estado": "ACTIVE",
-    "gasto": 120.86,
+    "gasto": 121.13,
     "compras": 1,
-    "cpa": 120.86
+    "cpa": 121.13
    },
    {
     "id": "120254912917030204",
@@ -1227,7 +1227,7 @@
     "campana": "WhatsApp - Biotina Prueba A-B-C 16-11",
     "anuncio": "Precios A",
     "estado": "ACTIVE",
-    "gasto": 81.44,
+    "gasto": 81.68,
     "compras": 0,
     "cpa": null
    }
@@ -1514,7 +1514,7 @@
    "clave": "cb",
    "fecha": "2026-11-18",
    "compras": 0,
-   "gasto": 22.31
+   "gasto": 22.88
   }
  ],
  "videos": {
