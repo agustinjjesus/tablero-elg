@@ -1,6 +1,6 @@
 {
  "estado": "ok",
- "actualizado": "2026-11-19T06:10:35+00:00",
+ "actualizado": "2026-11-19T06:18:25+00:00",
  "hoy": "2026-11-19",
  "inicio": "2026-11-05",
  "cuentas": [
@@ -31,7 +31,7 @@
     "campana": "WhatsApp - Biotina Prueba A-B-C 16-11",
     "anuncio": "Bio 3b",
     "estado": "ACTIVE",
-    "gasto": 0.72,
+    "gasto": 0.74,
     "compras": 0,
     "cpa": null
    },
@@ -92,6 +92,72 @@
    }
   ],
   "yesterday": [
+   {
+    "id": "120250709463020753",
+    "clave": "c1",
+    "cuenta": "Cuenta 1",
+    "campana": "26 - 27 - 33",
+    "anuncio": "53. La de la costa",
+    "estado": "DISAPPROVED",
+    "gasto": 3.33,
+    "compras": 1,
+    "cpa": 3.33
+   },
+   {
+    "id": "120250673711360753",
+    "clave": "c1",
+    "cuenta": "Cuenta 1",
+    "campana": "26 - 27 - 33",
+    "anuncio": "60. Las amigas en la pileta",
+    "estado": "DISAPPROVED",
+    "gasto": 10.19,
+    "compras": 4,
+    "cpa": 2.55
+   },
+   {
+    "id": "120250709462300753",
+    "clave": "c1",
+    "cuenta": "Cuenta 1",
+    "campana": "26 - 27 - 33",
+    "anuncio": "48. Hermanas mate",
+    "estado": "ACTIVE",
+    "gasto": 31.37,
+    "compras": 3,
+    "cpa": 10.46
+   },
+   {
+    "id": "120250694595320753",
+    "clave": "c1",
+    "cuenta": "Cuenta 1",
+    "campana": "26 - 27 - 33",
+    "anuncio": "69. La vecina del banco",
+    "estado": "ACTIVE",
+    "gasto": 4.25,
+    "compras": 0,
+    "cpa": null
+   },
+   {
+    "id": "120250652567540753",
+    "clave": "c1",
+    "cuenta": "Cuenta 1",
+    "campana": "26 - 27 - 33",
+    "anuncio": "43. Ruleros",
+    "estado": "ACTIVE",
+    "gasto": 0.04,
+    "compras": 0,
+    "cpa": null
+   },
+   {
+    "id": "120250652570230753",
+    "clave": "c1",
+    "cuenta": "Cuenta 1",
+    "campana": "26 - 27 - 33",
+    "anuncio": "44. Vecina",
+    "estado": "ACTIVE",
+    "gasto": 0.09,
+    "compras": 0,
+    "cpa": null
+   },
    {
     "id": "120254912711930204",
     "clave": "cb",
@@ -172,15 +238,81 @@
   ],
   "last_7d": [
    {
+    "id": "120250674258010753",
+    "clave": "c1",
+    "cuenta": "Cuenta 1",
+    "campana": "ESCALA 1",
+    "anuncio": "48. Hermanas mate (ESCALA)",
+    "estado": "CAMPAIGN_PAUSED",
+    "gasto": 34.35,
+    "compras": 1,
+    "cpa": 34.35
+   },
+   {
+    "id": "120250672531810753",
+    "clave": "c1",
+    "cuenta": "Cuenta 1",
+    "campana": "ESCALA 1",
+    "anuncio": "26. Jubilada",
+    "estado": "DISAPPROVED",
+    "gasto": 0.03,
+    "compras": 0,
+    "cpa": null
+   },
+   {
+    "id": "120250618383700753",
+    "clave": "c1",
+    "cuenta": "Cuenta 1",
+    "campana": "dupli 1",
+    "anuncio": "27. Balcón",
+    "estado": "CAMPAIGN_PAUSED",
+    "gasto": 34.81,
+    "compras": 3,
+    "cpa": 11.6
+   },
+   {
+    "id": "120250622169660753",
+    "clave": "c1",
+    "cuenta": "Cuenta 1",
+    "campana": "dupli 1 - Copia",
+    "anuncio": "29. Tren Tigre",
+    "estado": "CAMPAIGN_PAUSED",
+    "gasto": 5.86,
+    "compras": 0,
+    "cpa": null
+   },
+   {
+    "id": "120250618383420753",
+    "clave": "c1",
+    "cuenta": "Cuenta 1",
+    "campana": "dupli 1",
+    "anuncio": "29. Tren Tigre",
+    "estado": "CAMPAIGN_PAUSED",
+    "gasto": 2.37,
+    "compras": 0,
+    "cpa": null
+   },
+   {
+    "id": "120250622169680753",
+    "clave": "c1",
+    "cuenta": "Cuenta 1",
+    "campana": "dupli 1 - Copia",
+    "anuncio": "27. Balcón",
+    "estado": "CAMPAIGN_PAUSED",
+    "gasto": 41.44,
+    "compras": 2,
+    "cpa": 20.72
+   },
+   {
     "id": "120250709463020753",
     "clave": "c1",
     "cuenta": "Cuenta 1",
     "campana": "26 - 27 - 33",
     "anuncio": "53. La de la costa",
     "estado": "DISAPPROVED",
-    "gasto": 3.33,
-    "compras": 1,
-    "cpa": 3.33
+    "gasto": 18.96,
+    "compras": 2,
+    "cpa": 9.48
    },
    {
     "id": "120250673711360753",
@@ -189,9 +321,9 @@
     "campana": "26 - 27 - 33",
     "anuncio": "60. Las amigas en la pileta",
     "estado": "DISAPPROVED",
-    "gasto": 10.19,
-    "compras": 4,
-    "cpa": 2.55
+    "gasto": 578.75,
+    "compras": 19,
+    "cpa": 30.46
    },
    {
     "id": "120250709462300753",
@@ -200,9 +332,9 @@
     "campana": "26 - 27 - 33",
     "anuncio": "48. Hermanas mate",
     "estado": "ACTIVE",
-    "gasto": 31.37,
-    "compras": 3,
-    "cpa": 10.46
+    "gasto": 49.53,
+    "compras": 4,
+    "cpa": 12.38
    },
    {
     "id": "120250694595320753",
@@ -211,9 +343,20 @@
     "campana": "26 - 27 - 33",
     "anuncio": "69. La vecina del banco",
     "estado": "ACTIVE",
-    "gasto": 4.25,
-    "compras": 0,
-    "cpa": null
+    "gasto": 35.2,
+    "compras": 1,
+    "cpa": 35.2
+   },
+   {
+    "id": "120250643506460753",
+    "clave": "c1",
+    "cuenta": "Cuenta 1",
+    "campana": "26 - 27 - 33",
+    "anuncio": "26. Jubilada",
+    "estado": "WITH_ISSUES",
+    "gasto": 231.06,
+    "compras": 28,
+    "cpa": 8.25
    },
    {
     "id": "120250652567540753",
@@ -222,7 +365,7 @@
     "campana": "26 - 27 - 33",
     "anuncio": "43. Ruleros",
     "estado": "ACTIVE",
-    "gasto": 0.04,
+    "gasto": 0.68,
     "compras": 0,
     "cpa": null
    },
@@ -233,7 +376,7 @@
     "campana": "26 - 27 - 33",
     "anuncio": "44. Vecina",
     "estado": "ACTIVE",
-    "gasto": 0.09,
+    "gasto": 1.96,
     "compras": 0,
     "cpa": null
    },
@@ -1139,9 +1282,9 @@
     "campana": "WhatsApp - Biotina Prueba A-B-C 16-11",
     "anuncio": "Bio 3b",
     "estado": "ACTIVE",
-    "gasto": 18.92,
+    "gasto": 18.94,
     "compras": 1,
-    "cpa": 18.92
+    "cpa": 18.94
    },
    {
     "id": "120254912918130204",
@@ -1498,7 +1641,7 @@
    "clave": "cb",
    "fecha": "2026-11-19",
    "compras": 0,
-   "gasto": 2.4
+   "gasto": 2.42
   }
  ],
  "videos": {
