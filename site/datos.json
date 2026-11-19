@@ -1,6 +1,6 @@
 {
  "estado": "ok",
- "actualizado": "2026-11-19T08:52:12+00:00",
+ "actualizado": "2026-11-19T09:01:29+00:00",
  "hoy": "2026-11-19",
  "inicio": "2026-11-05",
  "cuentas": [
@@ -75,7 +75,7 @@
     "campana": "WhatsApp - Biotina 13-11",
     "anuncio": "Bio 3b",
     "estado": "ACTIVE",
-    "gasto": 0.97,
+    "gasto": 1.03,
     "compras": 0,
     "cpa": null
    },
@@ -86,7 +86,7 @@
     "campana": "WhatsApp - Biotina Prueba A-B-C 16-11",
     "anuncio": "Precios A",
     "estado": "ACTIVE",
-    "gasto": 1.98,
+    "gasto": 2.03,
     "compras": 0,
     "cpa": null
    }
@@ -286,7 +286,7 @@
     "clave": "c2",
     "cuenta": "Cuenta 2",
     "campana": "28 - 32 - 37",
-    "anuncio": "IMG 2. Gorila de espaldas (50% bonif)",
+    "anuncio": "IMG 2. Gorila de espaldas (50\\u0025 bonif)",
     "estado": "DISAPPROVED",
     "gasto": 45.96,
     "compras": 10,
@@ -464,7 +464,7 @@
     "clave": "c1",
     "cuenta": "Cuenta 1",
     "campana": "dupli 1",
-    "anuncio": "27. Balcón",
+    "anuncio": "27. Balc\\u00f3n",
     "estado": "CAMPAIGN_PAUSED",
     "gasto": 34.81,
     "compras": 3,
@@ -497,7 +497,7 @@
     "clave": "c1",
     "cuenta": "Cuenta 1",
     "campana": "dupli 1 - Copia",
-    "anuncio": "27. Balcón",
+    "anuncio": "27. Balc\\u00f3n",
     "estado": "CAMPAIGN_PAUSED",
     "gasto": 41.44,
     "compras": 2,
@@ -629,7 +629,7 @@
     "clave": "c2",
     "cuenta": "Cuenta 2",
     "campana": "ESCALA 1",
-    "anuncio": "27. Balcón",
+    "anuncio": "27. Balc\\u00f3n",
     "estado": "ADSET_PAUSED",
     "gasto": 1.8,
     "compras": 0,
@@ -640,7 +640,7 @@
     "clave": "c2",
     "cuenta": "Cuenta 2",
     "campana": "28 - 32 - 37",
-    "anuncio": "IMG 2. Gorila de espaldas (50% bonif)",
+    "anuncio": "IMG 2. Gorila de espaldas (50\\u0025 bonif)",
     "estado": "DISAPPROVED",
     "gasto": 45.96,
     "compras": 10,
@@ -673,7 +673,7 @@
     "clave": "c2",
     "cuenta": "Cuenta 2",
     "campana": "28 - 32 - 37",
-    "anuncio": "39. Balcón lunes v2",
+    "anuncio": "39. Balc\\u00f3n lunes v2",
     "estado": "DISAPPROVED",
     "gasto": 0.67,
     "compras": 0,
@@ -717,7 +717,7 @@
     "clave": "c3",
     "cuenta": "Cuenta 3",
     "campana": "dupli 1",
-    "anuncio": "32. Balcón",
+    "anuncio": "32. Balc\\u00f3n",
     "estado": "PAUSED",
     "gasto": 82.05,
     "compras": 5,
@@ -851,7 +851,7 @@
     "clave": "c1",
     "cuenta": "Cuenta 1",
     "campana": "dupli 1",
-    "anuncio": "27. Balcón",
+    "anuncio": "27. Balc\\u00f3n",
     "estado": "CAMPAIGN_PAUSED",
     "gasto": 34.81,
     "compras": 3,
@@ -884,7 +884,7 @@
     "clave": "c1",
     "cuenta": "Cuenta 1",
     "campana": "dupli 1 - Copia",
-    "anuncio": "27. Balcón",
+    "anuncio": "27. Balc\\u00f3n",
     "estado": "CAMPAIGN_PAUSED",
     "gasto": 41.44,
     "compras": 2,
@@ -1016,7 +1016,7 @@
     "clave": "c2",
     "cuenta": "Cuenta 2",
     "campana": "ESCALA 1",
-    "anuncio": "27. Balcón",
+    "anuncio": "27. Balc\\u00f3n",
     "estado": "ADSET_PAUSED",
     "gasto": 1.8,
     "compras": 0,
@@ -1027,7 +1027,7 @@
     "clave": "c2",
     "cuenta": "Cuenta 2",
     "campana": "28 - 32 - 37",
-    "anuncio": "IMG 2. Gorila de espaldas (50% bonif)",
+    "anuncio": "IMG 2. Gorila de espaldas (50\\u0025 bonif)",
     "estado": "DISAPPROVED",
     "gasto": 45.96,
     "compras": 10,
@@ -1060,7 +1060,7 @@
     "clave": "c2",
     "cuenta": "Cuenta 2",
     "campana": "28 - 32 - 37",
-    "anuncio": "39. Balcón lunes v2",
+    "anuncio": "39. Balc\\u00f3n lunes v2",
     "estado": "DISAPPROVED",
     "gasto": 0.67,
     "compras": 0,
@@ -1104,7 +1104,7 @@
     "clave": "c3",
     "cuenta": "Cuenta 3",
     "campana": "dupli 1",
-    "anuncio": "32. Balcón",
+    "anuncio": "32. Balc\\u00f3n",
     "estado": "PAUSED",
     "gasto": 82.05,
     "compras": 5,
@@ -1183,9 +1183,9 @@
     "campana": "WhatsApp - Biotina 13-11",
     "anuncio": "Bio 3b",
     "estado": "ACTIVE",
-    "gasto": 141.71,
+    "gasto": 141.77,
     "compras": 1,
-    "cpa": 141.71
+    "cpa": 141.77
    },
    {
     "id": "120254912917030204",
@@ -1205,9 +1205,9 @@
     "campana": "WhatsApp - Biotina Prueba A-B-C 16-11",
     "anuncio": "Precios A",
     "estado": "ACTIVE",
-    "gasto": 103.32,
+    "gasto": 103.37,
     "compras": 2,
-    "cpa": 51.66
+    "cpa": 51.69
    }
   ]
  },
@@ -1498,7 +1498,7 @@
    "clave": "cb",
    "fecha": "2026-11-19",
    "compras": 0,
-   "gasto": 4.12
+   "gasto": 4.27
   }
  ],
  "videos": {
@@ -1613,8 +1613,8 @@
   {
    "clave": "c1",
    "id": "120250597406480753",
-   "anuncio": "Nuevo Tráfico Anuncio con configuración recomendada",
-   "campana": "Nuevo Tráfico Campaña con configuración recomendada"
+   "anuncio": "Nuevo Tr\\u00e1fico Anuncio con configuraci\\u00f3n recomendada",
+   "campana": "Nuevo Tr\\u00e1fico Campa\\u00f1a con configuraci\\u00f3n recomendada"
   },
   {
    "clave": "c1",
@@ -1655,7 +1655,7 @@
   {
    "clave": "c1",
    "id": "120250725320550753",
-   "anuncio": "IMG 2. Gorila de espaldas (50% bonif)",
+   "anuncio": "IMG 2. Gorila de espaldas (50\\u0025 bonif)",
    "campana": "26 - 27 - 33"
   },
   {
@@ -1685,7 +1685,7 @@
   {
    "clave": "c1",
    "id": "120250669662140753",
-   "anuncio": "39. Balcón lunes",
+   "anuncio": "39. Balc\\u00f3n lunes",
    "campana": "26 - 27 - 33"
   },
   {
@@ -1703,7 +1703,7 @@
   {
    "clave": "c2",
    "id": "120248167692510009",
-   "anuncio": "IMG 2. Gorila de espaldas (50% bonif)",
+   "anuncio": "IMG 2. Gorila de espaldas (50\\u0025 bonif)",
    "campana": "28 - 32 - 37"
   },
   {
@@ -1745,7 +1745,7 @@
   {
    "clave": "c2",
    "id": "120248097227050009",
-   "anuncio": "39. Balcón lunes v2",
+   "anuncio": "39. Balc\\u00f3n lunes v2",
    "campana": "28 - 32 - 37"
   },
   {
@@ -1769,7 +1769,7 @@
   {
    "clave": "c3",
    "id": "120250569451910149",
-   "anuncio": "IMG 2. Gorila de espaldas (50% bonif)",
+   "anuncio": "IMG 2. Gorila de espaldas (50\\u0025 bonif)",
    "campana": "dupli 1"
   },
   {
@@ -1795,13 +1795,13 @@
   {
    "clave": "c1",
    "id": "120250622169690753",
-   "anuncio": "32. Balcón",
+   "anuncio": "32. Balc\\u00f3n",
    "campana": "dupli 1 - Copia"
   },
   {
    "clave": "c1",
    "id": "120250618383520753",
-   "anuncio": "32. Balcón",
+   "anuncio": "32. Balc\\u00f3n",
    "campana": "dupli 1"
   },
   {
@@ -1825,7 +1825,7 @@
   {
    "clave": "c2",
    "id": "120248072530140009",
-   "anuncio": "32. Balcón",
+   "anuncio": "32. Balc\\u00f3n",
    "campana": "28 - 32 - 37"
   },
   {
