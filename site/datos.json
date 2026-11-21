@@ -1,6 +1,6 @@
 {
  "estado": "ok",
- "actualizado": "2026-11-21T04:19:44+00:00",
+ "actualizado": "2026-11-21T04:29:51+00:00",
  "hoy": "2026-11-21",
  "inicio": "2026-11-05",
  "cuentas": [
@@ -31,7 +31,7 @@
     "campana": "WhatsApp - Biotina Prueba A-B-C 16-11",
     "anuncio": "Bio 3b",
     "estado": "ACTIVE",
-    "gasto": 0.18,
+    "gasto": 0.2,
     "compras": 0,
     "cpa": null
    },
@@ -42,7 +42,7 @@
     "campana": "WhatsApp - Biotina Prueba A-B-C 16-11",
     "anuncio": "Precios C",
     "estado": "ACTIVE",
-    "gasto": 0.1,
+    "gasto": 0.15,
     "compras": 0,
     "cpa": null
    },
@@ -53,7 +53,18 @@
     "campana": "WhatsApp - Biotina 13-11",
     "anuncio": "Bio 5",
     "estado": "ACTIVE",
-    "gasto": 0.02,
+    "gasto": 0.03,
+    "compras": 0,
+    "cpa": null
+   },
+   {
+    "id": "120254874238110204",
+    "clave": "cb",
+    "cuenta": "ComboBiotina",
+    "campana": "WhatsApp - Biotina 13-11",
+    "anuncio": "Bio 3",
+    "estado": "ACTIVE",
+    "gasto": 0.01,
     "compras": 0,
     "cpa": null
    },
@@ -64,7 +75,7 @@
     "campana": "WhatsApp - Biotina 13-11",
     "anuncio": "Bio 3b",
     "estado": "ACTIVE",
-    "gasto": 0.51,
+    "gasto": 0.6,
     "compras": 0,
     "cpa": null
    },
@@ -86,7 +97,7 @@
     "campana": "WhatsApp - Biotina Prueba A-B-C 16-11",
     "anuncio": "Precios A",
     "estado": "ACTIVE",
-    "gasto": 0.46,
+    "gasto": 0.55,
     "compras": 0,
     "cpa": null
    }
@@ -143,7 +154,7 @@
     "campana": "WhatsApp - Biotina 13-11",
     "anuncio": "Bio 3b",
     "estado": "ACTIVE",
-    "gasto": 22.15,
+    "gasto": 22.16,
     "compras": 0,
     "cpa": null
    },
@@ -299,9 +310,9 @@
     "campana": "WhatsApp - Biotina 13-11",
     "anuncio": "Bio 3b",
     "estado": "ACTIVE",
-    "gasto": 180.96,
+    "gasto": 180.97,
     "compras": 2,
-    "cpa": 90.48
+    "cpa": 90.49
    },
    {
     "id": "120254912917030204",
@@ -686,9 +697,9 @@
     "campana": "WhatsApp - Biotina 13-11",
     "anuncio": "Bio 3b",
     "estado": "ACTIVE",
-    "gasto": 185.5,
+    "gasto": 185.51,
     "compras": 2,
-    "cpa": 92.75
+    "cpa": 92.76
    },
    {
     "id": "120254912917030204",
@@ -1029,9 +1040,9 @@
     "campana": "WhatsApp - Biotina Prueba A-B-C 16-11",
     "anuncio": "Bio 3b",
     "estado": "ACTIVE",
-    "gasto": 43.07,
+    "gasto": 43.09,
     "compras": 1,
-    "cpa": 43.07
+    "cpa": 43.09
    },
    {
     "id": "120254912918130204",
@@ -1040,7 +1051,7 @@
     "campana": "WhatsApp - Biotina Prueba A-B-C 16-11",
     "anuncio": "Precios C",
     "estado": "ACTIVE",
-    "gasto": 9.04,
+    "gasto": 9.09,
     "compras": 0,
     "cpa": null
    },
@@ -1051,7 +1062,7 @@
     "campana": "WhatsApp - Biotina 13-11",
     "anuncio": "Bio 5",
     "estado": "ACTIVE",
-    "gasto": 4.0,
+    "gasto": 4.01,
     "compras": 0,
     "cpa": null
    },
@@ -1062,7 +1073,7 @@
     "campana": "WhatsApp - Biotina 13-11",
     "anuncio": "Bio 3",
     "estado": "ACTIVE",
-    "gasto": 17.39,
+    "gasto": 17.4,
     "compras": 0,
     "cpa": null
    },
@@ -1073,9 +1084,9 @@
     "campana": "WhatsApp - Biotina 13-11",
     "anuncio": "Bio 3b",
     "estado": "ACTIVE",
-    "gasto": 186.01,
+    "gasto": 186.11,
     "compras": 2,
-    "cpa": 93.01
+    "cpa": 93.06
    },
    {
     "id": "120254912917030204",
@@ -1095,9 +1106,9 @@
     "campana": "WhatsApp - Biotina Prueba A-B-C 16-11",
     "anuncio": "Precios A",
     "estado": "ACTIVE",
-    "gasto": 151.66,
+    "gasto": 151.75,
     "compras": 3,
-    "cpa": 50.55
+    "cpa": 50.58
    }
   ]
  },
@@ -1394,13 +1405,13 @@
    "clave": "cb",
    "fecha": "2026-11-20",
    "compras": 0,
-   "gasto": 56.3
+   "gasto": 56.31
   },
   {
    "clave": "cb",
    "fecha": "2026-11-21",
    "compras": 0,
-   "gasto": 1.35
+   "gasto": 1.59
   }
  ],
  "videos": {
@@ -1499,10 +1510,10 @@
    "120254912711930204": "a120254912711930204",
    "120254912918130204": "a120254912918130204",
    "120254874238640204": "a120254874238640204",
+   "120254874238110204": "a120254874238110204",
    "120254874222650204": "a120254874222650204",
    "120254912917030204": "a120254912917030204",
-   "120254912916640204": "a120254912916640204",
-   "120254874238110204": "a120254874238110204"
+   "120254912916640204": "a120254912916640204"
   }
  },
  "rechazados": [
