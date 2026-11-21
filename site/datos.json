@@ -1,6 +1,6 @@
 {
  "estado": "ok",
- "actualizado": "2026-11-21T09:49:43+00:00",
+ "actualizado": "2026-11-21T09:59:52+00:00",
  "hoy": "2026-11-21",
  "inicio": "2026-11-05",
  "cuentas": [
@@ -31,7 +31,7 @@
     "campana": "WhatsApp - Biotina Prueba A-B-C 16-11",
     "anuncio": "Bio 3b",
     "estado": "ACTIVE",
-    "gasto": 0.34,
+    "gasto": 0.35,
     "compras": 0,
     "cpa": null
    },
@@ -75,7 +75,7 @@
     "campana": "WhatsApp - Biotina 13-11",
     "anuncio": "Bio 3b",
     "estado": "ACTIVE",
-    "gasto": 3.58,
+    "gasto": 3.71,
     "compras": 0,
     "cpa": null
    },
@@ -97,7 +97,7 @@
     "campana": "WhatsApp - Biotina Prueba A-B-C 16-11",
     "anuncio": "Precios A",
     "estado": "ACTIVE",
-    "gasto": 2.03,
+    "gasto": 2.14,
     "compras": 0,
     "cpa": null
    }
@@ -176,7 +176,7 @@
     "campana": "WhatsApp - Biotina Prueba A-B-C 16-11",
     "anuncio": "Precios A",
     "estado": "ACTIVE",
-    "gasto": 23.88,
+    "gasto": 23.89,
     "compras": 0,
     "cpa": null
    }
@@ -332,7 +332,7 @@
     "campana": "WhatsApp - Biotina Prueba A-B-C 16-11",
     "anuncio": "Precios A",
     "estado": "ACTIVE",
-    "gasto": 151.22,
+    "gasto": 151.23,
     "compras": 3,
     "cpa": 50.41
    }
@@ -719,7 +719,7 @@
     "campana": "WhatsApp - Biotina Prueba A-B-C 16-11",
     "anuncio": "Precios A",
     "estado": "ACTIVE",
-    "gasto": 151.22,
+    "gasto": 151.23,
     "compras": 3,
     "cpa": 50.41
    }
@@ -1040,9 +1040,9 @@
     "campana": "WhatsApp - Biotina Prueba A-B-C 16-11",
     "anuncio": "Bio 3b",
     "estado": "ACTIVE",
-    "gasto": 43.24,
+    "gasto": 43.25,
     "compras": 1,
-    "cpa": 43.24
+    "cpa": 43.25
    },
    {
     "id": "120254912918130204",
@@ -1084,9 +1084,9 @@
     "campana": "WhatsApp - Biotina 13-11",
     "anuncio": "Bio 3b",
     "estado": "ACTIVE",
-    "gasto": 189.12,
+    "gasto": 189.25,
     "compras": 2,
-    "cpa": 94.56
+    "cpa": 94.63
    },
    {
     "id": "120254912917030204",
@@ -1106,9 +1106,9 @@
     "campana": "WhatsApp - Biotina Prueba A-B-C 16-11",
     "anuncio": "Precios A",
     "estado": "ACTIVE",
-    "gasto": 153.25,
+    "gasto": 153.37,
     "compras": 3,
-    "cpa": 51.08
+    "cpa": 51.12
    }
   ]
  },
@@ -1405,13 +1405,13 @@
    "clave": "cb",
    "fecha": "2026-11-20",
    "compras": 0,
-   "gasto": 56.37
+   "gasto": 56.38
   },
   {
    "clave": "cb",
    "fecha": "2026-11-21",
    "compras": 0,
-   "gasto": 6.29
+   "gasto": 6.59
   }
  ],
  "videos": {
