@@ -1,6 +1,6 @@
 {
  "estado": "ok",
- "actualizado": "2026-11-21T14:30:13+00:00",
+ "actualizado": "2026-11-21T14:41:14+00:00",
  "hoy": "2026-11-21",
  "inicio": "2026-11-05",
  "cuentas": [
@@ -31,7 +31,7 @@
     "campana": "WhatsApp - Biotina Prueba A-B-C 16-11",
     "anuncio": "Bio 3b",
     "estado": "ACTIVE",
-    "gasto": 4.35,
+    "gasto": 4.66,
     "compras": 0,
     "cpa": null
    },
@@ -64,7 +64,7 @@
     "campana": "WhatsApp - Biotina Prueba A-B-C 16-11",
     "anuncio": "Precios A",
     "estado": "ACTIVE",
-    "gasto": 9.69,
+    "gasto": 9.99,
     "compras": 0,
     "cpa": null
    },
@@ -86,7 +86,7 @@
     "campana": "WhatsApp - Biotina 13-11",
     "anuncio": "Bio 3",
     "estado": "ACTIVE",
-    "gasto": 0.07,
+    "gasto": 0.08,
     "compras": 0,
     "cpa": null
    },
@@ -97,7 +97,7 @@
     "campana": "WhatsApp - Biotina 13-11",
     "anuncio": "Bio 3b",
     "estado": "ACTIVE",
-    "gasto": 11.59,
+    "gasto": 11.77,
     "compras": 0,
     "cpa": null
    }
@@ -1040,9 +1040,9 @@
     "campana": "WhatsApp - Biotina Prueba A-B-C 16-11",
     "anuncio": "Bio 3b",
     "estado": "ACTIVE",
-    "gasto": 47.26,
+    "gasto": 47.57,
     "compras": 1,
-    "cpa": 47.26
+    "cpa": 47.57
    },
    {
     "id": "120254912918130204",
@@ -1073,9 +1073,9 @@
     "campana": "WhatsApp - Biotina Prueba A-B-C 16-11",
     "anuncio": "Precios A",
     "estado": "ACTIVE",
-    "gasto": 160.92,
+    "gasto": 161.22,
     "compras": 3,
-    "cpa": 53.64
+    "cpa": 53.74
    },
    {
     "id": "120254874238640204",
@@ -1095,7 +1095,7 @@
     "campana": "WhatsApp - Biotina 13-11",
     "anuncio": "Bio 3",
     "estado": "ACTIVE",
-    "gasto": 17.46,
+    "gasto": 17.47,
     "compras": 0,
     "cpa": null
    },
@@ -1106,9 +1106,9 @@
     "campana": "WhatsApp - Biotina 13-11",
     "anuncio": "Bio 3b",
     "estado": "ACTIVE",
-    "gasto": 197.18,
+    "gasto": 197.36,
     "compras": 2,
-    "cpa": 98.59
+    "cpa": 98.68
    }
   ]
  },
@@ -1411,7 +1411,7 @@
    "clave": "cb",
    "fecha": "2026-11-21",
    "compras": 0,
-   "gasto": 26.5
+   "gasto": 27.3
   }
  ],
  "videos": {
