@@ -1,6 +1,6 @@
 {
  "estado": "ok",
- "actualizado": "2026-11-21T09:27:17+00:00",
+ "actualizado": "2026-11-21T09:39:50+00:00",
  "hoy": "2026-11-21",
  "inicio": "2026-11-05",
  "cuentas": [
@@ -31,7 +31,7 @@
     "campana": "WhatsApp - Biotina Prueba A-B-C 16-11",
     "anuncio": "Bio 3b",
     "estado": "ACTIVE",
-    "gasto": 0.32,
+    "gasto": 0.34,
     "compras": 0,
     "cpa": null
    },
@@ -75,7 +75,7 @@
     "campana": "WhatsApp - Biotina 13-11",
     "anuncio": "Bio 3b",
     "estado": "ACTIVE",
-    "gasto": 3.19,
+    "gasto": 3.38,
     "compras": 0,
     "cpa": null
    },
@@ -97,7 +97,7 @@
     "campana": "WhatsApp - Biotina Prueba A-B-C 16-11",
     "anuncio": "Precios A",
     "estado": "ACTIVE",
-    "gasto": 1.82,
+    "gasto": 1.93,
     "compras": 0,
     "cpa": null
    }
@@ -154,7 +154,7 @@
     "campana": "WhatsApp - Biotina 13-11",
     "anuncio": "Bio 3b",
     "estado": "ACTIVE",
-    "gasto": 22.18,
+    "gasto": 22.19,
     "compras": 0,
     "cpa": null
    },
@@ -310,7 +310,7 @@
     "campana": "WhatsApp - Biotina 13-11",
     "anuncio": "Bio 3b",
     "estado": "ACTIVE",
-    "gasto": 180.99,
+    "gasto": 181.0,
     "compras": 2,
     "cpa": 90.5
    },
@@ -697,7 +697,7 @@
     "campana": "WhatsApp - Biotina 13-11",
     "anuncio": "Bio 3b",
     "estado": "ACTIVE",
-    "gasto": 185.53,
+    "gasto": 185.54,
     "compras": 2,
     "cpa": 92.77
    },
@@ -1040,9 +1040,9 @@
     "campana": "WhatsApp - Biotina Prueba A-B-C 16-11",
     "anuncio": "Bio 3b",
     "estado": "ACTIVE",
-    "gasto": 43.22,
+    "gasto": 43.24,
     "compras": 1,
-    "cpa": 43.22
+    "cpa": 43.24
    },
    {
     "id": "120254912918130204",
@@ -1084,9 +1084,9 @@
     "campana": "WhatsApp - Biotina 13-11",
     "anuncio": "Bio 3b",
     "estado": "ACTIVE",
-    "gasto": 188.72,
+    "gasto": 188.92,
     "compras": 2,
-    "cpa": 94.36
+    "cpa": 94.46
    },
    {
     "id": "120254912917030204",
@@ -1106,9 +1106,9 @@
     "campana": "WhatsApp - Biotina Prueba A-B-C 16-11",
     "anuncio": "Precios A",
     "estado": "ACTIVE",
-    "gasto": 153.04,
+    "gasto": 153.15,
     "compras": 3,
-    "cpa": 51.01
+    "cpa": 51.05
    }
   ]
  },
@@ -1405,13 +1405,13 @@
    "clave": "cb",
    "fecha": "2026-11-20",
    "compras": 0,
-   "gasto": 56.36
+   "gasto": 56.37
   },
   {
    "clave": "cb",
    "fecha": "2026-11-21",
    "compras": 0,
-   "gasto": 5.67
+   "gasto": 5.99
   }
  ],
  "videos": {
