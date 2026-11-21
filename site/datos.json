@@ -1,6 +1,6 @@
 {
  "estado": "ok",
- "actualizado": "2026-11-21T04:49:33+00:00",
+ "actualizado": "2026-11-21T04:59:50+00:00",
  "hoy": "2026-11-21",
  "inicio": "2026-11-05",
  "cuentas": [
@@ -31,7 +31,7 @@
     "campana": "WhatsApp - Biotina Prueba A-B-C 16-11",
     "anuncio": "Bio 3b",
     "estado": "ACTIVE",
-    "gasto": 0.22,
+    "gasto": 0.23,
     "compras": 0,
     "cpa": null
    },
@@ -75,7 +75,7 @@
     "campana": "WhatsApp - Biotina 13-11",
     "anuncio": "Bio 3b",
     "estado": "ACTIVE",
-    "gasto": 0.77,
+    "gasto": 0.86,
     "compras": 0,
     "cpa": null
    },
@@ -97,7 +97,7 @@
     "campana": "WhatsApp - Biotina Prueba A-B-C 16-11",
     "anuncio": "Precios A",
     "estado": "ACTIVE",
-    "gasto": 0.66,
+    "gasto": 0.75,
     "compras": 0,
     "cpa": null
    }
@@ -154,7 +154,7 @@
     "campana": "WhatsApp - Biotina 13-11",
     "anuncio": "Bio 3b",
     "estado": "ACTIVE",
-    "gasto": 22.16,
+    "gasto": 22.17,
     "compras": 0,
     "cpa": null
    },
@@ -310,7 +310,7 @@
     "campana": "WhatsApp - Biotina 13-11",
     "anuncio": "Bio 3b",
     "estado": "ACTIVE",
-    "gasto": 180.97,
+    "gasto": 180.98,
     "compras": 2,
     "cpa": 90.49
    },
@@ -697,7 +697,7 @@
     "campana": "WhatsApp - Biotina 13-11",
     "anuncio": "Bio 3b",
     "estado": "ACTIVE",
-    "gasto": 185.51,
+    "gasto": 185.52,
     "compras": 2,
     "cpa": 92.76
    },
@@ -1040,9 +1040,9 @@
     "campana": "WhatsApp - Biotina Prueba A-B-C 16-11",
     "anuncio": "Bio 3b",
     "estado": "ACTIVE",
-    "gasto": 43.12,
+    "gasto": 43.13,
     "compras": 1,
-    "cpa": 43.12
+    "cpa": 43.13
    },
    {
     "id": "120254912918130204",
@@ -1084,9 +1084,9 @@
     "campana": "WhatsApp - Biotina 13-11",
     "anuncio": "Bio 3b",
     "estado": "ACTIVE",
-    "gasto": 186.28,
+    "gasto": 186.38,
     "compras": 2,
-    "cpa": 93.14
+    "cpa": 93.19
    },
    {
     "id": "120254912917030204",
@@ -1106,9 +1106,9 @@
     "campana": "WhatsApp - Biotina Prueba A-B-C 16-11",
     "anuncio": "Precios A",
     "estado": "ACTIVE",
-    "gasto": 151.86,
+    "gasto": 151.97,
     "compras": 3,
-    "cpa": 50.62
+    "cpa": 50.66
    }
   ]
  },
@@ -1405,13 +1405,13 @@
    "clave": "cb",
    "fecha": "2026-11-20",
    "compras": 0,
-   "gasto": 56.32
+   "gasto": 56.33
   },
   {
    "clave": "cb",
    "fecha": "2026-11-21",
    "compras": 0,
-   "gasto": 1.91
+   "gasto": 2.12
   }
  ],
  "videos": {
