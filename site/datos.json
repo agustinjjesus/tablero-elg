@@ -1,6 +1,6 @@
 {
  "estado": "ok",
- "actualizado": "2026-11-23T23:09:19+00:00",
+ "actualizado": "2026-11-23T23:18:11+00:00",
  "hoy": "2026-11-23",
  "inicio": "2026-11-05",
  "cuentas": [
@@ -31,7 +31,7 @@
     "campana": "WhatsApp - Biotina Prueba A-B-C 16-11",
     "anuncio": "Bio 3b",
     "estado": "ACTIVE",
-    "gasto": 16.87,
+    "gasto": 17.01,
     "compras": 0,
     "cpa": null
    },
@@ -42,7 +42,7 @@
     "campana": "WhatsApp - Biotina Prueba A-B-C 16-11",
     "anuncio": "Precios C",
     "estado": "ACTIVE",
-    "gasto": 1.02,
+    "gasto": 1.03,
     "compras": 0,
     "cpa": null
    },
@@ -53,7 +53,7 @@
     "campana": "WhatsApp - Biotina Prueba A-B-C 16-11",
     "anuncio": "Precios B",
     "estado": "ACTIVE",
-    "gasto": 1.13,
+    "gasto": 1.16,
     "compras": 0,
     "cpa": null
    },
@@ -64,7 +64,7 @@
     "campana": "WhatsApp - Biotina Prueba A-B-C 16-11",
     "anuncio": "Precios A",
     "estado": "ACTIVE",
-    "gasto": 24.42,
+    "gasto": 24.47,
     "compras": 0,
     "cpa": null
    },
@@ -75,7 +75,7 @@
     "campana": "WhatsApp - Biotina 13-11",
     "anuncio": "Bio 5",
     "estado": "ACTIVE",
-    "gasto": 1.51,
+    "gasto": 1.54,
     "compras": 0,
     "cpa": null
    },
@@ -86,7 +86,7 @@
     "campana": "WhatsApp - Biotina 13-11",
     "anuncio": "Bio 3",
     "estado": "ACTIVE",
-    "gasto": 2.13,
+    "gasto": 2.14,
     "compras": 0,
     "cpa": null
    },
@@ -97,7 +97,7 @@
     "campana": "WhatsApp - Biotina 13-11",
     "anuncio": "Bio 3b",
     "estado": "ACTIVE",
-    "gasto": 26.61,
+    "gasto": 26.8,
     "compras": 0,
     "cpa": null
    }
@@ -1007,9 +1007,9 @@
     "campana": "WhatsApp - Biotina Prueba A-B-C 16-11",
     "anuncio": "Bio 3b",
     "estado": "ACTIVE",
-    "gasto": 102.45,
+    "gasto": 102.59,
     "compras": 1,
-    "cpa": 102.45
+    "cpa": 102.59
    },
    {
     "id": "120254912918130204",
@@ -1018,7 +1018,7 @@
     "campana": "WhatsApp - Biotina Prueba A-B-C 16-11",
     "anuncio": "Precios C",
     "estado": "ACTIVE",
-    "gasto": 13.7,
+    "gasto": 13.71,
     "compras": 0,
     "cpa": null
    },
@@ -1029,9 +1029,9 @@
     "campana": "WhatsApp - Biotina Prueba A-B-C 16-11",
     "anuncio": "Precios B",
     "estado": "ACTIVE",
-    "gasto": 6.39,
+    "gasto": 6.42,
     "compras": 1,
-    "cpa": 6.39
+    "cpa": 6.42
    },
    {
     "id": "120254912916640204",
@@ -1040,9 +1040,9 @@
     "campana": "WhatsApp - Biotina Prueba A-B-C 16-11",
     "anuncio": "Precios A",
     "estado": "ACTIVE",
-    "gasto": 225.32,
+    "gasto": 225.37,
     "compras": 3,
-    "cpa": 75.11
+    "cpa": 75.12
    },
    {
     "id": "120254874238640204",
@@ -1051,7 +1051,7 @@
     "campana": "WhatsApp - Biotina 13-11",
     "anuncio": "Bio 5",
     "estado": "ACTIVE",
-    "gasto": 7.39,
+    "gasto": 7.42,
     "compras": 0,
     "cpa": null
    },
@@ -1062,7 +1062,7 @@
     "campana": "WhatsApp - Biotina 13-11",
     "anuncio": "Bio 3",
     "estado": "ACTIVE",
-    "gasto": 22.96,
+    "gasto": 22.98,
     "compras": 0,
     "cpa": null
    },
@@ -1073,9 +1073,9 @@
     "campana": "WhatsApp - Biotina 13-11",
     "anuncio": "Bio 3b",
     "estado": "ACTIVE",
-    "gasto": 263.18,
+    "gasto": 263.37,
     "compras": 2,
-    "cpa": 131.59
+    "cpa": 131.69
    }
   ]
  },
@@ -1390,7 +1390,7 @@
    "clave": "cb",
    "fecha": "2026-11-23",
    "compras": 0,
-   "gasto": 73.81
+   "gasto": 74.31
   }
  ],
  "videos": {
