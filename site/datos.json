@@ -1,6 +1,6 @@
 {
  "estado": "ok",
- "actualizado": "2026-11-24T19:40:10+00:00",
+ "actualizado": "2026-11-24T19:47:13+00:00",
  "hoy": "2026-11-24",
  "inicio": "2026-11-05",
  "cuentas": [
@@ -31,7 +31,7 @@
     "campana": "WhatsApp - Biotina Prueba A-B-C 16-11",
     "anuncio": "Bio 3b",
     "estado": "ACTIVE",
-    "gasto": 14.39,
+    "gasto": 14.72,
     "compras": 0,
     "cpa": null
    },
@@ -64,7 +64,7 @@
     "campana": "WhatsApp - Biotina Prueba A-B-C 16-11",
     "anuncio": "Precios A",
     "estado": "ACTIVE",
-    "gasto": 15.44,
+    "gasto": 15.55,
     "compras": 0,
     "cpa": null
    },
@@ -75,7 +75,7 @@
     "campana": "WhatsApp - Biotina 13-11",
     "anuncio": "Bio 5",
     "estado": "ACTIVE",
-    "gasto": 0.29,
+    "gasto": 0.3,
     "compras": 0,
     "cpa": null
    },
@@ -97,7 +97,7 @@
     "campana": "WhatsApp - Biotina 13-11",
     "anuncio": "Bio 3b",
     "estado": "ACTIVE",
-    "gasto": 15.43,
+    "gasto": 15.59,
     "compras": 0,
     "cpa": null
    }
@@ -963,9 +963,9 @@
     "campana": "WhatsApp - Biotina Prueba A-B-C 16-11",
     "anuncio": "Bio 3b",
     "estado": "ACTIVE",
-    "gasto": 122.17,
+    "gasto": 122.5,
     "compras": 1,
-    "cpa": 122.17
+    "cpa": 122.5
    },
    {
     "id": "120254912918130204",
@@ -996,9 +996,9 @@
     "campana": "WhatsApp - Biotina Prueba A-B-C 16-11",
     "anuncio": "Precios A",
     "estado": "ACTIVE",
-    "gasto": 243.6,
+    "gasto": 243.71,
     "compras": 3,
-    "cpa": 81.2
+    "cpa": 81.24
    },
    {
     "id": "120254874238640204",
@@ -1007,7 +1007,7 @@
     "campana": "WhatsApp - Biotina 13-11",
     "anuncio": "Bio 5",
     "estado": "ACTIVE",
-    "gasto": 8.0,
+    "gasto": 8.01,
     "compras": 0,
     "cpa": null
    },
@@ -1029,9 +1029,9 @@
     "campana": "WhatsApp - Biotina 13-11",
     "anuncio": "Bio 3b",
     "estado": "ACTIVE",
-    "gasto": 283.35,
+    "gasto": 283.51,
     "compras": 2,
-    "cpa": 141.68
+    "cpa": 141.76
    }
   ]
  },
@@ -1352,7 +1352,7 @@
    "clave": "cb",
    "fecha": "2026-11-24",
    "compras": 0,
-   "gasto": 47.45
+   "gasto": 48.06
   }
  ],
  "videos": {
