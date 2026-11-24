@@ -1,6 +1,6 @@
 {
  "estado": "ok",
- "actualizado": "2026-11-24T06:36:31+00:00",
+ "actualizado": "2026-11-24T06:49:16+00:00",
  "hoy": "2026-11-24",
  "inicio": "2026-11-05",
  "cuentas": [
@@ -97,7 +97,7 @@
     "campana": "WhatsApp - Biotina 13-11",
     "anuncio": "Bio 3b",
     "estado": "ACTIVE",
-    "gasto": 0.62,
+    "gasto": 0.7,
     "compras": 0,
     "cpa": null
    }
@@ -1029,9 +1029,9 @@
     "campana": "WhatsApp - Biotina 13-11",
     "anuncio": "Bio 3b",
     "estado": "ACTIVE",
-    "gasto": 268.45,
+    "gasto": 268.53,
     "compras": 2,
-    "cpa": 134.23
+    "cpa": 134.27
    }
   ]
  },
@@ -1352,7 +1352,7 @@
    "clave": "cb",
    "fecha": "2026-11-24",
    "compras": 0,
-   "gasto": 3.05
+   "gasto": 3.13
   }
  ],
  "videos": {
